@@ -1,0 +1,242 @@
+
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>NovaCode</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="{% static 'images/NovaCode.jpg' %}">
+
+    <!-- Tailwind CSS v4 -->
+    <script src="https://cdn.jsdelivr.net/npm/flowbite@4.0.1/dist/flowbite.min.js"></script>
+
+    <!-- Flowbite -->
+    <script src="https://cdn.jsdelivr.net/npm/flowbite@4.0.1/dist/flowbite.min.js"></script>
+
+    <!-- Lucide -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+
+    <!-- JavaScript -->
+    <script defer src="{% static 'js/script.js' %}"></script>
+
+</head>
+
+<body class="body-html">
+
+    <!-- Header -->
+    {% include "components/nav.html" %}
+    {% include "components/mascot.html" %}
+
+    <!-- Hero Section -->
+    <section class="min-h-[500px] flex items-center px-6 py-16">
+
+        <div class="max-w-[1200px] w-full mx-auto 
+                    flex flex-col-reverse md:flex-row 
+                    items-center justify-between gap-12">
+
+            <!-- Left Content -->
+            <div class="flex-1 text-white">
+
+                <span class="text-orange-400 font-semibold tracking-widest uppercase text-sm">
+                    Start Learning
+                </span>
+
+                <h1 class="text-5xl md:text-7xl font-bold mt-4 mb-6">
+                    Learn <span class="text-orange-400">HTML</span>
+                </h1>
+
+                <p class="text-gray-400 text-base md:text-lg leading-8 max-w-[650px]">
+                    HTML is the foundation of every website. It helps you
+                    structure web pages using elements such as headings,
+                    paragraphs, images, links, and more.
+                    Whether you're a complete beginner or interested in
+                    becoming a front-end developer, HTML is the perfect
+                    place to start your coding journey.
+                </p>
+
+                <!-- Button -->
+                <div class="flex flex-wrap gap-4 mt-8">
+
+                    <a href="#lesson"
+                       class="bg-orange-500 hover:bg-orange-600 text-white
+                              px-7 py-3 rounded-lg font-semibold transition">
+                        Start Learning
+                    </a>
+
+                </div>
+
+            </div>
+
+            <!-- Right Image -->
+            <div class="flex-1 flex justify-center items-center">
+
+                <div class="p-8 md:p-12">
+
+                    <img src="{% static 'images/html.png' %}"
+                        alt="HTML Logo"
+                        class="w-52 md:w-72 h-auto object-contain
+                                drop-shadow-[0_0_30px_rgba(14,165,233,0.25)]">
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Main -->
+    <main class="w-full">
+
+        <!-- Learning Section -->
+        <section id="lesson"
+                class="text-white py-12 px-4 scroll-mt-20">
+
+            <div class="max-w-[1200px] mx-auto">
+
+                <div class="flex flex-col md:flex-row gap-8">
+
+                    <!-- Sidebar -->
+                    <aside class="md:w-64 shrink-0 md:sticky md:top-20 md:self-start min-w-0">
+                        <nav class="md:bg-white/5 md:border md:border-white/10 md:rounded-xl md:p-4">
+
+                            <h2 class="text-orange-400 font-semibold uppercase
+                                    tracking-widest text-xs mb-3 md:mb-4">
+                                HTML Lessons
+                            </h2>
+
+                            <ul class="flex gap-2 text-sm pb-2
+                                       overflow-x-auto [scrollbar-width:none]
+                                       [&::-webkit-scrollbar]:hidden
+                                       md:block md:gap-0 md:space-y-1 md:pb-0
+                                       md:overflow-x-hidden md:overflow-y-auto
+                                       md:max-h-[calc(100vh-10rem)]">
+
+                                {% for l in lessons %}
+
+                                <li class="shrink-0 md:shrink">
+
+                                    <a href="{% url 'lesson' l.pk %}#lesson"
+                                       class="block whitespace-nowrap md:whitespace-normal
+                                              px-4 py-2 rounded-full md:rounded-lg
+                                              border md:border-transparent transition
+                                              {% if l.pk == current.pk %}
+                                              bg-orange-500/10 text-orange-400 border-orange-500/40
+                                              {% else %}
+                                              text-gray-300 border-white/10 hover:text-orange-400
+                                              {% endif %}">
+
+                                        {{ l.number }}. {{ l.title }}
+
+                                    </a>
+
+                                </li>
+
+                                {% empty %}
+
+                                <li class="text-gray-500 px-3 py-2">
+                                    មិនទាន់មាន lesson ទេ
+                                </li>
+
+                                {% endfor %}
+
+                            </ul>
+
+                        </nav>
+
+                    </aside>
+
+                    <!-- Main Content -->
+                    <div class="flex-1 min-w-0 space-y-8">
+
+                        {% for t in topics %}
+
+                        <article class="bg-white/5 border border-white/10
+                                        rounded-xl p-6 md:p-8 scroll-mt-24">
+
+                            <span class="text-orange-400 text-xs font-semibold
+                                        uppercase tracking-widest">
+                                {{ t.full_number }}
+                            </span>
+
+                            <h2 class="text-2xl md:text-3xl font-bold mt-2 mb-4">
+                                {{ t.title }}
+                            </h2>
+
+                            {% if t.content %}
+
+                            <div class="text-gray-400 leading-8 mb-6">
+                                {{ t.content|linebreaks }}
+                            </div>
+
+                            {% endif %}
+
+                            {% if t.image %}
+
+                            <img src="{{ t.image.url }}"
+                                 alt="{{ t.title }}"
+                                 class="w-full max-w-2xl h-auto rounded-lg
+                                        border border-white/10 mb-6">
+
+                            {% endif %}
+
+                            {% if t.code %}
+
+                            <div class="rounded-lg overflow-hidden border border-white/10">
+
+                                <div class="flex items-center justify-between
+                                            bg-black/40 px-4 py-2">
+
+                                    <span class="text-xs text-gray-400">
+                                        index.html
+                                    </span>
+
+                                    <button type="button"
+                                            onclick="copyCode(this)"
+                                            class="text-xs text-gray-400
+                                                hover:text-orange-400 transition">
+                                        Copy
+                                    </button>
+
+                                </div>
+
+                                <pre class="bg-black/60 p-4 overflow-x-auto
+                                            text-sm text-green-400"><code>{{ t.code }}</code></pre>
+
+                            </div>
+
+                            {% endif %}
+
+                        </article>
+
+                        {% empty %}
+
+                        <p class="text-gray-500">
+                            មិនទាន់មានខ្លឹមសារទេ។ សូមបន្ថែមក្នុង /admin/
+                        </p>
+
+                        {% endfor %}
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    {% include "components/footer.html" %}
+
+</body>
+</html>

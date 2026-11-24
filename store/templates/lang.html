@@ -1,0 +1,173 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>NovaCode</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="{% static 'images/NovaCode.jpg' %}">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+
+    <!-- Tailwind CSS v4 -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <!-- Flowbite -->
+    <script src="https://cdn.jsdelivr.net/npm/flowbite@4.0.1/dist/flowbite.min.js"></script>
+
+    <!-- Lucide -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <!-- JavaScript -->
+    <script defer src="{% static 'js/script.js' %}"></script>
+</head>
+<body class="bg-black text-white">
+    
+{% include "components/nav.html" %}
+{% include "components/mascot.html" %}
+
+<main class="bg-black px-6 py-16 text-white">
+    <div class="mx-auto max-w-7xl">
+
+        <!-- Heading -->
+        <div class="mb-10 text-center">
+            <h1 class="text-4xl font-bold md:text-5xl">
+                Choose Your<span class="text-sky-400">Language</span>
+            </h1>
+            <p class="mt-4 text-gray-400">
+                Choose a language and start your coding journey.
+            </p>
+        </div>
+
+        <!-- Search -->
+        <div class="mx-auto mb-20 max-w-md grid justify-center">
+            
+            <a href="#a" id="a">
+                <button class="w-50 rounded-xl border border-gray-700
+                    bg-gray-900 p-3 text-white outline-none
+                    focus:border-sky-400">
+                    Start Learning
+                </button>
+            </a>
+        </div>
+
+        <!-- Language Cards -->
+        <div class="grid grid-cols-1 gap-5 sm:grid-cols-2
+                    lg:grid-cols-4">
+            <!-- html -->
+            <a href="/language/html" class="rounded-2xl border border-gray-800
+                bg-gray-950 p-6 transition hover:-translate-y-1
+                hover:border-sky-400">
+                <div class="text-4xl text-orange-500">&lt;/&gt;</div>
+                <h2 class="mt-4 text-xl font-bold">HTML</h2>
+                <p class="mt-2 text-sm text-gray-400">
+                    Learn to build the structure of web pages. 
+                </p>
+                <p class="mt-5 font-semibold text-sky-400">
+                    Start learning →
+                </p>
+            </a>
+            <!-- css -->
+            <a href="/language/css"  class="rounded-2xl border border-gray-800
+                bg-gray-950 p-6 transition hover:-translate-y-1
+                hover:border-sky-400">
+                <div class="text-4xl font-bold text-blue-400">#</div>
+                <h2 class="mt-4 text-xl font-bold">CSS</h2>
+                <p class="mt-2 text-sm text-gray-400">
+                    Make websites beautiful with styles.
+                </p>
+                <p class="mt-5 font-semibold text-sky-400">
+                    <br>Start learning →
+                </p>
+            </a>
+            <!-- JS -->
+            <a href="/language/javascript" class="rounded-2xl border
+                border-gray-800 bg-gray-950 p-6 transition
+                hover:-translate-y-1 hover:border-sky-400">
+                <div class="text-4xl font-bold text-yellow-400">JS</div>
+                <h2 class="mt-4 text-xl font-bold">JavaScript</h2>
+                <p class="mt-2 text-sm text-gray-400">
+                    Add interactive features to websites.
+                </p>
+                <p class="mt-5 font-semibold text-sky-400">
+                    <br>Start learning →
+                </p>
+            </a>
+            <!-- JAVA -->
+            <a href="/language/oop" class="rounded-2xl border border-gray-800
+                bg-gray-950 p-6 transition hover:-translate-y-1
+                hover:border-sky-400">
+                <div class="text-4xl font-bold text-orange-400">OOP</div>
+                <h2 class="mt-4 text-xl font-bold">python</h2>
+                <p class="mt-2 text-sm text-gray-400">
+                    Learn object-oriented programming.
+                </p>
+                <p class="mt-5 font-semibold text-sky-400">
+                    <br>Start learning →
+                </p>
+            </a>
+            <!-- python -->
+            <a href="/language/python" class="rounded-2xl border border-gray-800
+                bg-gray-950 p-6 transition hover:-translate-y-1
+                hover:border-sky-400">
+                <div class="text-4xl font-bold text-blue-400">Py</div>
+                <h2 class="mt-4 text-xl font-bold">Python</h2>
+                <p class="mt-2 text-sm text-gray-400">
+                    Start with simple and readable code.
+                </p>
+                <p class="mt-5 font-semibold text-sky-400">
+                    <br>Start learning →
+                </p>
+            </a>
+            <!-- C -->
+            <a href="/language/c" class="rounded-2xl border border-gray-800
+                bg-gray-950 p-6 transition hover:-translate-y-1
+                hover:border-sky-400">
+                <div class="text-4xl font-bold text-indigo-300">C</div>
+                <h2 class="mt-4 text-xl font-bold">C Programming</h2>
+                <p class="mt-2 text-sm text-gray-400">
+                    Understand programming fundamentals.
+                </p>
+                <p class="mt-5 font-semibold text-sky-400">
+                    <br>Start learning →
+                </p>
+            </a>
+{% comment %} cpp {% endcomment %}
+            <a href="/language/cpp" class="rounded-2xl border border-gray-800
+                bg-gray-950 p-6 transition hover:-translate-y-1
+                hover:border-sky-400">
+                <div class="text-4xl font-bold text-blue-500">C++</div>
+                <h2 class="mt-4 text-xl font-bold">C++</h2>
+                <p class="mt-2 text-sm text-gray-400">
+                    Build efficient programs and applications.
+                </p><br>
+                <p class="mt-5 font-semibold text-sky-400">
+                    Start learning →
+                </p>
+            </a>
+{% comment %} dsa {% endcomment %}
+            <a href="/language/dsa" class="rounded-2xl border border-gray-800
+                bg-gray-950 p-6 transition hover:-translate-y-1
+                hover:border-sky-400">
+                <div class="text-4xl font-bold text-blue-400">DSA</div>
+                <h2 class="mt-4 text-xl font-bold">Python</h2>
+                <p class="mt-2 text-sm text-gray-400">
+                    Learn DSA for apps, games, and .NET development.
+                </p>
+                <p class="mt-5 font-semibold text-sky-400">
+                    Start learning →
+                </p>
+            </a>
+
+        </div>
+    </div>
+</main>
+
+{% include "components/footer.html" %}
+
+</body>
+</html>

@@ -1,0 +1,188 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terms of Use | NovaCode</title>
+
+    <link rel="icon" href="{% static 'images/NovaCode.jpg' %}">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script src="https://cdn.jsdelivr.net/npm/flowbite@4.0.1/dist/flowbite.min.js"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script defer src="{% static 'js/script.js' %}"></script>
+</head>
+
+<body class="bg-[#080d18] text-white">
+    {% include "components/nav.html" %}
+    {% include "components/mascot.html" %}
+
+    <!-- Page Header -->
+    <section class="px-6 pt-20 pb-14 bg-white/[0.02] mt-5">
+        <div class="max-w-6xl mx-auto py-16 md:py-20">
+            <p class="text-sky-400 text-sm font-semibold tracking-[0.25em] uppercase">
+                Website Guidelines
+            </p>
+
+            <h1 class="text-4xl md:text-6xl font-bold mt-5">
+                Terms of <span class="text-sky-400">Use</span>
+            </h1>
+
+            <p class="text-gray-400 text-lg leading-8 mt-6 max-w-3xl">
+                Please read these terms before using NovaCode and its programming
+                learning materials.
+            </p>
+
+            <div class="flex items-center gap-2 text-sm text-gray-500 mt-8">
+                <a href="/index" class="hover:text-sky-400">Home</a>
+                <span>/</span>
+                <span class="text-sky-400">Terms of Use</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Introduction -->
+    <section class="px-6 py-14">
+        <div class="max-w-4xl mx-auto space-y-5">
+            <div class="rounded-2xl border border-sky-400/20 bg-sky-500/5 p-6 md:p-8">
+                <p class="text-sky-400 text-sm font-semibold uppercase tracking-widest">
+                    សេចក្តីជូនដំណឹង
+                </p>
+                <p class="text-gray-300 leading-8 mt-3">
+                    លក្ខខណ្ឌនៃការប្រើប្រាស់នេះកំណត់អំពីវិធាន និងការណែនាំ
+                    សម្រាប់ការចូលមើល និងប្រើប្រាស់គេហទំព័រ NovaCode។
+                    តាមរយៈការប្រើប្រាស់គេហទំព័រនេះ អ្នកយល់ព្រមគោរពតាមលក្ខខណ្ឌទាំងនេះ។
+                </p>
+            </div>
+
+            <h2 class="text-2xl md:text-3xl font-bold">
+                Introduction <span class="text-sky-400">/ សេចក្តីផ្តើម</span>
+            </h2>
+            <p class="text-gray-400 leading-8">
+                Welcome to NovaCode. These Terms of Use explain the basic rules
+                for accessing and using our website, including its programming
+                lessons, examples, and learning resources.
+            </p>
+            <p class="text-gray-400 leading-8">
+                សូមស្វាគមន៍មកកាន់ NovaCode។ លក្ខខណ្ឌនៃការប្រើប្រាស់នេះ
+                ពន្យល់អំពីវិធានមូលដ្ឋានសម្រាប់ការចូលមើល និងប្រើប្រាស់គេហទំព័ររបស់យើង
+                រួមមានមេរៀនសរសេរកម្មវិធី ឧទាហរណ៍ និងធនធានសិក្សាផ្សេងៗ។
+            </p>
+        </div>
+    </section>
+
+    <!-- Terms Sections -->
+    <section class="px-6 pb-20">
+        <div class="max-w-4xl mx-auto space-y-8">
+
+            <article class="rounded-2xl border border-white/10 bg-slate-900/70 p-6 md:p-8">
+                <p class="text-sky-400 text-sm font-semibold uppercase tracking-widest">01 / Acceptance</p>
+                <h2 class="text-2xl font-bold mt-3">
+                    Acceptance of Terms <span class="text-sky-400">/ ការយល់ព្រមលើលក្ខខណ្ឌ</span>
+                </h2>
+                <div class="mt-5 space-y-4 text-gray-400 leading-8">
+                    <p><strong class="text-gray-200"></strong> តាមរយៈការចូលមើល ឬប្រើប្រាស់ NovaCode អ្នកយល់ព្រមគោរពតាមលក្ខខណ្ឌនៃការប្រើប្រាស់នេះ និងច្បាប់ដែលពាក់ព័ន្ធ។ ប្រសិនបើអ្នកមិនយល់ព្រមនឹងលក្ខខណ្ឌទាំងនេះទេ សូមបញ្ឈប់ការប្រើប្រាស់គេហទំព័រ។</p>
+                </div>
+            </article>
+
+            <article class="rounded-2xl border border-white/10 bg-slate-900/70 p-6 md:p-8">
+                <p class="text-sky-400 text-sm font-semibold uppercase tracking-widest">02 / Educational Purpose</p>
+                <h2 class="text-2xl font-bold mt-3">
+                    Educational Content <span class="text-sky-400">/ ខ្លឹមសារអប់រំ</span>
+                </h2>
+                <div class="mt-5 space-y-4 text-gray-400 leading-8">
+                    <p><strong class="text-gray-200"></strong> NovaCode ផ្តល់ជូននូវមេរៀនសរសេរកម្មវិធី ការពន្យល់ ឧទាហរណ៍ និងឯកសារសិក្សាផ្សេងៗ សម្រាប់គោលបំណងអប់រំ។ ខ្លឹមសារទាំងនេះមានបំណងជួយគាំទ្រដល់ការសិក្សា និងការអនុវត្តប៉ុណ្ណោះ។ វាមិនមែនជាការធានាចំពោះលទ្ធផលសិក្សា ការទទួលបានការងារ ឬវិញ្ញាបនបត្រវិជ្ជាជីវៈនោះទេ។</p>
+                </div>
+            </article>
+
+            <article class="rounded-2xl border border-white/10 bg-slate-900/70 p-6 md:p-8">
+                <p class="text-sky-400 text-sm font-semibold uppercase tracking-widest">03 / Acceptable Use</p>
+                <h2 class="text-2xl font-bold mt-3">
+                    Acceptable Use <span class="text-sky-400">/ ការប្រើប្រាស់ដែលអាចទទួលយកបាន</span>
+                </h2>
+                <div class="mt-5 space-y-4 text-gray-400 leading-8">
+                    <p><strong class="text-gray-200"></strong> អ្នកយល់ព្រមប្រើប្រាស់ NovaCode ដោយមានទំនួលខុសត្រូវ និងស្របតាមច្បាប់។ អ្នកមិនត្រូវព្យាយាមបំផ្លាញ រំខាន ឬចូលប្រើប្រាស់គេហទំព័រ និងប្រព័ន្ធរបស់វាដោយគ្មានការអនុញ្ញាត បង្ហោះកូដដែលបង្កគ្រោះថ្នាក់ ប្រើប្រាស់គេហទំព័រខុសគោលបំណង ឬរំខានដល់ការចូលប្រើប្រាស់របស់អ្នកដទៃឡើយ។</p>
+                </div>
+            </article>
+
+            <article class="rounded-2xl border border-white/10 bg-slate-900/70 p-6 md:p-8">
+                <p class="text-sky-400 text-sm font-semibold uppercase tracking-widest">04 / Intellectual Property</p>
+                <h2 class="text-2xl font-bold mt-3">
+                    Intellectual Property <span class="text-sky-400">/ កម្មសិទ្ធិបញ្ញា</span>
+                </h2>
+                <div class="mt-5 space-y-4 text-gray-400 leading-8">
+                    <p><strong class="text-gray-200"></strong> លើកលែងតែមានការបញ្ជាក់ផ្សេងពីនេះ អត្ថបទដើម ការរចនា ម៉ាកសញ្ញា និងសម្ភារៈផ្សេងៗដែលបង្កើតឡើងសម្រាប់ NovaCode ជាកម្មសិទ្ធិរបស់ម្ចាស់កម្មសិទ្ធិរៀងៗខ្លួន។ អ្នកអាចចូលមើល និងប្រើប្រាស់សម្ភារៈទាំងនេះសម្រាប់ការសិក្សាផ្ទាល់ខ្លួន។ អ្នកមិនត្រូវចម្លង បោះពុម្ពផ្សាយឡើងវិញ លក់ ឬចែកចាយខ្លឹមសារដើមសំខាន់ៗរបស់ NovaCode ដោយគ្មានការអនុញ្ញាតឡើយ។ ឈ្មោះ និមិត្តសញ្ញា Libraries និងឧបករណ៍របស់ភាគីទីបី នៅតែជាកម្មសិទ្ធិរបស់ម្ចាស់រៀងៗខ្លួន។</p>
+                </div>
+            </article>
+
+            <article class="rounded-2xl border border-white/10 bg-slate-900/70 p-6 md:p-8">
+                <p class="text-sky-400 text-sm font-semibold uppercase tracking-widest">05 / Code and Examples</p>
+                <h2 class="text-2xl font-bold mt-3">
+                    Code Examples and Practice <span class="text-sky-400">/ ឧទាហរណ៍កូដ និងការអនុវត្ត</span>
+                </h2>
+                <div class="mt-5 space-y-4 text-gray-400 leading-8">
+                    <p><strong class="text-gray-200"></strong> ឧទាហរណ៍កូដ និងកូដខ្លីៗ ត្រូវបានផ្តល់ជូនដើម្បីជួយឱ្យអ្នកយល់អំពីគោលគំនិតនៃការសរសេរកម្មវិធី។ អ្នកមានទំនួលខុសត្រូវក្នុងការពិនិត្យ សាកល្បង និងកែសម្រួលកូដ មុនពេលប្រើប្រាស់វាក្នុងគម្រោងផ្ទាល់ខ្លួន។ សូមគិតគូរអំពីសុវត្ថិភាព អាជ្ញាបណ្ណ និងតម្រូវការរបស់គម្រោងជានិច្ច។</p>
+                </div>
+            </article>
+
+            <article class="rounded-2xl border border-white/10 bg-slate-900/70 p-6 md:p-8">
+                <p class="text-sky-400 text-sm font-semibold uppercase tracking-widest">06 / Third-Party Resources</p>
+                <h2 class="text-2xl font-bold mt-3">
+                    Third-Party Tools and Links <span class="text-sky-400">/ ឧបករណ៍ និងតំណភ្ជាប់ភាគីទីបី</span>
+                </h2>
+                <div class="mt-5 space-y-4 text-gray-400 leading-8">
+                    <p><strong class="text-gray-200"></strong> NovaCode អាចមានតំណភ្ជាប់ទៅកាន់គេហទំព័រខាងក្រៅ ឬប្រើប្រាស់ឧបករណ៍ និងធនធានពីភាគីទីបី។ ធនធានទាំងនេះត្រូវបានផ្តល់ជូនដើម្បីភាពងាយស្រួល ឬគាំទ្រដល់មុខងារគេហទំព័រ។ យើងមិនមែនជាម្ចាស់ ឬអ្នកគ្រប់គ្រងសេវាកម្មភាគីទីបីទាំងនោះទេ ហើយមិនទទួលខុសត្រូវចំពោះខ្លឹមសារ ភាពអាចប្រើប្រាស់បាន លក្ខខណ្ឌ ឬការអនុវត្តរបស់ពួកគេឡើយ។ ការប្រើប្រាស់សេវាកម្មទាំងនោះអាចស្ថិតក្រោមលក្ខខណ្ឌផ្ទាល់ខ្លួនរបស់ពួកគេ។</p>
+                </div>
+            </article>
+
+            <article class="rounded-2xl border border-white/10 bg-slate-900/70 p-6 md:p-8">
+                <p class="text-sky-400 text-sm font-semibold uppercase tracking-widest">07 / Disclaimer</p>
+                <h2 class="text-2xl font-bold mt-3">
+                    Disclaimer <span class="text-sky-400">/ ការបដិសេធការធានា</span>
+                </h2>
+                <div class="mt-5 space-y-4 text-gray-400 leading-8">
+                    <p><strong class="text-gray-200"></strong> NovaCode ត្រូវបានផ្តល់ជូនតាមស្ថានភាពដែលមានស្រាប់ និងតាមលទ្ធភាពដែលអាចប្រើប្រាស់បាន។ យើងមានបំណងរក្សាព័ត៌មានឱ្យមានប្រយោជន៍ និងទាន់សម័យ ប៉ុន្តែមិនអាចធានាថាខ្លឹមសារទាំងអស់ពេញលេញ ត្រឹមត្រូវ គ្មានកំហុស ឬអាចប្រើប្រាស់បានជាបន្តបន្ទាប់នោះទេ។ ខ្លឹមសារគេហទំព័រអាចត្រូវបានកែប្រែ ឬដកចេញនៅពេលណាក៏បាន។</p>
+                </div>
+            </article>
+
+            <article class="rounded-2xl border border-white/10 bg-slate-900/70 p-6 md:p-8">
+                <p class="text-sky-400 text-sm font-semibold uppercase tracking-widest">08 / Limitation</p>
+                <h2 class="text-2xl font-bold mt-3">
+                    Limitation of Responsibility <span class="text-sky-400">/ ការកំណត់ការទទួលខុសត្រូវ</span>
+                </h2>
+                <div class="mt-5 space-y-4 text-gray-400 leading-8">
+                    <p><strong class="text-gray-200"></strong> ក្នុងកម្រិតដែលច្បាប់អនុញ្ញាត NovaCode និងអ្នកចូលរួមបង្កើតមាតិកា មិនទទួលខុសត្រូវចំពោះការបាត់បង់ ឬការខូចខាតដែលកើតឡើងពីការប្រើប្រាស់ ឬការមិនអាចប្រើប្រាស់គេហទំព័រ និងឯកសារសិក្សារបស់យើងឡើយ។ ផ្នែកនេះមិនរាប់បញ្ចូលការទទួលខុសត្រូវណាមួយដែលច្បាប់មិនអនុញ្ញាតឱ្យដកចេញនោះទេ។</p>
+                </div>
+            </article>
+
+            <article class="rounded-2xl border border-white/10 bg-slate-900/70 p-6 md:p-8">
+                <p class="text-sky-400 text-sm font-semibold uppercase tracking-widest">09 / Changes</p>
+                <h2 class="text-2xl font-bold mt-3">
+                    Changes to These Terms <span class="text-sky-400">/ ការកែប្រែលក្ខខណ្ឌទាំងនេះ</span>
+                </h2>
+                <div class="mt-5 space-y-4 text-gray-400 leading-8">
+                    <p><strong class="text-gray-200"></strong> យើងអាចកែសម្រួលលក្ខខណ្ឌនៃការប្រើប្រាស់នេះ នៅពេលគេហទំព័រ ឬសេវាកម្មរបស់យើងមានការផ្លាស់ប្តូរ។ លក្ខខណ្ឌដែលបានធ្វើបច្ចុប្បន្នភាពនឹងត្រូវបង្ហោះនៅលើទំព័រនេះ ព្រមទាំងកាលបរិច្ឆេទ «ធ្វើបច្ចុប្បន្នភាពចុងក្រោយ» ថ្មី។ តាមកម្រិតដែលច្បាប់អនុញ្ញាត ការបន្តប្រើប្រាស់ NovaCode បន្ទាប់ពីមានការបោះពុម្ពផ្សាយការកែប្រែ មានន័យថាអ្នកយល់ព្រមលើលក្ខខណ្ឌដែលបានកែប្រែ។</p>
+                </div>
+            </article>
+
+            <article class="rounded-2xl border border-sky-400/20 bg-sky-500/5 p-6 md:p-8">
+                <p class="text-sky-400 text-sm font-semibold uppercase tracking-widest">10 / Contact</p>
+                <h2 class="text-2xl font-bold mt-3">
+                    Contact Us <span class="text-sky-400">/ ទាក់ទងមកយើង</span>
+                </h2>
+                <div class="mt-5 space-y-4 text-gray-400 leading-8">
+                    <p><strong class="text-gray-200"></strong> ប្រសិនបើអ្នកមានសំណួរអំពីលក្ខខណ្ឌនៃការប្រើប្រាស់នេះ សូមទាក់ទងក្រុមការងារ NovaCode តាមរយៈមធ្យោបាយទំនាក់ទំនងដែលមាននៅលើគេហទំព័ររបស់យើង។</p>
+                </div>
+            </article>
+
+            <p class="text-xs text-gray-500 leading-6">
+                
+                ចំណាំ៖ នេះជាគំរូទូទៅដំបូងសម្រាប់គេហទំព័រអប់រំ មិនមែនជាការប្រឹក្សាផ្នែកច្បាប់ទេ។ សូមពិនិត្យ និងកែសម្រួលឱ្យស្របតាមមុខងារជាក់ស្តែង កម្មសិទ្ធិរបស់ NovaCode និងច្បាប់ក្នុងតំបន់ដែលពាក់ព័ន្ធ មុនពេលបោះពុម្ពផ្សាយ។
+            </p>
+        </div>
+    </section>
+
+    {% include "components/footer.html" %}
+</body>
+</html>

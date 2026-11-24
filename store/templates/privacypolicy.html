@@ -1,0 +1,154 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy | NovaCode</title>
+
+    <link rel="icon" href="{% static 'images/NovaCode.jpg' %}">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script src="https://cdn.jsdelivr.net/npm/flowbite@4.0.1/dist/flowbite.min.js"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script defer src="{% static 'js/script.js' %}"></script>
+</head>
+
+<body class="bg-[#080d18] text-white">
+    {% include "components/nav.html" %}
+    {% include "components/mascot.html" %}
+
+    <!-- Page Header -->
+    <section class="px-6 pt-20 pb-14 bg-white/[0.02] mt-5">
+        <div class="max-w-6xl mx-auto py-16 md:py-20">
+            <p class="text-sky-400 text-sm font-semibold tracking-[0.25em] uppercase">
+                Privacy &amp; Protection
+            </p>
+
+            <h1 class="text-4xl md:text-6xl font-bold mt-5">
+                Privacy <span class="text-sky-400">Policy</span>
+            </h1>
+
+            <p class="text-gray-400 text-lg leading-8 mt-6 max-w-3xl">
+                Learn how NovaCode handles information when you visit and use
+                our programming education website.
+            </p>
+
+            <div class="flex items-center gap-2 text-sm text-gray-500 mt-8">
+                <a href="/index" class="hover:text-sky-400">Home</a>
+                <span>/</span>
+                <span class="text-sky-400">Privacy Policy</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Introduction -->
+    <section class="px-6 py-14">
+        <div class="max-w-4xl mx-auto space-y-5">
+            <div class="rounded-2xl border border-sky-400/20 bg-sky-500/5 p-6 md:p-8">
+                <p class="text-sky-400 text-sm font-semibold uppercase tracking-widest">
+                    សេចក្តីជូនដំណឹង
+                </p>
+                <p class="text-gray-300 leading-8 mt-3">
+                    គោលការណ៍ឯកជនភាពនេះពន្យល់ពីរបៀបដែល NovaCode អាចប្រមូល ប្រើប្រាស់
+                    និងការពារព័ត៌មាន នៅពេលអ្នកចូលមើលគេហទំព័ររបស់យើង។
+                    សូមអានគោលការណ៍នេះមុនពេលប្រើប្រាស់គេហទំព័រ។
+                </p>
+            </div>
+
+            <h2 class="text-2xl md:text-3xl font-bold">Introduction <span class="text-sky-400">/ សេចក្តីផ្តើម</span></h2>
+            <p class="text-gray-400 leading-8">
+                NovaCode គឺជាគេហទំព័រសិក្សាអំពីការសរសេរកម្មវិធីតាមអ៊ីនធឺណិត
+                ដែលបង្កើតឡើងដើម្បីជួយសិស្ស និស្សិត និងអ្នកចាប់ផ្តើមដំបូង។
+                យើងគោរពឯកជនភាពរបស់អ្នក និងមានបំណងគ្រប់គ្រងព័ត៌មានដោយការទទួលខុសត្រូវ។
+            </p>
+        </div>
+    </section>
+
+    <!-- Policy Sections -->
+    <section class="px-6 pb-20">
+        <div class="max-w-4xl mx-auto space-y-8">
+
+            <article class="rounded-2xl border border-white/10 bg-slate-900/70 p-6 md:p-8">
+                <p class="text-sky-400 text-sm font-semibold uppercase tracking-widest">01 / Information</p>
+                <h2 class="text-2xl font-bold mt-3">Information We May Collect <span class="text-sky-400">/ ព័ត៌មានដែលយើងអាចប្រមូល</span></h2>
+                <div class="mt-5 space-y-4 text-gray-400 leading-8">
+                    <p><strong class="text-gray-200"></strong> អាស្រ័យលើមុខងារដែលអ្នកប្រើប្រាស់ NovaCode អាចទទួលបានព័ត៌មានដែលអ្នកស្ម័គ្រចិត្តផ្តល់ឱ្យ ដូចជា ឈ្មោះ អាសយដ្ឋានអ៊ីមែល ឬខ្លឹមសារសារដែលអ្នកផ្ញើមកយើង។ សេវាកម្មដែលប្រើសម្រាប់ដំណើរការគេហទំព័រ ក៏អាចដំណើរការព័ត៌មានបច្ចេកទេសមូលដ្ឋានមួយចំនួន ដូចជា Browser ឧបករណ៍ អាសយដ្ឋាន IP និងទំព័រដែលបានចូលមើល។</p>
+                </div>
+            </article>
+
+            <article class="rounded-2xl border border-white/10 bg-slate-900/70 p-6 md:p-8">
+                <p class="text-sky-400 text-sm font-semibold uppercase tracking-widest">02 / Use of Information</p>
+                <h2 class="text-2xl font-bold mt-3">How We Use Information <span class="text-sky-400">/ របៀបប្រើប្រាស់ព័ត៌មាន</span></h2>
+                <div class="mt-5 space-y-4 text-gray-400 leading-8">
+                    <p><strong class="text-gray-200"></strong> ព័ត៌មានអាចត្រូវបានប្រើប្រាស់ដើម្បីដំណើរការ និងថែទាំគេហទំព័រ ឆ្លើយតបសំណួរ ឬមតិយោបល់ កែលម្អមេរៀន និងដំណើរការគេហទំព័រ ព្រមទាំងជួយការពារគេហទំព័រពីការប្រើប្រាស់ខុសគោលបំណង ឬបញ្ហាបច្ចេកទេស។</p>
+                </div>
+            </article>
+
+            <article class="rounded-2xl border border-white/10 bg-slate-900/70 p-6 md:p-8">
+                <p class="text-sky-400 text-sm font-semibold uppercase tracking-widest">03 / Cookies</p>
+                <h2 class="text-2xl font-bold mt-3">Cookies and Similar Technologies <span class="text-sky-400">/ Cookies និងបច្ចេកវិទ្យាស្រដៀងគ្នា</span></h2>
+                <div class="mt-5 space-y-4 text-gray-400 leading-8">
+                    <p><strong class="text-gray-200"></strong> Browser ឬសេវាកម្ម Hosting អាចប្រើ Cookies ឬបច្ចេកវិទ្យាស្រដៀងគ្នា ដើម្បីគាំទ្រដល់មុខងាររបស់គេហទំព័រ។ អ្នកអាចគ្រប់គ្រង ឬបិទ Cookies តាមរយៈការកំណត់របស់ Browser។ មុខងារមួយចំនួនអាចមិនដំណើរការដូចការរំពឹងទុក ប្រសិនបើអ្នកបិទ Cookies។</p>
+                </div>
+            </article>
+
+            <article class="rounded-2xl border border-white/10 bg-slate-900/70 p-6 md:p-8">
+                <p class="text-sky-400 text-sm font-semibold uppercase tracking-widest">04 / Third Parties</p>
+                <h2 class="text-2xl font-bold mt-3">Third-Party Services and Links <span class="text-sky-400">/ សេវាកម្ម និងតំណភ្ជាប់ភាគីទីបី</span></h2>
+                <div class="mt-5 space-y-4 text-gray-400 leading-8">
+                    <p><strong class="text-gray-200"></strong> គេហទំព័រអាចប្រើប្រាស់ធនធានពីភាគីទីបី ដូចជា Content Delivery Networks ឬ Libraries ដើម្បីផ្តល់មុខងារផ្សេងៗ។ នៅពេល Browser របស់អ្នកស្នើសុំធនធានទាំងនេះ ភាគីទីបីដែលពាក់ព័ន្ធអាចទទួលបានព័ត៌មានបច្ចេកទេស ដូចជា អាសយដ្ឋាន IP របស់អ្នក។ NovaCode ក៏អាចមានតំណភ្ជាប់ទៅកាន់គេហទំព័រខាងក្រៅផងដែរ។ យើងមិនគ្រប់គ្រងគោលការណ៍ឯកជនភាព ឬខ្លឹមសាររបស់សេវាកម្មភាគីទីបីទាំងនោះទេ ដូច្នេះសូមអានគោលការណ៍ឯកជនភាពរបស់ពួកគេ។</p>
+                </div>
+            </article>
+
+            <article class="rounded-2xl border border-white/10 bg-slate-900/70 p-6 md:p-8">
+                <p class="text-sky-400 text-sm font-semibold uppercase tracking-widest">05 / Data Security</p>
+                <h2 class="text-2xl font-bold mt-3">Data Protection <span class="text-sky-400">/ ការការពារទិន្នន័យ</span></h2>
+                <div class="mt-5 space-y-4 text-gray-400 leading-8">
+                    <p><strong class="text-gray-200"></strong> យើងមានបំណងប្រើវិធានការសមស្រប ដើម្បីការពារព័ត៌មានដែល NovaCode គ្រប់គ្រង។ ទោះជាយ៉ាងណាក៏ដោយ គ្មានគេហទំព័រ ឬវិធីបញ្ជូនព័ត៌មានតាមអ៊ីនធឺណិតណាមួយអាចធានាសុវត្ថិភាពបានទាំងស្រុងនោះទេ។</p>
+                </div>
+            </article>
+
+            <article class="rounded-2xl border border-white/10 bg-slate-900/70 p-6 md:p-8">
+                <p class="text-sky-400 text-sm font-semibold uppercase tracking-widest">06 / Children's Privacy</p>
+                <h2 class="text-2xl font-bold mt-3">Children's Privacy <span class="text-sky-400">/ ឯកជនភាពរបស់កុមារ</span></h2>
+                <div class="mt-5 space-y-4 text-gray-400 leading-8">
+                    <p><strong class="text-gray-200"></strong> NovaCode គឺជាគេហទំព័រអប់រំ។ ប្រសិនបើអ្នកជាកុមារ សូមសួរឪពុកម្តាយ ឬអាណាព្យាបាលជាមុនសិន មុនពេលចែករំលែកព័ត៌មានផ្ទាល់ខ្លួនតាមអ៊ីនធឺណិត។ ប្រសិនបើអ្នកគិតថាកុមារបានផ្តល់ព័ត៌មានផ្ទាល់ខ្លួនមកយើង សូមទាក់ទងមកយើង ដើម្បីឱ្យយើងពិនិត្យមើលករណីនេះ។</p>
+                </div>
+            </article>
+
+            <article class="rounded-2xl border border-white/10 bg-slate-900/70 p-6 md:p-8">
+                <p class="text-sky-400 text-sm font-semibold uppercase tracking-widest">07 / Your Choices</p>
+                <h2 class="text-2xl font-bold mt-3">Your Choices and Rights <span class="text-sky-400">/ ជម្រើស និងសិទ្ធិរបស់អ្នក</span></h2>
+                <div class="mt-5 space-y-4 text-gray-400 leading-8">
+                    <p><strong class="text-gray-200"></strong> អ្នកអាចជ្រើសរើសមិនផ្តល់ព័ត៌មាន ប្រសិនបើការផ្តល់ព័ត៌មាននោះមិនមែនជាកាតព្វកិច្ច។ អ្នកក៏អាចទាក់ទងមកយើង ដើម្បីសួរអំពីព័ត៌មានដែលអ្នកបានផ្តល់ ឬស្នើសុំកែតម្រូវ ឬលុបព័ត៌មាននោះ ក្នុងករណីដែលអាចអនុវត្តបាន និងយើងអាចផ្ទៀងផ្ទាត់ និងបំពេញសំណើរបស់អ្នកបាន។</p>
+                </div>
+            </article>
+
+            <article class="rounded-2xl border border-white/10 bg-slate-900/70 p-6 md:p-8">
+                <p class="text-sky-400 text-sm font-semibold uppercase tracking-widest">08 / Policy Updates</p>
+                <h2 class="text-2xl font-bold mt-3">Changes to This Policy <span class="text-sky-400">/ ការកែប្រែគោលការណ៍នេះ</span></h2>
+                <div class="mt-5 space-y-4 text-gray-400 leading-8">
+                    <p><strong class="text-gray-200"></strong> យើងអាចធ្វើបច្ចុប្បន្នភាពគោលការណ៍ឯកជនភាពនេះ នៅពេលគេហទំព័រ ឬការអនុវត្តរបស់យើងមានការផ្លាស់ប្តូរ។ ការកែប្រែណាមួយនឹងត្រូវបង្ហោះនៅលើទំព័រនេះ ព្រមទាំងកែប្រែកាលបរិច្ឆេទ «ធ្វើបច្ចុប្បន្នភាពចុងក្រោយ»។ សូមពិនិត្យមើលទំព័រនេះម្តងម្កាល។</p>
+                </div>
+            </article>
+
+            <article class="rounded-2xl border border-sky-400/20 bg-sky-500/5 p-6 md:p-8">
+                <p class="text-sky-400 text-sm font-semibold uppercase tracking-widest">09 / Contact</p>
+                <h2 class="text-2xl font-bold mt-3">Contact Us <span class="text-sky-400">/ ទាក់ទងមកយើង</span></h2>
+                <div class="mt-5 space-y-4 text-gray-400 leading-8">
+                    <p><strong class="text-gray-200"></strong> ប្រសិនបើអ្នកមានសំណួរ ឬកង្វល់អំពីគោលការណ៍ឯកជនភាពនេះ សូមទាក់ទងក្រុមការងារ NovaCode តាមរយៈមធ្យោបាយទំនាក់ទំនងដែលមាននៅលើគេហទំព័ររបស់យើង។</p>
+                </div>
+            </article>
+
+            <p class="text-xs text-gray-500 leading-6">
+                Note: This is a starter policy written from the currently known NovaCode website context. Review it against the website's actual data collection, hosting, analytics, forms, and contact features before publishing.
+                <br>
+                ចំណាំ៖ នេះជាគំរូគោលការណ៍ដំបូង ដែលរៀបចំឡើងដោយផ្អែកលើព័ត៌មានដែលមានអំពីគេហទំព័រ NovaCode បច្ចុប្បន្ន។ សូមពិនិត្យ និងកែសម្រួលឱ្យត្រូវនឹងការប្រមូលទិន្នន័យ Hosting Analytics Forms និងមុខងារទំនាក់ទំនងដែលគេហទំព័រប្រើប្រាស់ជាក់ស្តែង មុនពេលបោះពុម្ពផ្សាយ។
+            </p>
+        </div>
+    </section>
+
+    {% include "components/footer.html" %}
+</body>
+</html>

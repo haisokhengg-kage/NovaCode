@@ -1,0 +1,2 @@
+username= xin
+password = naruto

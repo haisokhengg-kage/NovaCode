@@ -1,0 +1,89 @@
+
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>NovaCode</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="{% static 'images/NovaCode.jpg' %}">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+
+    <!-- Tailwind CSS v4 -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <!-- Flowbite -->
+    <script src="https://cdn.jsdelivr.net/npm/flowbite@4.0.1/dist/flowbite.min.js"></script>
+
+    <!-- Lucide -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <!-- JavaScript -->
+    <script defer src="{% static 'js/script.js' %}"></script>
+    <script>
+        const carousel = document.getElementById("carousel");
+
+// Duplicate images
+carousel.innerHTML += carousel.innerHTML;
+
+let position = 0;
+let speed = 1;
+let isPaused = false;
+
+function autoScroll() {
+
+    if (!isPaused) {
+        position -= speed;
+
+        if (Math.abs(position) >= carousel.scrollWidth / 2) {
+            position = 0;
+        }
+
+        carousel.style.transform = `translateX(${position}px)`;
+    }
+
+    requestAnimationFrame(autoScroll);
+}
+
+// Pause when mouse enters
+carousel.addEventListener("mouseenter", () => {
+    isPaused = true;
+});
+
+// Resume when mouse leaves
+carousel.addEventListener("mouseleave", () => {
+    isPaused = false;
+});
+
+autoScroll();
+    </script>
+
+</head>
+<body class="">
+<section class="w-full overflow-x-auto py-8">
+<section class="w-full overflow-hidden py-10">
+    <div id="carousel" class="flex gap-5 w-max">
+
+        <img src="{% static 'images/html.png' %}"
+             class="w-80 h-52 object-cover rounded-xl shrink-0">
+
+        <img src="{% static 'images/pyhton.png' %}"
+             class="w-80 h-52 object-cover rounded-xl shrink-0">
+
+        <img src="{% static 'images/css.png' %}"
+             class="w-80 h-52 object-cover rounded-xl shrink-0">
+
+        <img src="{% static 'images/cpp.png' %}"
+             class="w-80 h-52 object-cover rounded-xl shrink-0">
+
+    </div>
+</section>
+</body>
+</html>

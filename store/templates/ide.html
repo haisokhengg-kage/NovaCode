@@ -1,0 +1,169 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>NovaCode</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="{% static 'images/NovaCode.jpg' %}">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+
+    <!-- Tailwind CSS v4 -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <!-- Flowbite -->
+    <script src="https://cdn.jsdelivr.net/npm/flowbite@4.0.1/dist/flowbite.min.js"></script>
+
+    <!-- Lucide -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <!-- JavaScript -->
+    <script defer src="{% static 'js/script.js' %}"></script>
+</head>
+<body class="bg-black text-white">
+    
+{% include "components/nav.html" %}
+{% include "components/mascot.html" %}
+
+<section class="bg-black px-6 py-16 text-white">
+    <div class="mx-auto max-w-7xl">
+
+        <!-- Heading -->
+        <div class="mb-10 text-center">
+            <h1 class="text-4xl font-bold md:text-5xl">
+                <span class="text-sky-400">IDE </span>Installation Guide
+            </h1>
+            <p class="mt-4 text-gray-400">
+                Learn how to install and configure your coding environment.
+            </p>
+            {% comment %} btn {% endcomment %}
+            <div class=" mt-8">
+                <a href="#ide"
+                class="bg-blue-500 hover:bg-blue-600 text-white
+                        px-7 py-3 rounded-lg font-semibold transition ">
+                    Start Setup IDE
+                </a>
+            </div>
+        </div>
+        
+    </div>
+</section>
+
+<main id="ide" class="mx-auto max-w-7xl">
+
+    
+<section class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-20">
+
+    <!-- VS Code -->
+    <div class="flex flex-col bg-black border border-gray-200 rounded-xl shadow-sm overflow-hidden">
+
+        <div class="h-44 flex items-center justify-center p-5">
+            <img src="{% static 'images/vscode.png' %}"
+                alt="Visual Studio Code"
+                class="w-full h-full object-contain">
+        </div>
+
+        <div class="flex flex-col flex-1 p-5">
+            <h5 class="text-xl font-bold mb-3">Visual Studio Code</h5>
+
+            <p class="text-gray-600 text-sm mb-5 flex-1">
+                A lightweight and powerful code editor for HTML, CSS, JavaScript and more.
+            </p>
+
+            <a href="https://code.visualstudio.com/sha/download?build=stable&os=win32-x64-user&utm_source=chatgpt.com"
+               target="_blank"
+               rel="noopener noreferrer"
+               class="text-center bg-blue-600 hover:bg-blue-700 text-white font-medium rounded-lg px-4 py-2.5">
+                Download IDE →
+            </a>
+        </div>
+    </div>
+
+    <!-- Dev-C++ -->
+    <div class="flex flex-col bg-black border border-gray-200 rounded-xl shadow-sm overflow-hidden">
+
+        <div class="h-44 flex items-center justify-center p-5">
+            <img src="{% static 'images/devc.png' %}"
+                 alt="Dev-C++"
+                 class="w-full h-full object-contain">
+        </div>
+
+        <div class="flex flex-col flex-1 p-5">
+            <h5 class="text-xl font-bold mb-3">Dev-C++</h5>
+
+            <p class="text-gray-600 text-sm mb-5 flex-1">
+                An IDE for writing, compiling and running C and C++ programs.
+            </p>
+
+            <a href="https://sourceforge.net/projects/orwelldevcpp/files/latest/download?utm_source=chatgpt.com"
+               target="_blank"
+               rel="noopener noreferrer"
+               class="text-center bg-blue-600 hover:bg-blue-700 text-white font-medium rounded-lg px-4 py-2.5">
+                Download IDE →
+            </a>
+        </div>
+    </div>
+
+    <!-- IntelliJ IDEA -->
+    <div class="flex flex-col bg-black border border-gray-200 rounded-xl shadow-sm overflow-hidden">
+
+        <div class="h-44 flex items-center justify-center p-5">
+            <img src="{% static 'images/ij.png' %}"
+                 alt="IntelliJ IDEA"
+                 class="w-full h-full object-contain">
+        </div>
+
+        <div class="flex flex-col flex-1 p-5">
+            <h5 class="text-xl font-bold mb-3">IntelliJ IDEA</h5>
+
+            <p class="text-gray-600 text-sm mb-5 flex-1">
+                A powerful development environment for Java programming.
+            </p>
+
+            <a href="https://www.jetbrains.com/idea/download/download-thanks.html?platform=windows"
+               target="_blank"
+               rel="noopener noreferrer"
+               class="text-center bg-blue-600 hover:bg-blue-700 text-white font-medium rounded-lg px-4 py-2.5">
+                Download IDE →
+            </a>
+        </div>
+    </div>
+
+    <!-- PyCharm -->
+    <div class="flex flex-col bg-black border border-gray-200 rounded-xl shadow-sm overflow-hidden">
+
+        <div class="h-44 flex items-center justify-center p-5">
+            <img src="{% static 'images/pycharm.png' %}"
+                 alt="PyCharm"
+                 class="w-full h-full object-contain">
+        </div>
+
+        <div class="flex flex-col flex-1 p-5">
+            <h5 class="text-xl font-bold mb-3">PyCharm</h5>
+
+            <p class="text-gray-600 text-sm mb-5 flex-1">
+                A Python IDE with smart coding assistance and debugging tools.
+            </p>
+
+            <a href="https://www.jetbrains.com/pycharm/download/download-thanks.html?platform=windows"
+               target="_blank"
+               rel="noopener noreferrer"
+               class="text-center bg-blue-600 hover:bg-blue-700 text-white font-medium rounded-lg px-4 py-2.5">
+                Download IDE →
+            </a>
+        </div>
+    </div>
+
+</section>
+
+    
+</main>
+{% include "components/footer.html" %}
+
+</body>
+</html>

@@ -1,0 +1,113 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>NovaCode</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="{% static 'images/NovaCode.jpg' %}">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Flowbite -->
+    <script src="https://cdn.jsdelivr.net/npm/flowbite@4.0.1/dist/flowbite.min.js"></script>
+
+    <!-- Lucide -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <!-- JavaScript -->
+    <script defer src="{% static 'script.js' %}"></script>
+
+</head>
+<body>
+
+
+<nav class="w-[95%] mx-auto mt-3 sticky top-3 z-50
+            bg-black/95 backdrop-blur-md text-white
+            border border-blue-500/40 rounded-2xl
+            px-4 md:px-6 py-3 shadow-lg
+            relative max-w-7xl mx-auto items-center">
+
+    <div class="flex justify-between items-center">
+
+        <!-- Logo -->
+        <a href="/index" class="flex items-center gap-2">
+            <img src="{% static 'images/NovaCodePNG.png' %}"
+                class="w-10 h-10 object-contain" alt="Logo">
+
+            <span class="text-2xl font-bold text-blue-400">
+                NovaCode
+            </span>
+        </a>
+
+        <!-- Desktop Menu -->
+        <div class="hidden md:flex items-center gap-8">
+
+            <a href="/index" class="hover:text-blue-400 transition">Home</a>
+            <a href="/lang" class="hover:text-blue-400 transition">Languages</a>
+            <a href="/ide" class="hover:text-blue-400 transition">IDE Setup</a>
+            <a href="/about" class="hover:text-blue-400 transition">About</a>
+
+        </div>
+
+        <button
+            id="mascotToggle"
+            type="button"
+            class="flex items-center gap-2 rounded-lg
+                px-3 py-2 text-white
+                hover:text-blue-600 transition">
+
+            <i data-lucide="eye-off" id="mascotToggleIcon"></i>
+
+            <span id="mascotToggleText">Hide</span>
+        </button>
+
+        <!-- Mobile Toggle -->
+        <label for="mobile-toggle"
+            class="md:hidden cursor-pointer p-2
+                    hover:bg-gray-800 rounded-lg">
+
+            <span class="text-2xl">☰</span>
+
+        </label>
+
+    </div>
+
+    <!-- Hidden Checkbox -->
+    <input type="checkbox" id="mobile-toggle" class="peer hidden">
+
+    <!-- Mobile Menu -->
+    <div class="hidden peer-checked:flex md:hidden
+                flex-col gap-2 mt-4 pt-4
+                border-t border-gray-800">
+
+        <a href="/index" class="p-3 rounded-lg hover:bg-gray-800 hover:text-blue-400">
+            Home
+        </a>
+
+        <a href="/lang" class="p-3 rounded-lg hover:bg-gray-800 hover:text-blue-400">
+            Languages
+        </a>
+
+        <a href="/ide" class="p-3 rounded-lg hover:bg-gray-800 hover:text-blue-400">
+            Practice
+        </a>
+
+        <a href="/about" class="p-3 rounded-lg hover:bg-gray-800 hover:text-blue-400">
+            About
+        </a>
+
+    </div>
+
+</nav>
+
+
+</body>
+</html>

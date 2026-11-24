@@ -1,0 +1,111 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>NovaCode</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="{% static 'images/NovaCode.jpg' %}">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+
+    <!-- Tailwind CSS v4 -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Flowbite -->
+    <script src="https://cdn.jsdelivr.net/npm/flowbite@4.0.1/dist/flowbite.min.js"></script>
+
+    <!-- Lucide -->
+    <script src="https://unpkg.com/lucide@latest"></>
+
+    <!-- JavaScript -->
+    <script defer src="{% static 'js/script.js' %}"></script>
+
+</head>
+<body>
+    <!-- footer -->
+    
+    <footer class="border-t border-sky-900/50 bg-black px-6 py-10 text-gray-400 " ID="footer">
+        <div class="mx-auto max-w-7xl">
+
+            <!-- Footer Main -->
+            <div class="grid grid-cols-1 gap-8 sm:grid-cols-2 md:grid-cols-4">
+
+                <!-- Logo -->
+                <div>
+                    <a href="/index"
+                    class="text-2xl font-bold text-white">
+                    <span class="text-sky-400">&lt;/&gt;</span> NovaCode
+                    </a>
+                    <p class="mt-3 text-sm leading-6">
+                    Learn to code, build your skills, and create your future.
+                    </p>
+                </div>
+
+                <!-- Quick Links -->
+                <div>
+                    <h3 class="mb-4 font-semibold text-white">Quick Links</h3>
+                    <ul class="space-y-3 text-sm">
+                    <li><a href="/index" class="hover:text-sky-400">Home</a></li>
+                    <li><a href="/lang" class="hover:text-sky-400">Languages</a></li>
+                    <li><a href="/ide" class="hover:text-sky-400">IDE Setup</a></li>
+                    <li><a href="/about" class="hover:text-sky-400">About Us</a></li>
+                    </ul>
+                </div>
+
+                <!-- Languages -->
+                <div>
+                    <h3 class="mb-4 font-semibold text-white">Learn Languages</h3>
+                    <ul class="space-y-3 text-sm">
+                        <li><a href="/language/html" class="hover:text-sky-400">HTML</a></li>
+                        <li><a href="/language/css" class="hover:text-sky-400">CSS</a></li>
+                        <li><a href="/language/javascript" class="hover:text-sky-400">JavaScript</a></li>
+                        <div class="flex gap-2">
+                            <li><a href="/language/oop" class="hover:text-sky-400">OOP</a></li> 
+                            <span>/</span>
+                            <li><a href="/language/python" class="hover:text-sky-400">Python</a></li>
+                        </div>
+                        <div class="flex gap-2">
+                            <li><a href="/language/c" class="hover:text-sky-400">C</a></li> 
+                            <span>/</span>
+                            <li><a href="/language/cpp" class="hover:text-sky-400">C++</a></li>
+                        </div>
+                        <li><a href="/language/dsa" class="hover:text-sky-400">DSA</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contact -->
+                <div>
+                    <h3 class="mb-4 font-semibold text-white">Get in Touch</h3>
+                    <p class="text-sm leading-6">
+                    Have questions or suggestions? We'd love to hear from you.
+                    </p>
+                    <a target="#" href="https://t.me/XIN_HAO1"
+                    class="mt-3 inline-block text-sky-400 hover:text-sky-300">
+                    Contact Us →
+                    </a>
+                </div>
+
+            </div>
+
+            <!-- Bottom Bar -->
+            <div class="mt-10 flex flex-col gap-4 border-t border-gray-800 pt-6 text-sm sm:flex-row sm:items-center sm:justify-between">
+                <p>© 2026 CodeVerse. All rights reserved.</p>
+
+                <div class="flex gap-5">
+                    <a href="/privacypolicy" class="hover:text-sky-400">Privacy Policy</a>
+                    <a href="/termsofuse" class="hover:text-sky-400">Terms of Use</a>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+
+</body>
+</html>

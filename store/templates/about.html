@@ -1,0 +1,341 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="km">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NovaCode</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="{% static 'images/NovaCode.jpg' %}">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+
+    <!-- Tailwind CSS v4 -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <!-- Flowbite -->
+    <script src="https://cdn.jsdelivr.net/npm/flowbite@4.0.1/dist/flowbite.min.js"></script>
+
+    <!-- Lucide -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <!-- JavaScript -->
+    <script defer src="{% static 'js/script.js' %}"></script>
+</head>
+
+<body class="bg-[#080d18] text-white">
+
+    <!-- Navbar -->
+    {% include "components/nav.html" %}
+    {% include "components/mascot.html" %}
+
+    <!-- Page Header -->
+    <section class="px-6 pt-20 pb-14 bg-white/[0.02] mt-5">
+        <div class="max-w-6xl mx-auto pt-25 pb-25 ">
+            <p class="text-sky-400 text-sm font-semibold tracking-[0.25em] uppercase">
+                ABOUT US
+            </p>
+
+            <h1 class="text-4xl md:text-6xl font-bold mt-5">
+                About <span class="text-sky-400">NovaCode</span>
+            </h1>
+
+            <p class="text-gray-400 text-lg leading-8 mt-6 max-w-3xl">
+                ស្វែងយល់ថា NovaCode ជាអ្វី ហេតុអ្វីបានជាគេបង្កើតវាឡើង
+                និងរបៀបដែលវាជួយអ្នកសិក្សាស្វែងយល់អំពីពិភពនៃការសរសេរកម្មវិធី។
+            </p>
+
+            <div class="flex items-center gap-2 text-sm text-gray-500 mt-8">
+                <a href="/index" class="hover:text-sky-400">Home</a>
+                <span>/</span>
+                <span class="text-sky-400">About</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- What is NovaCode -->
+    <section class="px-6 py-20">
+        <div class="max-w-6xl mx-auto grid md:grid-cols-5 gap-12">
+            <div class="md:col-span-3">
+                <p class="text-sky-400 text-sm font-semibold uppercase tracking-widest">
+                    Introductions
+                </p>
+
+                <h2 class="text-3xl md:text-4xl font-bold mt-4 mb-7">
+                    តើ NovaCode ជាអ្វី?
+                </h2>
+
+                <div class="space-y-5 text-gray-400 leading-8">
+                    <p>
+                        NovaCode គឺជាគេហទំព័រសិក្សាការសរសេរកម្មវិធីតាមអ៊ីនធឺណិត
+                        ដែលត្រូវបានបង្កើតឡើងដើម្បីជួយសិស្សនិស្សិត និងអ្នកចាប់ផ្តើមដំបូង
+                        ឱ្យរៀនសរសេរកម្មវិធីតាមរបៀបសាមញ្ញ និងមានការរៀបចំច្បាស់លាស់។
+                    </p>
+
+                    <p>
+                        គេហទំព័រនេះផ្តល់ជូននូវមាតិកាអប់រំអំពីភាសាសរសេរកម្មវិធីផ្សេងៗ
+                        រួមមានការពន្យល់ ឧទាហរណ៍ និងគោលគំនិតនៃការសរសេរកូដ។
+                        អ្នកសិក្សាអាចស្វែងយល់ពីប្រធានបទនីមួយៗ
+                        និងរៀនតាមលំដាប់ជំហានៗ។
+                    </p>
+
+                    <p>
+                        NovaCode មានគោលបំណងធ្វើឱ្យចំណេះដឹងអំពីការសរសេរកម្មវិធី
+                        កាន់តែងាយស្រួលក្នុងការចូលរៀន និងយល់ដឹង ជាពិសេសសម្រាប់អ្នក
+                        ដែលទើបតែចាប់ផ្តើមដំណើររបស់ខ្លួនក្នុងវិស័យ Software
+                        និងការអភិវឌ្ឍន៍គេហទំព័រ។
+                    </p>
+                </div>
+            </div>
+
+            <!-- Information Card -->
+            <div class="md:col-span-2">
+                <div class="h-full rounded-2xl border border-sky-400/20
+                            bg-gradient-to-br from-sky-500/10 to-slate-900
+                            p-8">
+                    <div class="w-14 h-14 rounded-xl bg-sky-500/10
+                                flex items-center justify-center mb-6">
+                        <span class="text-3xl text-sky-400">{"</>"}</span>
+                    </div>
+
+                    <h3 class="text-2xl font-bold">
+                        រៀន។ អនុវត្ត។ រីកចម្រើន។
+                    </h3>
+
+                    <p class="text-gray-400 leading-7 mt-4">
+                        បរិយាកាសសិក្សាដែលអនុញ្ញាតឱ្យអ្នកចាប់ផ្តើមដំបូង
+                        ស្វែងយល់ពីគោលគំនិតនៃការសរសេរកម្មវិធី
+                        និងអភិវឌ្ឍចំណេះដឹងផ្នែកបច្ចេកទេសរបស់ខ្លួន។
+                    </p>
+
+                    <div class="border-t border-white/10 mt-7 pt-6">
+                        <p class="text-gray-500 text-xs uppercase tracking-widest">
+                            ប្រភេទគេហទំព័រ
+                        </p>
+                        <p class="text-sky-400 font-semibold mt-2">
+                            ការអប់រំអំពីការសរសេរកម្មវិធី
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Purpose -->
+    <section class="px-6 py-20 bg-white/[0.02] border-y border-white/5">
+        <div class="max-w-6xl mx-auto">
+            <div class="max-w-3xl">
+                <p class="text-sky-400 text-sm font-semibold uppercase tracking-widest">
+                    Our Purpose
+                </p>
+
+                <h2 class="text-3xl md:text-4xl font-bold mt-4">
+                    ហេតុអ្វីបានជា NovaCode ត្រូវបានបង្កើតឡើង?
+                </h2>
+
+                <p class="text-gray-400 leading-8 mt-6">
+                    ការរៀនសរសេរកម្មវិធីអាចជារឿងពិបាកសម្រាប់អ្នកចាប់ផ្តើមដំបូង
+                    ជាពិសេសនៅពេលដែលព័ត៌មានត្រូវបានបែងចែកនៅតាមប្រភពផ្សេងៗគ្នា។
+                    NovaCode ត្រូវបានបង្កើតឡើងដើម្បីប្រមូលផ្តុំឯកសារសិក្សានៅកន្លែងតែមួយ
+                    និងផ្តល់នូវបទពិសោធន៍សិក្សាដែលកាន់តែច្បាស់លាស់។
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-6 mt-12">
+                <div class="p-7 rounded-xl bg-slate-900 border border-white/10">
+                    <span class="text-3xl">📖</span>
+                    <h3 class="text-xl font-bold mt-5">
+                        មេរៀនដែលរៀបចំជាប្រព័ន្ធ
+                    </h3>
+                    <p class="text-gray-400 text-sm leading-7 mt-3">
+                        ឯកសារសិក្សាត្រូវបានបែងចែកជាប្រធានបទ
+                        ដើម្បីធ្វើឱ្យការស្វែងយល់ និងការរៀនកាន់តែងាយស្រួល។
+                    </p>
+                </div>
+
+                <div class="p-7 rounded-xl bg-slate-900 border border-white/10">
+                    <span class="text-3xl">💡</span>
+                    <h3 class="text-xl font-bold mt-5">
+                        ការពន្យល់ងាយយល់
+                    </h3>
+                    <p class="text-gray-400 text-sm leading-7 mt-3">
+                        គោលគំនិតនៃការសរសេរកម្មវិធីត្រូវបានបង្ហាញ
+                        ជាមួយការពន្យល់ និងឧទាហរណ៍ដែលងាយស្រួលយល់។
+                    </p>
+                </div>
+
+                <div class="p-7 rounded-xl bg-slate-900 border border-white/10">
+                    <span class="text-3xl">💻</span>
+                    <h3 class="text-xl font-bold mt-5">
+                        ចំណេះដឹងអំពីការសរសេរកូដ
+                    </h3>
+                    <p class="text-gray-400 text-sm leading-7 mt-3">
+                        ស្វែងយល់ពីភាសាសរសេរកម្មវិធីផ្សេងៗ
+                        និងអភិវឌ្ឍចំណេះដឹងបច្ចេកទេសជាមូលដ្ឋាន។
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Website Features -->
+    <section class="px-6 py-20">
+        <div class="max-w-6xl mx-auto">
+            <p class="text-sky-400 text-sm font-semibold uppercase tracking-widest">
+                Website Feature
+            </p>
+
+            <h2 class="text-3xl md:text-4xl font-bold mt-4">
+                តើអ្នកអាចស្វែងរកអ្វីខ្លះនៅលើ NovaCode?
+            </h2>
+
+            <p class="text-gray-400 leading-8 mt-5 max-w-3xl">
+                NovaCode ផ្តល់ជូននូវផ្នែកសិក្សាជាច្រើនដើម្បីគាំទ្រដល់ដំណើរការសិក្សា។
+                ផ្នែកនីមួយៗមានគោលបំណងរៀងៗខ្លួន
+                និងជួយអ្នកសិក្សាស្វែងយល់អំពីការសរសេរកម្មវិធី។
+            </p>
+
+            <div class="mt-12 divide-y divide-white/10 border-y border-white/10">
+                <!-- Feature 1 -->
+                <div class="py-7 grid md:grid-cols-4 gap-5">
+                    <div class="text-sky-400 font-semibold">
+                        01 / ភាសាសរសេរកម្មវិធី
+                    </div>
+                    <div class="md:col-span-3">
+                        <h3 class="text-xl font-bold">
+                            ភាសាសរសេរកម្មវិធី
+                        </h3>
+                        <p class="text-gray-400 leading-7 mt-3">
+                            ស្វែងយល់ពី HTML, CSS, JavaScript, Python,
+                            Java, C, C++ និង C#។ ភាសានីមួយៗមានឯកសារសិក្សា
+                            និងប្រធានបទសម្រាប់រៀន។
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Feature 2 -->
+                <div class="py-7 grid md:grid-cols-4 gap-5">
+                    <div class="text-sky-400 font-semibold">
+                        02 / ការដំឡើង IDE
+                    </div>
+                    <div class="md:col-span-3">
+                        <h3 class="text-xl font-bold">
+                            មគ្គុទ្ទេសក៍ដំឡើង IDE
+                        </h3>
+                        <p class="text-gray-400 leading-7 mt-3">
+                            ស្វែងយល់អំពីឧបករណ៍សម្រាប់អភិវឌ្ឍកម្មវិធី
+                            និងរបៀបរៀបចំកុំព្យូទ័ររបស់អ្នក
+                            សម្រាប់សរសេរ និងដំណើរការកូដ។
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Feature 3 -->
+                <div class="py-7 grid md:grid-cols-4 gap-5">
+                    <div class="text-sky-400 font-semibold">
+                        03 / ការអនុវត្ត
+                    </div>
+                    <div class="md:col-span-3">
+                        <h3 class="text-xl font-bold">
+                            ការអនុវត្តសរសេរកូដ
+                        </h3>
+                        <p class="text-gray-400 leading-7 mt-3">
+                            អនុវត្តគោលគំនិតនៃការសរសេរកម្មវិធី
+                            តាមរយៈសកម្មភាពសរសេរកូដ និងឧទាហរណ៍ផ្សេងៗ។
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Feature 4 -->
+                <div class="py-7 grid md:grid-cols-4 gap-5">
+                    <div class="text-sky-400 font-semibold">
+                        04 / ការសិក្សា
+                    </div>
+                    <div class="md:col-span-3">
+                        <h3 class="text-xl font-bold">
+                            ធនធានសិក្សា
+                        </h3>
+                        <p class="text-gray-400 leading-7 mt-3">
+                            អានមាតិកាអប់រំ និងស្វែងយល់ពីប្រធានបទនៃការសរសេរកម្មវិធី
+                            ដើម្បីពង្រឹងការយល់ដឹងរបស់អ្នក។
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technologies -->
+    <section class="px-6 py-20 bg-white/[0.02] border-y border-white/5">
+        <div class="max-w-6xl mx-auto">
+            <p class="text-sky-400 text-sm font-semibold uppercase tracking-widest">
+                Technologies
+            </p>
+
+            <h2 class="text-3xl md:text-4xl font-bold mt-4">
+                បច្ចេកវិទ្យាដែលប្រើក្នុង NovaCode
+            </h2>
+
+            <p class="text-gray-400 leading-8 mt-5 max-w-3xl">
+                NovaCode ត្រូវបានអភិវឌ្ឍដោយប្រើប្រាស់បច្ចេកវិទ្យាគេហទំព័រទំនើបៗ
+                ដើម្បីបង្កើតផ្ទៃប្រើប្រាស់ គ្រប់គ្រងមាតិកា
+                និងផ្តល់នូវបទពិសោធន៍សិក្សាដែលមានការរៀបចំជាប្រព័ន្ធ។
+            </p>
+
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mt-10">
+                <div class="p-6 rounded-xl bg-slate-900 border border-white/10 text-center">
+                    <p class="text-3xl mb-3">🌐</p>
+                    <h3 class="font-bold">HTML</h3>
+                    <p class="text-gray-500 text-xs mt-2">Page Structure</p>
+                </div>
+
+                <div class="p-6 rounded-xl bg-slate-900 border border-white/10 text-center">
+                    <p class="text-3xl mb-3">🎨</p>
+                    <h3 class="font-bold">Tailwind CSS</h3>
+                    <p class="text-gray-500 text-xs mt-2">User Interface</p>
+                </div>
+
+                <div class="p-6 rounded-xl bg-slate-900 border border-white/10 text-center">
+                    <p class="text-3xl mb-3">🐍</p>
+                    <h3 class="font-bold">Python</h3>
+                    <p class="text-gray-500 text-xs mt-2">Backend Language</p>
+                </div>
+
+                <div class="p-6 rounded-xl bg-slate-900 border border-white/10 text-center">
+                    <p class="text-3xl mb-3">🎯</p>
+                    <h3 class="font-bold">Django</h3>
+                    <p class="text-gray-500 text-xs mt-2">Web Framework</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Closing -->
+    <section class="px-6 py-20">
+        <div class="max-w-6xl mx-auto border border-sky-400/20
+                    rounded-2xl bg-sky-500/5 p-8 md:p-12">
+            <h2 class="text-3xl font-bold">
+                NovaCode — កន្លែងសម្រាប់ស្វែងយល់ពីការសរសេរកម្មវិធី។
+            </h2>
+
+            <p class="text-gray-400 leading-8 mt-5 max-w-3xl">
+                មិនថាអ្នកទើបតែចាប់ផ្តើមបង្កើតទំព័រ HTML ដំបូងរបស់អ្នក
+                ឬកំពុងស្វែងយល់ពីភាសាសរសេរកម្មវិធីផ្សេងទៀតនោះទេ
+                NovaCode តែងតែជួយគាំទ្រដល់ដំណើរការសិក្សារបស់អ្នក។
+            </p>
+
+            <a href="/lang"
+               class="inline-block mt-7 px-6 py-3 rounded-lg
+                      bg-sky-500 hover:bg-sky-400
+                      text-slate-950 font-bold transition">
+                Explore Learning Materials →
+            </a>
+        </div>
+    </section>
+
+    {% include "components/footer.html" %}
+
+</body>
+</html>

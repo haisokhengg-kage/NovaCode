@@ -1,0 +1,198 @@
+
+/* Global Style */
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Links */
+
+a {
+    text-decoration: none;
+}
+.sign-in{
+  text-decoration: none;
+  color: green;
+}
+/* Slider */
+
+#slides {
+    will-change: transform;
+}
+
+#slides img {
+    user-select: none;
+}
+.sign-in:hover{
+    text-decoration: underline;
+}
+
+
+/* Desktop Navigation */
+.nav-link {
+    color: #d1d5db;
+    transition: 0.3s;
+}
+
+.nav-link:hover {
+    color: #60a5fa;
+}
+
+/* Mobile Navigation */
+.mobile-link {
+    display: block;
+    padding: 12px;
+    border-radius: 8px;
+    color: #d1d5db;
+    transition: 0.3s;
+}
+
+.mobile-link:hover {
+    background-color: #1f2937;
+    color: #60a5fa;
+}
+
+
+.body-html {
+    min-height: 100vh;
+    background:
+        linear-gradient(
+            135deg,
+            rgba(2, 6, 23, 0.96),
+            rgba(15, 23, 42, 0.92),
+            rgba(0, 0, 0, 0.97)
+        ),
+        url("../images/html.png");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: #020617;
+}
+
+.body-css {
+    min-height: 100vh;
+    background:
+        linear-gradient(
+            135deg,
+            rgba(2, 6, 23, 0.96),
+            rgba(15, 23, 42, 0.92),
+            rgba(0, 0, 0, 0.97)
+        ),
+        url("../images/css.png");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: #020617;
+}
+
+.body-javascript {
+    min-height: 100vh;
+    background:
+        linear-gradient(
+            135deg,
+            rgba(2, 6, 23, 0.96),
+            rgba(15, 23, 42, 0.92),
+            rgba(0, 0, 0, 0.97)
+        ),
+        url("../images/java-script.png");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: #020617;
+}
+
+.body-python {
+    min-height: 100vh;
+    background:
+        linear-gradient(
+            135deg,
+            rgba(2, 6, 23, 0.96),
+            rgba(15, 23, 42, 0.92),
+            rgba(0, 0, 0, 0.97)
+        ),
+        url("../images/python.png");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: #020617;
+}
+
+.body-c {
+    min-height: 100vh;
+    background:
+        linear-gradient(
+            135deg,
+            rgba(2, 6, 23, 0.96),
+            rgba(15, 23, 42, 0.92),
+            rgba(0, 0, 0, 0.97)
+        ),
+        url("../images/C.png");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: #020617;
+}
+
+.body-cpp {
+    min-height: 100vh;
+    background:
+        linear-gradient(
+            135deg,
+            rgba(2, 6, 23, 0.96),
+            rgba(15, 23, 42, 0.92),
+            rgba(0, 0, 0, 0.97)
+        ),
+        url("../images/cpp.png");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: #020617;
+}
+
+/* mascot  */
+
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.nav-greet {
+  font-size: 0.9rem;
+  font-weight: 500;
+  opacity: 0.9;
+}
+
+.nav-btn {
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: transparent;
+  color: inherit;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.nav-btn:hover { transform: scale(1.1); }
+.nav-btn.off { opacity: 0.4; }

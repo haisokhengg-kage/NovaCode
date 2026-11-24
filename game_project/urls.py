@@ -23,12 +23,14 @@ from django.conf.urls.static import static
 urlpatterns = [
     path('admin/', admin.site.urls),
 
+    path('', views.index, name='home'),
     path('index/', views.index),
+
     path('lang/', views.lang),
     path('ide/', views.ide),
-    path('about/',views.about),
-    path('privacypolicy/',views.privacypolicy),
-    path('termsofuse/',views.termsofuse),
+    path('about/', views.about),
+    path('privacypolicy/', views.privacypolicy),
+    path('termsofuse/', views.termsofuse),
 
     path('language/', include('language.urls')),
 

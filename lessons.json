@@ -1,614 +1,614 @@
 [
-{
-  "model": "language.lesson",
-  "pk": 2,
-  "fields": {
-    "language": "css",
-    "number": 1,
-    "title": "Introduction to CSS"
+  {
+    "model": "language.lesson",
+    "pk": 11,
+    "fields": {
+      "language": "c",
+      "number": 1,
+      "title": "introduction to C"
+    }
+  },
+  {
+    "model": "language.lesson",
+    "pk": 12,
+    "fields": {
+      "language": "c",
+      "number": 2,
+      "title": "variable"
+    }
+  },
+  {
+    "model": "language.lesson",
+    "pk": 13,
+    "fields": {
+      "language": "c",
+      "number": 3,
+      "title": "Data Type"
+    }
+  },
+  {
+    "model": "language.lesson",
+    "pk": 14,
+    "fields": {
+      "language": "c",
+      "number": 4,
+      "title": "Input & Output"
+    }
+  },
+  {
+    "model": "language.lesson",
+    "pk": 15,
+    "fields": {
+      "language": "c",
+      "number": 5,
+      "title": "Operators"
+    }
+  },
+  {
+    "model": "language.lesson",
+    "pk": 66,
+    "fields": {
+      "language": "c",
+      "number": 6,
+      "title": "Conditions & Loops"
+    }
+  },
+  {
+    "model": "language.lesson",
+    "pk": 67,
+    "fields": {
+      "language": "c",
+      "number": 7,
+      "title": "Functions"
+    }
+  },
+  {
+    "model": "language.lesson",
+    "pk": 68,
+    "fields": {
+      "language": "c",
+      "number": 8,
+      "title": "Arrays & Strings"
+    }
+  },
+  {
+    "model": "language.lesson",
+    "pk": 39,
+    "fields": {
+      "language": "cpp",
+      "number": 1,
+      "title": "Introduction to C++"
+    }
+  },
+  {
+    "model": "language.lesson",
+    "pk": 40,
+    "fields": {
+      "language": "cpp",
+      "number": 2,
+      "title": "Input \u1793\u17b7\u1784 Output"
+    }
+  },
+  {
+    "model": "language.lesson",
+    "pk": 41,
+    "fields": {
+      "language": "cpp",
+      "number": 3,
+      "title": "Variables \u1793\u17b7\u1784 Data Types"
+    }
+  },
+  {
+    "model": "language.lesson",
+    "pk": 42,
+    "fields": {
+      "language": "cpp",
+      "number": 4,
+      "title": "Operators"
+    }
+  },
+  {
+    "model": "language.lesson",
+    "pk": 43,
+    "fields": {
+      "language": "cpp",
+      "number": 5,
+      "title": "Conditional Statements"
+    }
+  },
+  {
+    "model": "language.lesson",
+    "pk": 44,
+    "fields": {
+      "language": "cpp",
+      "number": 6,
+      "title": "Loops"
+    }
+  },
+  {
+    "model": "language.lesson",
+    "pk": 45,
+    "fields": {
+      "language": "cpp",
+      "number": 8,
+      "title": "Functions"
+    }
+  },
+  {
+    "model": "language.lesson",
+    "pk": 46,
+    "fields": {
+      "language": "cpp",
+      "number": 9,
+      "title": "Arrays"
+    }
+  },
+  {
+    "model": "language.lesson",
+    "pk": 47,
+    "fields": {
+      "language": "cpp",
+      "number": 10,
+      "title": "OOP in C++"
+    }
+  },
+  {
+    "model": "language.lesson",
+    "pk": 2,
+    "fields": {
+      "language": "css",
+      "number": 1,
+      "title": "Introduction to CSS"
+    }
+  },
+  {
+    "model": "language.lesson",
+    "pk": 4,
+    "fields": {
+      "language": "css",
+      "number": 2,
+      "title": "Selectors"
+    }
+  },
+  {
+    "model": "language.lesson",
+    "pk": 5,
+    "fields": {
+      "language": "css",
+      "number": 3,
+      "title": "Background"
+    }
+  },
+  {
+    "model": "language.lesson",
+    "pk": 6,
+    "fields": {
+      "language": "css",
+      "number": 4,
+      "title": "Text"
+    }
+  },
+  {
+    "model": "language.lesson",
+    "pk": 7,
+    "fields": {
+      "language": "css",
+      "number": 5,
+      "title": "Boder"
+    }
+  },
+  {
+    "model": "language.lesson",
+    "pk": 8,
+    "fields": {
+      "language": "css",
+      "number": 7,
+      "title": "Margin & Padding"
+    }
+  },
+  {
+    "model": "language.lesson",
+    "pk": 9,
+    "fields": {
+      "language": "css",
+      "number": 8,
+      "title": "Visibility & Display"
+    }
+  },
+  {
+    "model": "language.lesson",
+    "pk": 10,
+    "fields": {
+      "language": "css",
+      "number": 9,
+      "title": "Positions"
+    }
+  },
+  {
+    "model": "language.lesson",
+    "pk": 69,
+    "fields": {
+      "language": "dsa",
+      "number": 1,
+      "title": "Introduction Data Structures  in python"
+    }
+  },
+  {
+    "model": "language.lesson",
+    "pk": 70,
+    "fields": {
+      "language": "dsa",
+      "number": 2,
+      "title": "List"
+    }
+  },
+  {
+    "model": "language.lesson",
+    "pk": 71,
+    "fields": {
+      "language": "dsa",
+      "number": 3,
+      "title": "Tuple"
+    }
+  },
+  {
+    "model": "language.lesson",
+    "pk": 72,
+    "fields": {
+      "language": "dsa",
+      "number": 4,
+      "title": "Set"
+    }
+  },
+  {
+    "model": "language.lesson",
+    "pk": 73,
+    "fields": {
+      "language": "dsa",
+      "number": 5,
+      "title": "Dictionary"
+    }
+  },
+  {
+    "model": "language.lesson",
+    "pk": 74,
+    "fields": {
+      "language": "dsa",
+      "number": 6,
+      "title": "Searching & Sorting Algorithms)"
+    }
+  },
+  {
+    "model": "language.lesson",
+    "pk": 75,
+    "fields": {
+      "language": "dsa",
+      "number": 7,
+      "title": "Stack \u1793\u17b7\u1784 Queue"
+    }
+  },
+  {
+    "model": "language.lesson",
+    "pk": 76,
+    "fields": {
+      "language": "dsa",
+      "number": 8,
+      "title": "Linked List"
+    }
+  },
+  {
+    "model": "language.lesson",
+    "pk": 77,
+    "fields": {
+      "language": "dsa",
+      "number": 9,
+      "title": "Tree \u1793\u17b7\u1784 Graph \u1796\u17d2\u179a\u1798\u1791\u17b6\u17c6\u1784\u1780\u17b6\u179a\u1787\u17d2\u179a\u17be\u179f\u179a\u17be\u179f\u1794\u17d2\u179a\u17be\u1794\u17d2\u179a\u17b6\u179f\u17cb"
+    }
+  },
+  {
+    "model": "language.lesson",
+    "pk": 78,
+    "fields": {
+      "language": "html",
+      "number": 1,
+      "title": "Introductions to HTML"
+    }
+  },
+  {
+    "model": "language.lesson",
+    "pk": 79,
+    "fields": {
+      "language": "html",
+      "number": 2,
+      "title": "\u17a2\u178f\u17d2\u1790\u1794\u1791 \u1785\u17c6\u178e\u1784\u1787\u17be\u1784 \u1793\u17b7\u1784\u1780\u17b6\u179a\u179a\u17c0\u1794\u1785\u17c6\u1780\u1790\u17b6\u1781\u178e\u17d2\u178c"
+    }
+  },
+  {
+    "model": "language.lesson",
+    "pk": 80,
+    "fields": {
+      "language": "html",
+      "number": 3,
+      "title": "Links, Images & Media"
+    }
+  },
+  {
+    "model": "language.lesson",
+    "pk": 81,
+    "fields": {
+      "language": "html",
+      "number": 4,
+      "title": "Lists & Tables"
+    }
+  },
+  {
+    "model": "language.lesson",
+    "pk": 82,
+    "fields": {
+      "language": "html",
+      "number": 5,
+      "title": "HTML Forms"
+    }
+  },
+  {
+    "model": "language.lesson",
+    "pk": 83,
+    "fields": {
+      "language": "html",
+      "number": 6,
+      "title": "Semantic HTML5 \u1793\u17b7\u1784\u179a\u1785\u1793\u17b6\u179f\u1798\u17d2\u1796\u17d0\u1793\u17d2\u1792\u1782\u17c1\u17a0\u1791\u17c6\u1796\u17d0\u179a"
+    }
+  },
+  {
+    "model": "language.lesson",
+    "pk": 84,
+    "fields": {
+      "language": "html",
+      "number": 7,
+      "title": "Meta Tags, SEO \u1793\u17b7\u1784\u1782\u1793\u17d2\u179b\u17b9\u17c7\u179f\u179a\u179f\u17c1\u179a HTML \u179b\u17d2\u17a2"
+    }
+  },
+  {
+    "model": "language.lesson",
+    "pk": 58,
+    "fields": {
+      "language": "javascript",
+      "number": 1,
+      "title": "Introduction to javaScript"
+    }
+  },
+  {
+    "model": "language.lesson",
+    "pk": 59,
+    "fields": {
+      "language": "javascript",
+      "number": 2,
+      "title": "Variables & Data Types"
+    }
+  },
+  {
+    "model": "language.lesson",
+    "pk": 60,
+    "fields": {
+      "language": "javascript",
+      "number": 3,
+      "title": "Operators"
+    }
+  },
+  {
+    "model": "language.lesson",
+    "pk": 61,
+    "fields": {
+      "language": "javascript",
+      "number": 4,
+      "title": "Conditions & Loops"
+    }
+  },
+  {
+    "model": "language.lesson",
+    "pk": 62,
+    "fields": {
+      "language": "javascript",
+      "number": 5,
+      "title": "Functions"
+    }
+  },
+  {
+    "model": "language.lesson",
+    "pk": 63,
+    "fields": {
+      "language": "javascript",
+      "number": 6,
+      "title": "Arrays & Objects"
+    }
+  },
+  {
+    "model": "language.lesson",
+    "pk": 64,
+    "fields": {
+      "language": "javascript",
+      "number": 7,
+      "title": "\u1780\u17b6\u179a\u1782\u17d2\u179a\u1794\u17cb\u1782\u17d2\u179a\u1784 DOM \u1793\u17b7\u1784 Events"
+    }
+  },
+  {
+    "model": "language.lesson",
+    "pk": 65,
+    "fields": {
+      "language": "javascript",
+      "number": 8,
+      "title": "JavaScript \u1791\u17c6\u1793\u17be\u1794 \u1793\u17b7\u1784\u1780\u17b6\u179a\u1791\u17b6\u1789\u1791\u17b7\u1793\u17d2\u1793\u1793\u17d0\u1799\u1796\u17b8 API (ES6+ & Async/Await)"
+    }
+  },
+  {
+    "model": "language.lesson",
+    "pk": 28,
+    "fields": {
+      "language": "oop",
+      "number": 1,
+      "title": "Introduction to OOP in Python"
+    }
+  },
+  {
+    "model": "language.lesson",
+    "pk": 29,
+    "fields": {
+      "language": "oop",
+      "number": 2,
+      "title": "Classes and Objects"
+    }
+  },
+  {
+    "model": "language.lesson",
+    "pk": 30,
+    "fields": {
+      "language": "oop",
+      "number": 3,
+      "title": "Attributes and Methods"
+    }
+  },
+  {
+    "model": "language.lesson",
+    "pk": 31,
+    "fields": {
+      "language": "oop",
+      "number": 4,
+      "title": "The __init__() Constructor"
+    }
+  },
+  {
+    "model": "language.lesson",
+    "pk": 32,
+    "fields": {
+      "language": "oop",
+      "number": 5,
+      "title": "Instance, Class and Static Methods"
+    }
+  },
+  {
+    "model": "language.lesson",
+    "pk": 33,
+    "fields": {
+      "language": "oop",
+      "number": 6,
+      "title": "Encapsulation and Access Conventions"
+    }
+  },
+  {
+    "model": "language.lesson",
+    "pk": 34,
+    "fields": {
+      "language": "oop",
+      "number": 7,
+      "title": "Getters, Setters and Properties"
+    }
+  },
+  {
+    "model": "language.lesson",
+    "pk": 35,
+    "fields": {
+      "language": "oop",
+      "number": 8,
+      "title": "Inheritance"
+    }
+  },
+  {
+    "model": "language.lesson",
+    "pk": 36,
+    "fields": {
+      "language": "oop",
+      "number": 9,
+      "title": "Method Overriding and super()"
+    }
+  },
+  {
+    "model": "language.lesson",
+    "pk": 37,
+    "fields": {
+      "language": "oop",
+      "number": 10,
+      "title": "Polymorphism"
+    }
+  },
+  {
+    "model": "language.lesson",
+    "pk": 38,
+    "fields": {
+      "language": "oop",
+      "number": 11,
+      "title": "Abstraction and Abstract Classes"
+    }
+  },
+  {
+    "model": "language.lesson",
+    "pk": 50,
+    "fields": {
+      "language": "python",
+      "number": 1,
+      "title": "Introductions to python"
+    }
+  },
+  {
+    "model": "language.lesson",
+    "pk": 51,
+    "fields": {
+      "language": "python",
+      "number": 2,
+      "title": "Variables & Data Types"
+    }
+  },
+  {
+    "model": "language.lesson",
+    "pk": 52,
+    "fields": {
+      "language": "python",
+      "number": 3,
+      "title": "Operators"
+    }
+  },
+  {
+    "model": "language.lesson",
+    "pk": 53,
+    "fields": {
+      "language": "python",
+      "number": 4,
+      "title": "Conditions & Loops"
+    }
+  },
+  {
+    "model": "language.lesson",
+    "pk": 54,
+    "fields": {
+      "language": "python",
+      "number": 5,
+      "title": "Data Structures"
+    }
+  },
+  {
+    "model": "language.lesson",
+    "pk": 55,
+    "fields": {
+      "language": "python",
+      "number": 6,
+      "title": "Functions"
+    }
+  },
+  {
+    "model": "language.lesson",
+    "pk": 56,
+    "fields": {
+      "language": "python",
+      "number": 7,
+      "title": "Object-Oriented Programming"
+    }
+  },
+  {
+    "model": "language.lesson",
+    "pk": 57,
+    "fields": {
+      "language": "python",
+      "number": 8,
+      "title": "File & Error Handling"
+    }
   }
-},
-{
-  "model": "language.lesson",
-  "pk": 4,
-  "fields": {
-    "language": "css",
-    "number": 2,
-    "title": "Selectors"
-  }
-},
-{
-  "model": "language.lesson",
-  "pk": 5,
-  "fields": {
-    "language": "css",
-    "number": 3,
-    "title": "Background"
-  }
-},
-{
-  "model": "language.lesson",
-  "pk": 6,
-  "fields": {
-    "language": "css",
-    "number": 4,
-    "title": "Text"
-  }
-},
-{
-  "model": "language.lesson",
-  "pk": 7,
-  "fields": {
-    "language": "css",
-    "number": 5,
-    "title": "Boder"
-  }
-},
-{
-  "model": "language.lesson",
-  "pk": 8,
-  "fields": {
-    "language": "css",
-    "number": 7,
-    "title": "Margin & Padding"
-  }
-},
-{
-  "model": "language.lesson",
-  "pk": 9,
-  "fields": {
-    "language": "css",
-    "number": 8,
-    "title": "Visibility & Display"
-  }
-},
-{
-  "model": "language.lesson",
-  "pk": 10,
-  "fields": {
-    "language": "css",
-    "number": 9,
-    "title": "Positions"
-  }
-},
-{
-  "model": "language.lesson",
-  "pk": 11,
-  "fields": {
-    "language": "c",
-    "number": 1,
-    "title": "introduction to C"
-  }
-},
-{
-  "model": "language.lesson",
-  "pk": 12,
-  "fields": {
-    "language": "c",
-    "number": 2,
-    "title": "variable"
-  }
-},
-{
-  "model": "language.lesson",
-  "pk": 13,
-  "fields": {
-    "language": "c",
-    "number": 3,
-    "title": "Data Type"
-  }
-},
-{
-  "model": "language.lesson",
-  "pk": 14,
-  "fields": {
-    "language": "c",
-    "number": 4,
-    "title": "Input & Output"
-  }
-},
-{
-  "model": "language.lesson",
-  "pk": 15,
-  "fields": {
-    "language": "c",
-    "number": 5,
-    "title": "Operators"
-  }
-},
-{
-  "model": "language.lesson",
-  "pk": 28,
-  "fields": {
-    "language": "oop",
-    "number": 1,
-    "title": "Introduction to OOP in Python"
-  }
-},
-{
-  "model": "language.lesson",
-  "pk": 29,
-  "fields": {
-    "language": "oop",
-    "number": 2,
-    "title": "Classes and Objects"
-  }
-},
-{
-  "model": "language.lesson",
-  "pk": 30,
-  "fields": {
-    "language": "oop",
-    "number": 3,
-    "title": "Attributes and Methods"
-  }
-},
-{
-  "model": "language.lesson",
-  "pk": 31,
-  "fields": {
-    "language": "oop",
-    "number": 4,
-    "title": "The __init__() Constructor"
-  }
-},
-{
-  "model": "language.lesson",
-  "pk": 32,
-  "fields": {
-    "language": "oop",
-    "number": 5,
-    "title": "Instance, Class and Static Methods"
-  }
-},
-{
-  "model": "language.lesson",
-  "pk": 33,
-  "fields": {
-    "language": "oop",
-    "number": 6,
-    "title": "Encapsulation and Access Conventions"
-  }
-},
-{
-  "model": "language.lesson",
-  "pk": 34,
-  "fields": {
-    "language": "oop",
-    "number": 7,
-    "title": "Getters, Setters and Properties"
-  }
-},
-{
-  "model": "language.lesson",
-  "pk": 35,
-  "fields": {
-    "language": "oop",
-    "number": 8,
-    "title": "Inheritance"
-  }
-},
-{
-  "model": "language.lesson",
-  "pk": 36,
-  "fields": {
-    "language": "oop",
-    "number": 9,
-    "title": "Method Overriding and super()"
-  }
-},
-{
-  "model": "language.lesson",
-  "pk": 37,
-  "fields": {
-    "language": "oop",
-    "number": 10,
-    "title": "Polymorphism"
-  }
-},
-{
-  "model": "language.lesson",
-  "pk": 38,
-  "fields": {
-    "language": "oop",
-    "number": 11,
-    "title": "Abstraction and Abstract Classes"
-  }
-},
-{
-  "model": "language.lesson",
-  "pk": 39,
-  "fields": {
-    "language": "cpp",
-    "number": 1,
-    "title": "Introduction to C++"
-  }
-},
-{
-  "model": "language.lesson",
-  "pk": 40,
-  "fields": {
-    "language": "cpp",
-    "number": 2,
-    "title": "Input Ã¡Å¾â€œÃ¡Å¾Â·Ã¡Å¾â€ž Output"
-  }
-},
-{
-  "model": "language.lesson",
-  "pk": 41,
-  "fields": {
-    "language": "cpp",
-    "number": 3,
-    "title": "Variables Ã¡Å¾â€œÃ¡Å¾Â·Ã¡Å¾â€ž Data Types"
-  }
-},
-{
-  "model": "language.lesson",
-  "pk": 42,
-  "fields": {
-    "language": "cpp",
-    "number": 4,
-    "title": "Operators"
-  }
-},
-{
-  "model": "language.lesson",
-  "pk": 43,
-  "fields": {
-    "language": "cpp",
-    "number": 5,
-    "title": "Conditional Statements"
-  }
-},
-{
-  "model": "language.lesson",
-  "pk": 44,
-  "fields": {
-    "language": "cpp",
-    "number": 6,
-    "title": "Loops"
-  }
-},
-{
-  "model": "language.lesson",
-  "pk": 45,
-  "fields": {
-    "language": "cpp",
-    "number": 8,
-    "title": "Functions"
-  }
-},
-{
-  "model": "language.lesson",
-  "pk": 46,
-  "fields": {
-    "language": "cpp",
-    "number": 9,
-    "title": "Arrays"
-  }
-},
-{
-  "model": "language.lesson",
-  "pk": 47,
-  "fields": {
-    "language": "cpp",
-    "number": 10,
-    "title": "OOP in C++"
-  }
-},
-{
-  "model": "language.lesson",
-  "pk": 50,
-  "fields": {
-    "language": "python",
-    "number": 1,
-    "title": "Introductions to python"
-  }
-},
-{
-  "model": "language.lesson",
-  "pk": 51,
-  "fields": {
-    "language": "python",
-    "number": 2,
-    "title": "Variables & Data Types"
-  }
-},
-{
-  "model": "language.lesson",
-  "pk": 52,
-  "fields": {
-    "language": "python",
-    "number": 3,
-    "title": "Operators"
-  }
-},
-{
-  "model": "language.lesson",
-  "pk": 53,
-  "fields": {
-    "language": "python",
-    "number": 4,
-    "title": "Conditions & Loops"
-  }
-},
-{
-  "model": "language.lesson",
-  "pk": 54,
-  "fields": {
-    "language": "python",
-    "number": 5,
-    "title": "Data Structures"
-  }
-},
-{
-  "model": "language.lesson",
-  "pk": 55,
-  "fields": {
-    "language": "python",
-    "number": 6,
-    "title": "Functions"
-  }
-},
-{
-  "model": "language.lesson",
-  "pk": 56,
-  "fields": {
-    "language": "python",
-    "number": 7,
-    "title": "Object-Oriented Programming"
-  }
-},
-{
-  "model": "language.lesson",
-  "pk": 57,
-  "fields": {
-    "language": "python",
-    "number": 8,
-    "title": "File & Error Handling"
-  }
-},
-{
-  "model": "language.lesson",
-  "pk": 58,
-  "fields": {
-    "language": "javascript",
-    "number": 1,
-    "title": "Introduction to javaScript"
-  }
-},
-{
-  "model": "language.lesson",
-  "pk": 59,
-  "fields": {
-    "language": "javascript",
-    "number": 2,
-    "title": "Variables & Data Types"
-  }
-},
-{
-  "model": "language.lesson",
-  "pk": 60,
-  "fields": {
-    "language": "javascript",
-    "number": 3,
-    "title": "Operators"
-  }
-},
-{
-  "model": "language.lesson",
-  "pk": 61,
-  "fields": {
-    "language": "javascript",
-    "number": 4,
-    "title": "Conditions & Loops"
-  }
-},
-{
-  "model": "language.lesson",
-  "pk": 62,
-  "fields": {
-    "language": "javascript",
-    "number": 5,
-    "title": "Functions"
-  }
-},
-{
-  "model": "language.lesson",
-  "pk": 63,
-  "fields": {
-    "language": "javascript",
-    "number": 6,
-    "title": "Arrays & Objects"
-  }
-},
-{
-  "model": "language.lesson",
-  "pk": 64,
-  "fields": {
-    "language": "javascript",
-    "number": 7,
-    "title": "Ã¡Å¾â‚¬Ã¡Å¾Â¶Ã¡Å¾Å¡Ã¡Å¾â€šÃ¡Å¸â€™Ã¡Å¾Å¡Ã¡Å¾â€Ã¡Å¸â€¹Ã¡Å¾â€šÃ¡Å¸â€™Ã¡Å¾Å¡Ã¡Å¾â€ž DOM Ã¡Å¾â€œÃ¡Å¾Â·Ã¡Å¾â€ž Events"
-  }
-},
-{
-  "model": "language.lesson",
-  "pk": 65,
-  "fields": {
-    "language": "javascript",
-    "number": 8,
-    "title": "JavaScript Ã¡Å¾â€˜Ã¡Å¸â€ Ã¡Å¾â€œÃ¡Å¾Â¾Ã¡Å¾â€ Ã¡Å¾â€œÃ¡Å¾Â·Ã¡Å¾â€žÃ¡Å¾â‚¬Ã¡Å¾Â¶Ã¡Å¾Å¡Ã¡Å¾â€˜Ã¡Å¾Â¶Ã¡Å¾â€°Ã¡Å¾â€˜Ã¡Å¾Â·Ã¡Å¾â€œÃ¡Å¸â€™Ã¡Å¾â€œÃ¡Å¾â€œÃ¡Å¸ÂÃ¡Å¾â„¢Ã¡Å¾â€“Ã¡Å¾Â¸ API (ES6+ & Async/Await)"
-  }
-},
-{
-  "model": "language.lesson",
-  "pk": 66,
-  "fields": {
-    "language": "c",
-    "number": 6,
-    "title": "Conditions & Loops"
-  }
-},
-{
-  "model": "language.lesson",
-  "pk": 67,
-  "fields": {
-    "language": "c",
-    "number": 7,
-    "title": "Functions"
-  }
-},
-{
-  "model": "language.lesson",
-  "pk": 68,
-  "fields": {
-    "language": "c",
-    "number": 8,
-    "title": "Arrays & Strings"
-  }
-},
-{
-  "model": "language.lesson",
-  "pk": 69,
-  "fields": {
-    "language": "dsa",
-    "number": 1,
-    "title": "Introduction Data Structures  in python"
-  }
-},
-{
-  "model": "language.lesson",
-  "pk": 70,
-  "fields": {
-    "language": "dsa",
-    "number": 2,
-    "title": "List"
-  }
-},
-{
-  "model": "language.lesson",
-  "pk": 71,
-  "fields": {
-    "language": "dsa",
-    "number": 3,
-    "title": "Tuple"
-  }
-},
-{
-  "model": "language.lesson",
-  "pk": 72,
-  "fields": {
-    "language": "dsa",
-    "number": 4,
-    "title": "Set"
-  }
-},
-{
-  "model": "language.lesson",
-  "pk": 73,
-  "fields": {
-    "language": "dsa",
-    "number": 5,
-    "title": "Dictionary"
-  }
-},
-{
-  "model": "language.lesson",
-  "pk": 74,
-  "fields": {
-    "language": "dsa",
-    "number": 6,
-    "title": "Searching & Sorting Algorithms)"
-  }
-},
-{
-  "model": "language.lesson",
-  "pk": 75,
-  "fields": {
-    "language": "dsa",
-    "number": 7,
-    "title": "Stack Ã¡Å¾â€œÃ¡Å¾Â·Ã¡Å¾â€ž Queue"
-  }
-},
-{
-  "model": "language.lesson",
-  "pk": 76,
-  "fields": {
-    "language": "dsa",
-    "number": 8,
-    "title": "Linked List"
-  }
-},
-{
-  "model": "language.lesson",
-  "pk": 77,
-  "fields": {
-    "language": "dsa",
-    "number": 9,
-    "title": "Tree Ã¡Å¾â€œÃ¡Å¾Â·Ã¡Å¾â€ž Graph Ã¡Å¾â€“Ã¡Å¸â€™Ã¡Å¾Å¡Ã¡Å¾ËœÃ¡Å¾â€˜Ã¡Å¾Â¶Ã¡Å¸â€ Ã¡Å¾â€žÃ¡Å¾â‚¬Ã¡Å¾Â¶Ã¡Å¾Å¡Ã¡Å¾â€¡Ã¡Å¸â€™Ã¡Å¾Å¡Ã¡Å¾Â¾Ã¡Å¾Å¸Ã¡Å¾Å¡Ã¡Å¾Â¾Ã¡Å¾Å¸Ã¡Å¾â€Ã¡Å¸â€™Ã¡Å¾Å¡Ã¡Å¾Â¾Ã¡Å¾â€Ã¡Å¸â€™Ã¡Å¾Å¡Ã¡Å¾Â¶Ã¡Å¾Å¸Ã¡Å¸â€¹"
-  }
-},
-{
-  "model": "language.lesson",
-  "pk": 78,
-  "fields": {
-    "language": "html",
-    "number": 1,
-    "title": "Introductions to HTML"
-  }
-},
-{
-  "model": "language.lesson",
-  "pk": 79,
-  "fields": {
-    "language": "html",
-    "number": 2,
-    "title": "Ã¡Å¾Â¢Ã¡Å¾ÂÃ¡Å¸â€™Ã¡Å¾ÂÃ¡Å¾â€Ã¡Å¾â€˜ Ã¡Å¾â€¦Ã¡Å¸â€ Ã¡Å¾Å½Ã¡Å¾â€žÃ¡Å¾â€¡Ã¡Å¾Â¾Ã¡Å¾â€ž Ã¡Å¾â€œÃ¡Å¾Â·Ã¡Å¾â€žÃ¡Å¾â‚¬Ã¡Å¾Â¶Ã¡Å¾Å¡Ã¡Å¾Å¡Ã¡Å¸â‚¬Ã¡Å¾â€Ã¡Å¾â€¦Ã¡Å¸â€ Ã¡Å¾â‚¬Ã¡Å¾ÂÃ¡Å¾Â¶Ã¡Å¾ÂÃ¡Å¾Å½Ã¡Å¸â€™Ã¡Å¾Å’"
-  }
-},
-{
-  "model": "language.lesson",
-  "pk": 80,
-  "fields": {
-    "language": "html",
-    "number": 3,
-    "title": "Links, Images & Media"
-  }
-},
-{
-  "model": "language.lesson",
-  "pk": 81,
-  "fields": {
-    "language": "html",
-    "number": 4,
-    "title": "Lists & Tables"
-  }
-},
-{
-  "model": "language.lesson",
-  "pk": 82,
-  "fields": {
-    "language": "html",
-    "number": 5,
-    "title": "HTML Forms"
-  }
-},
-{
-  "model": "language.lesson",
-  "pk": 83,
-  "fields": {
-    "language": "html",
-    "number": 6,
-    "title": "Semantic HTML5 Ã¡Å¾â€œÃ¡Å¾Â·Ã¡Å¾â€žÃ¡Å¾Å¡Ã¡Å¾â€¦Ã¡Å¾â€œÃ¡Å¾Â¶Ã¡Å¾Å¸Ã¡Å¾ËœÃ¡Å¸â€™Ã¡Å¾â€“Ã¡Å¸ÂÃ¡Å¾â€œÃ¡Å¸â€™Ã¡Å¾â€™Ã¡Å¾â€šÃ¡Å¸ÂÃ¡Å¾Â Ã¡Å¾â€˜Ã¡Å¸â€ Ã¡Å¾â€“Ã¡Å¸ÂÃ¡Å¾Å¡"
-  }
-},
-{
-  "model": "language.lesson",
-  "pk": 84,
-  "fields": {
-    "language": "html",
-    "number": 7,
-    "title": "Meta Tags, SEO Ã¡Å¾â€œÃ¡Å¾Â·Ã¡Å¾â€žÃ¡Å¾â€šÃ¡Å¾â€œÃ¡Å¸â€™Ã¡Å¾â€ºÃ¡Å¾Â¹Ã¡Å¸â€¡Ã¡Å¾Å¸Ã¡Å¾Å¡Ã¡Å¾Å¸Ã¡Å¸ÂÃ¡Å¾Å¡ HTML Ã¡Å¾â€ºÃ¡Å¸â€™Ã¡Å¾Â¢"
-  }
-}
 ]

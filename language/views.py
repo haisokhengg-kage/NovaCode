@@ -13,6 +13,10 @@ def lesson_html(request, pk=None):
 
     topics = current.topics.all() if current else []
 
+    print("HTML LESSONS:", lessons.count())
+    print("CURRENT LESSON:", current)
+    print("TOPICS COUNT:", len(topics))
+
     return render(request, "html.html", {
         "lessons": lessons,
         "current": current,

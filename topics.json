@@ -1,0 +1,1934 @@
+[
+  {
+    "model": "language.topic",
+    "pk": 2,
+    "fields": {
+      "lesson": 2,
+      "number": 1,
+      "title": "What is CSS?",
+      "content": "CSS (Cascading Style Sheets) គឺជាភាសាមួយដែលប្រើសម្រាប់កំណត់រចនាប័ទ្ម និងរូបរាងរបស់គេហទំព័រ (Website) ឱ្យមានភាពស្រស់ស្អាត និងមានរបៀបរៀបរយ។\r\n+ CSS អាចជួយយើងក្នុងការកំណត់៖\r\n- ពណ៌អក្សរ (Text Color)\r\n- ទំហំអក្សរ (Font Size)\r\n- ពណ៌ផ្ទៃខាងក្រោយ (Background Color)\r\n- ទំហំ និងទីតាំងរបស់ធាតុ (Size and Position)\r\n- ចន្លោះរវាងធាតុ (Margin and Padding)\r\n- ចលនា (Animation)\r\n- ការរចនាសម្រាប់ទូរស័ព្ទ និងកុំព្យូទ័រ (Responsive Design)",
+      "code": "",
+      "image": null
+    }
+  },
+  {
+    "model": "language.topic",
+    "pk": 30,
+    "fields": {
+      "lesson": 11,
+      "number": 1,
+      "title": "តើ​ C programing ជាអ្វី?",
+      "content": "ភាសា C គឺជាភាសាសរសេរកម្មវិធីទូទៅ (General-purpose) និងតាមលំដាប់លំដោយ (Procedural) ដែលត្រូវបានបង្កើតឡើងដោយលោក Dennis Ritchie នៅមន្ទីរពិសោធន៍ Bell Labs ក្នុងឆ្នាំ ១៩៧២។ ដើមឡើយវាត្រូវបានបង្កើតឡើងដើម្បីសរសេរប្រព័ន្ធប្រតិបត្តិការ UNIX ហើយមកទល់ពេលនេះ វានៅតែជាគ្រឹះដ៏សំខាន់នៃបច្ចេកវិទ្យាកុំព្យូទ័រទំនើប ដូចជាប្រព័ន្ធប្រតិបត្តិការ ឧបករណ៍អេឡិចត្រូនិក និងជាមូលដ្ឋានសម្រាប់បង្កើតភាសាផ្សេងទៀតដូចជា Python, JavaScript និង C++ ជាដើម។",
+      "code": "",
+      "image": null
+    }
+  },
+  {
+    "model": "language.topic",
+    "pk": 61,
+    "fields": {
+      "lesson": 28,
+      "number": 1,
+      "title": "What is OOP?",
+      "content": "OOP (Object-Oriented Programming) គឺជារបៀបរៀបចំកម្មវិធីដោយប្រើ Objects ដែលផ្ទុក Data និង Methods។ វាអាចជួយឱ្យកម្មវិធីធំៗមានរចនាសម្ព័ន្ធ ងាយថែទាំ និងអាចប្រើកូដឡើងវិញ។",
+      "code": "class Animal:\r\n    def __init__(self, name):   # Constructor\r\n        self.name = name        # Attribute\r\n\r\n    def speak(self):            # Method\r\n        print(f\"{self.name} is making a sound\")\r\n\r\ndog = Animal(\"Dog\")   # Object\r\ndog.speak()           # Output: Dog is making a sound",
+      "image": null
+    }
+  },
+  {
+    "model": "language.topic",
+    "pk": 85,
+    "fields": {
+      "lesson": 39,
+      "number": 1,
+      "title": "What is C++?",
+      "content": "C++ គឺជាភាសាសរសេរកម្មវិធី (Programming Language) ដែលប្រើសម្រាប់បង្កើតកម្មវិធីជាច្រើនប្រភេទ។ វាត្រូវបានប្រើក្នុងកម្មវិធី Desktop, Game Development, System Software, Embedded Systems និងកម្មវិធីដែលត្រូវការល្បឿនខ្ពស់។",
+      "code": "",
+      "image": null
+    }
+  },
+  {
+    "model": "language.topic",
+    "pk": 121,
+    "fields": {
+      "lesson": 50,
+      "number": 1,
+      "title": "What is python?",
+      "content": "Python គឺជាភាសាសរសេរកម្មវិធីកម្រិតខ្ពស់ (High-level Programming Language) ដែលបង្កើតឡើងដោយលោក Guido van Rossum ក្នុងឆ្នាំ ១៩៩១។ Python មានភាពល្បីល្បាញដោយសារវេយ្យាករណ៍ (Syntax) ងាយស្រួលអាន ខ្លី និងស្រដៀងនឹងភាសាអង់គ្លេសធម្មតា ដែលធ្វើឱ្យអ្នកចាប់ផ្តើមដំបូងឆាប់យល់។",
+      "code": "",
+      "image": null
+    }
+  },
+  {
+    "model": "language.topic",
+    "pk": 136,
+    "fields": {
+      "lesson": 58,
+      "number": 1,
+      "title": "What is JavaScript ?",
+      "content": "JavaScript (ហៅកាត់ថា JS) គឺជាភាសាសរសេរកម្មវិធីដ៏មានឥទ្ធិពលបំផុតសម្រាប់ការអភិវឌ្ឍគេហទំព័រ (Web Development)។ ប្រសិនបើ HTML ប្រៀបបាននឹងគ្រោងឆ្អឹងនៃគេហទំព័រ ហើយ CSS ប្រៀបបាននឹងសម្លៀកបំពាក់តុបតែង នោះ JavaScript គឺជាខួរក្បាល ដែលធ្វើឱ្យគេហទំព័រមានចលនា ឆ្លើយតបជាមួយអ្នកប្រើប្រាស់ (Interactive) និងអាចដំណើរការមុខងារស្មុគស្មាញផ្សេងៗបាន។",
+      "code": "",
+      "image": null
+    }
+  },
+  {
+    "model": "language.topic",
+    "pk": 157,
+    "fields": {
+      "lesson": 69,
+      "number": 1,
+      "title": "តើ Data Structure ជាអ្វី?",
+      "content": "Data Structure (រចនាសម្ព័ន្ធទិន្នន័យ) គឺជារបៀបនៃការរៀបចំ ផ្ទុក និងគ្រប់គ្រងទិន្នន័យនៅក្នុងអង្គចងចាំកុំព្យូទ័រ ដើម្បីឱ្យយើងអាចចូលទៅទាញយក កែប្រែ ឬស្វែងរកទិន្នន័យទាំងនោះបានយ៉ាងមានប្រសិទ្ធភាព និងល្បឿនលឿនបំផុត។",
+      "code": "",
+      "image": null
+    }
+  },
+  {
+    "model": "language.topic",
+    "pk": 171,
+    "fields": {
+      "lesson": 78,
+      "number": 1,
+      "title": "តើ HTML ជាអ្វី?",
+      "content": "HTML (HyperText Markup Language) គឺជាភាសាសម្គាល់ស្តង់ដារសម្រាប់បង្កើត និងកំណត់រចនាសម្ព័ន្ធនៃទំព័រគេហទំព័រ (Web Pages)។ HTML មិនមែនជាភាសាសរសេរកម្មវិធីតក្ក (Programming Language) ទេ ប៉ុន្តែជាភាសាសម្គាល់ (Markup Language) ដែលប្រើស្លាក (Tags) ដើម្បីប្រាប់ Web Browser (ដូចជា Chrome, Edge, Firefox) ថាតើផ្នែកណាជាចំណងជើង ជាកថាខណ្ឌ ជារូបភាព ឬជាតារាង។",
+      "code": "",
+      "image": null
+    }
+  },
+  {
+    "model": "language.topic",
+    "pk": 31,
+    "fields": {
+      "lesson": 11,
+      "number": 2,
+      "title": "លក្ខណៈពិសេសរបស់ C Programing",
+      "content": "- នៅជិតផ្នែករឹង (Close to the Hardware)៖ ភាសា C អនុញ្ញាតឱ្យអ្នកគ្រប់គ្រងអង្គចងចាំ (Memory) ដោយផ្ទាល់តាមរយៈ Pointers និងការបែងចែកអង្គចងចាំដោយដៃ (malloc/free) ដែលធ្វើឱ្យកម្មវិធីដំណើរការលឿនបំផុត និងប្រើធនធានតិច។\r\n\r\n- ជាភាសា Compiled និង Statically Typed៖ កូដត្រូវបានបម្លែងទៅជាភាសាម៉ាស៊ីនដោយផ្ទាល់តាមរយៈ Compiler (ដូចជា GCC ឬ Clang) មុនពេលដំណើរការ ហើយគ្រប់អថេរ (Variable) ទាំងអស់ត្រូវតែកំណត់ប្រភេទទិន្នន័យជាមុនជានិច្ច។\r\n\r\n- រចនាសម្ព័ន្ធតាមលំដាប់ (Procedural & Structured)៖ កម្មវិធីត្រូវបានបែងចែកជាអនុគមន៍ (Functions) ដែលដំណើរការតាមលំដាប់ ដោយប្រើលក្ខខណ្ឌត្រួតពិនិត្យដូចជា if/else, for, while និង switch។\r\n\r\n- បណ្ណាល័យស្តង់ដារតូចល្មម (Minimalist Standard Library)៖ ភាសា C មិនមានមុខងារកម្រិតខ្ពស់ភ្ជាប់មកជាមួយស្រាប់ដូចជា Garbage Collection ឬ Dynamic Arrays ទេ ដែលជួយឱ្យទំហំកម្មវិធីតូច និងមានស្ថេរភាពខ្ពស់។",
+      "code": "#include <stdio.h>  // ហៅបណ្ណាល័យ Standard Input/Output មកប្រើ\r\n\r\nint main(void) {    // ចំណុចចាប់ផ្តើមដំណើរការនៃកម្មវិធី\r\n    printf(\"Hello, World!\");  // បង្ហាញទិន្នន័យលើអេក្រង់\r\n    return 0;       // បញ្ជាក់ថាកម្មវិធីដំណើរការចប់ដោយជោគជ័យ\r\n}",
+      "image": null
+    }
+  },
+  {
+    "model": "language.topic",
+    "pk": 62,
+    "fields": {
+      "lesson": 28,
+      "number": 2,
+      "title": "អត្ថប្រយោជន៍នៃ OOP",
+      "content": "•\tCode Reusability៖ អាចប្រើ Class និង Methods ឡើងវិញ។\r\n•\tOrganization៖ រៀបចំទិន្នន័យ និងមុខងារជាក្រុម។\r\n•\tMaintainability៖ ងាយកែប្រែ និងថែទាំកម្មវិធី។\r\n•\tScalability៖ អាចពង្រីកកម្មវិធីបានងាយជាងមុន។",
+      "code": "",
+      "image": null
+    }
+  },
+  {
+    "model": "language.topic",
+    "pk": 86,
+    "fields": {
+      "lesson": 39,
+      "number": 2,
+      "title": "តើ C++ ប្រើសម្រាប់អ្វី?",
+      "content": "•\tបង្កើតកម្មវិធី Desktop និង Software។\r\n•\tបង្កើត Game និង Game Engine។\r\n•\tបង្កើត System Software និងឧបករណ៍ដែលទាក់ទងនឹង Hardware។\r\n•\tសិក្សាគោលការណ៍ Programming និង OOP។",
+      "code": "",
+      "image": null
+    }
+  },
+  {
+    "model": "language.topic",
+    "pk": 122,
+    "fields": {
+      "lesson": 50,
+      "number": 2,
+      "title": "Python អាចយកទៅធ្វើអ្វីបានខ្លះ?",
+      "content": "•\tការអភិវឌ្ឍគេហទំព័រ (Web Development)៖ ប្រើប្រាស់ Framework ល្បីៗដូចជា Django, Flask និង FastAPI។\r\n•\tវិទ្យាសាស្ត្រទិន្នន័យ និង AI (Data Science & AI)៖ វិភាគទិន្នន័យ បង្កើត Machine Learning និង Deep Learning (Pandas, NumPy, PyTorch)។\r\n•\tស្វ័យប្រវត្តិកម្ម (Automation & Scripting)៖ សរសេរកូដដើម្បីបំពេញការងារដដែលៗដោយស្វ័យប្រវត្តិ ដូចជាការរៀបចំឯកសារ Excel ឬ Web Scraping។",
+      "code": "# នេះជា Comment (កំណត់ចំណាំដែល Python មិនដំណើរការ)\r\n# ការបង្ហាញសារទៅកាន់អេក្រង់ដោយប្រើអនុគមន៍ print()\r\n\r\nprint(\"Hello World! ស្វាគមន៍មកកាន់មេរៀន Python\")\r\nprint(\"លទ្ធផលនៃ 10 + 25 គឺ៖\", 10 + 25)\r\n\r\n# ការទទួលទិន្នន័យពីអ្នកប្រើប្រាស់តាមរយៈ input()\r\n\r\nname = input(\"សូមបញ្ចូលឈ្មោះរបស់អ្នក៖ \")\r\nprint(\"រីករាយដែលបានស្គាល់អ្នក,\", name)",
+      "image": null
+    }
+  },
+  {
+    "model": "language.topic",
+    "pk": 137,
+    "fields": {
+      "lesson": 58,
+      "number": 2,
+      "title": "របៀបភ្ជាប់ JavaScript ទៅក្នុងឯកសារ HTML",
+      "content": "យើងអាចសរសេរកូដ JavaScript ក្នុង HTML បានតាម ២ របៀបសំខាន់ៗ៖\r\n•\tសរសេរផ្ទាល់ក្នុង HTML (Internal JS)៖ ប្រើប្រាស់ស្លាក <script>...</script> នៅខាងក្នុងផ្នែក <body> ឬ <head>។\r\n•\tភ្ជាប់ពីឯកសារខាងក្រៅ (External JS)៖ បង្កើតឯកសារដាច់ដោយឡែកដែលមានកន្ទុយ .js (ឧទាហរណ៍ app.js) រួចភ្ជាប់តាមរយៈ <script src=\"app.js\"></script>។ វិធីនេះត្រូវបានណែនាំសម្រាប់គេហទំព័រទូទៅ ព្រោះងាយស្រួលគ្រប់គ្រងកូដ។",
+      "code": "<!DOCTYPE html>\r\n<html lang=\"km\">\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <title>រៀន JavaScript ដំបូង</title>\r\n</head>\r\n<body>\r\n    <h1>សួស្តីពិភពលោក!</h1>\r\n\r\n    <!-- ភ្ជាប់ឯកសារ JavaScript ខាងក្រៅ -->\r\n    <script src=\"app.js\"></script>\r\n</body>\r\n</html>\r\n\r\n// ខាងក្រោមនេះជាកូដនៅក្នុងឯកសារ app.js\r\nconsole.log(\"សួស្តី! JavaScript បានដំណើរការហើយ។\");\r\nalert(\"ស្វាគមន៍មកកាន់គេហទំព័ររបស់យើង!\");",
+      "image": null
+    }
+  },
+  {
+    "model": "language.topic",
+    "pk": 158,
+    "fields": {
+      "lesson": 69,
+      "number": 2,
+      "title": "ការបែងចែក Data Structures ក្នុង Python",
+      "content": "•\tBuilt-in Data Structures (មានស្រាប់ក្នុង Python)៖ រួមមាន List, Tuple, Set និង Dictionary ដែលអាចប្រើប្រាស់បានភ្លាមៗដោយមិនចាំបាច់សរសេរបង្កើតថ្មី។\r\n•\tUser-Defined Data Structures (បង្កើតដោយអ្នកសរសេរកម្មវិធី)៖ រួមមាន Stack, Queue, Linked List, Tree និង Graph ដែលត្រូវសរសេរកូដបង្កើតឡើងដោយប្រើ Class ឬ Module ជំនួយ។",
+      "code": "",
+      "image": null
+    }
+  },
+  {
+    "model": "language.topic",
+    "pk": 172,
+    "fields": {
+      "lesson": 78,
+      "number": 2,
+      "title": "Tags, Elements និង Attributes",
+      "content": "•\tTag (ស្លាក)៖ សរសេរនៅក្នុងសញ្ញា < និង > ជាទូទៅមាន Opening Tag (ដូចជា <p>) និង Closing Tag (ដូចជា </p>)។\r\n•\tElement (ធាតុ)៖ រួមបញ្ចូលទាំង Opening Tag ខ្លឹមសារខាងក្នុង និង Closing Tag (ឧទាហរណ៍ <p>សួស្តី</p>)។\r\n•\tAttribute (គុណលក្ខណៈ)៖ ជាព័ត៌មានបន្ថែមដែលដាក់នៅក្នុង Opening Tag ក្នុងទម្រង់ ឈ្មោះ=\"តម្លៃ\" (ឧទាហរណ៍ href=\"...\" ឬ class=\"...\")។",
+      "code": "<!DOCTYPE html>\r\n<html lang=\"km\">\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <title>ទំព័រ HTML ដំបូងរបស់ខ្ញុំ</title>\r\n</head>\r\n<body>\r\n    <h1>សួស្តីពិភពលោក!</h1>\r\n    <p>នេះគឺជារចនាសម្ព័ន្ធមូលដ្ឋាននៃឯកសារ HTML5។</p>\r\n</body>\r\n</html>",
+      "image": null
+    }
+  },
+  {
+    "model": "language.topic",
+    "pk": 156,
+    "fields": {
+      "lesson": 11,
+      "number": 3,
+      "title": "រចនាសម្ព័ន្ធមូលដ្ឋាននៃកម្មវិធី C",
+      "content": "•\t#include <stdio.h>៖ ជា Preprocessor Directive សម្រាប់ហៅបណ្ណាល័យស្តង់ដារ Input/Output មកប្រើប្រាស់ (ដូចជា printf និង scanf)។\r\n•\tint main()៖ ជាអនុគមន៍គោល (Main Function) ដែលកម្មវិធី C គ្រប់ទាំងអស់ចាប់ផ្តើមដំណើរការពីទីនេះមុនគេ។\r\n•\treturn 0;៖ បញ្ជាក់ថាកម្មវិធីបានដំណើរការចប់សព្វគ្រប់ដោយជោគជ័យ និងគ្មានកំហុស។",
+      "code": "#include <stdio.h>\r\n\r\n// នេះជា Comment សម្រាប់ពន្យល់កូដ\r\nint main() {\r\n    // បង្ហាញសារទៅកាន់អេក្រង់ (\r\n សម្រាប់ចុះបន្ទាត់ថ្មី)\r\n    printf(\"សួស្តីពិភពលោក! ស្វាគមន៍មកកាន់មេរៀន C Programming\\n\");\r\n    printf(\"ការរៀនភាសា C ជួយឱ្យយើងយល់ច្បាស់ពីដំណើរការកុំព្យូទ័រ!\\n\");\r\n    \r\n    return 0;\r\n}",
+      "image": null
+    }
+  },
+  {
+    "model": "language.topic",
+    "pk": 63,
+    "fields": {
+      "lesson": 28,
+      "number": 3,
+      "title": "គោលការណ៍សំខាន់ៗ",
+      "content": "•\tEncapsulation៖ គ្រប់គ្រងការចូលប្រើទិន្នន័យ។\r\n•\tInheritance៖ បង្កើត Class ថ្មីដោយទទួលលក្ខណៈពី Class មេ។\r\n•\tPolymorphism៖ Method ឈ្មោះដូចគ្នាអាចមានឥរិយាបថខុសគ្នា។\r\n•\tAbstraction៖ បង្ហាញតែអ្វីដែលចាំបាច់ និងលាក់ភាពស្មុគស្មាញ។",
+      "code": "",
+      "image": null
+    }
+  },
+  {
+    "model": "language.topic",
+    "pk": 87,
+    "fields": {
+      "lesson": 39,
+      "number": 3,
+      "title": "Compiler ជាអ្វី?",
+      "content": "Compiler គឺជាកម្មវិធីដែលបកប្រែ Source Code ដែលអ្នកសរសេរ ទៅជាភាសាម៉ាស៊ីន ដើម្បីឱ្យកុំព្យូទ័រអាចដំណើរការបាន។",
+      "code": "",
+      "image": null
+    }
+  },
+  {
+    "model": "language.topic",
+    "pk": 4,
+    "fields": {
+      "lesson": 4,
+      "number": 0,
+      "title": "Selectors",
+      "content": "Selectors ប្រើសម្រាប់ស្វែងរកទីតាំងធាតុ(element) របស់ HTML ដោយអាស្រ័យលើ property និង​​ values។\r\nSelectors ត្រូវបានគេបែងចែកជា4ធំៗ ដូចជា៖\r\n- Element Selector\r\n- Group Selector\r\n- Class Selector\r\n- Id Selector",
+      "code": "",
+      "image": null
+    }
+  },
+  {
+    "model": "language.topic",
+    "pk": 5,
+    "fields": {
+      "lesson": 4,
+      "number": 1,
+      "title": "Element Selector",
+      "content": "Selector : គឺជាការចាប់ យកធាតុ (element)​ តាមរយៈឈ្មោះធាតុ (element name)​ របស់ HTML។\r\nProperty និង Value ត្រូវបានបំបែកដោយ colon: ( : ) និង ហ៊ុំព័ន្ធដោយ { }.",
+      "code": "body\r\n{\r\n      color : black;\r\n}",
+      "image": null
+    }
+  },
+  {
+    "model": "language.topic",
+    "pk": 32,
+    "fields": {
+      "lesson": 12,
+      "number": 1,
+      "title": "Data Type (ប្រភេទទិន្ន័យ)",
+      "content": "Variable (អថេរ) គឺជាកន្លែងផ្ទុកទិន្នន័យ (Data) នៅក្នុង Memory របស់កុំព្យូទ័រ ដែលយើងអាចយកមកប្រើប្រាស់ និងផ្លាស់ប្ដូរតម្លៃបាន។\r\nក្នុងឧទាហរណ៍ខាងក្រោម៖\r\n- age ជា Variable ដែលផ្ទុកលេខ 18។\r\n- score ជា Variable ដែលផ្ទុកលេខទសភាគ 85.5។\r\n- grade ជា Variable ដែលផ្ទុកអក្សរ A។",
+      "code": "int age = 18;\r\nfloat score = 85.5;\r\nchar grade = 'A';",
+      "image": null
+    }
+  },
+  {
+    "model": "language.topic",
+    "pk": 64,
+    "fields": {
+      "lesson": 29,
+      "number": 1,
+      "title": "Classes and Objects",
+      "content": "Class គឺជា Blueprint ឬគំរូសម្រាប់បង្កើត Objects។ Object គឺជាធាតុដែលត្រូវបានបង្កើតចេញពី Class។ Class មួយអាចបង្កើត Objects បានច្រើន ហើយ Object នីមួយៗអាចមានទិន្នន័យខុសគ្នា។",
+      "code": "",
+      "image": null
+    }
+  },
+  {
+    "model": "language.topic",
+    "pk": 88,
+    "fields": {
+      "lesson": 40,
+      "number": 1,
+      "title": "Input & Output",
+      "content": "Input គឺជាទិន្នន័យដែលអ្នកប្រើបញ្ចូលទៅកម្មវិធី។ Output គឺជាលទ្ធផលដែលកម្មវិធីបង្ហាញត្រឡប់ទៅអ្នកប្រើ។\r\n+ Output ជាមួយ cout\r\nប្រើ cout និងសញ្ញា << ដើម្បីបង្ហាញអត្ថបទ ឬតម្លៃ Variable។ endl ប្រើសម្រាប់ចុះបន្ទាត់ថ្មី។\r\n+ Input ជាមួយ cin\r\nប្រើ cin និងសញ្ញា >> ដើម្បីទទួលទិន្នន័យ។ cin ជាទូទៅអានរហូតដល់ជួបចន្លោះ។\r\n+ Input ជាមួយ getline()\r\nប្រើ getline(cin, variable) នៅពេលចង់ទទួលអត្ថបទដែលអាចមានចន្លោះ។ បន្ទាប់ពីប្រើ cin មុន getline អាចត្រូវប្រើ cin.ignore() ដើម្បីរំលង Enter ដែលនៅសល់។",
+      "code": "#include <iostream>\r\n#include <string>\r\nusing namespace std;\r\n\r\nint main() {\r\n    string name;\r\n    int age;\r\n\r\n    cout << \"Enter your name: \";\r\n    getline(cin, name);\r\n\r\n    cout << \"Enter your age: \";\r\n    cin >> age;\r\n\r\n    cout << \"Hello \" << name << endl;\r\n    cout << \"Your age is \" << age;\r\n    return 0;\r\n}",
+      "image": null
+    }
+  },
+  {
+    "model": "language.topic",
+    "pk": 123,
+    "fields": {
+      "lesson": 51,
+      "number": 1,
+      "title": "ការប្រកាសអថេរ (Variables)",
+      "content": "នៅក្នុង Python យើងមិនចាំបាច់បញ្ជាក់ប្រភេទទិន្នន័យនៅពេលប្រកាសអថេរឡើយ (Dynamic Typing) គ្រាន់តែកំណត់ឈ្មោះអថេរ រួចផ្តល់តម្លៃតាមរយៈសញ្ញា (=) ជាការស្រេច។ ចំណាំ៖ Python ប្រើការដកឃ្លាខាងដើមបន្ទាត់ (Indentation) ដើម្បីកំណត់ប្លុកនៃកូដ។",
+      "code": "",
+      "image": null
+    }
+  },
+  {
+    "model": "language.topic",
+    "pk": 138,
+    "fields": {
+      "lesson": 59,
+      "number": 1,
+      "title": "ការប្រកាសអថេរ (let, const, var)",
+      "content": "អថេរ (Variable) គឺជាប្រអប់សម្រាប់ផ្ទុកទិន្នន័យនៅក្នុងអង្គចងចាំកុំព្យូទ័រ។ នៅក្នុង JavaScript បច្ចុប្បន្ន គេប្រើពាក្យគន្លឹះ let និង const ជាចម្បង៖\r\n•\tlet៖ ប្រើសម្រាប់ប្រកាសអថេរដែលអាចផ្លាស់ប្តូរតម្លៃនៅពេលក្រោយបាន។\r\n•\tconst៖ ប្រើសម្រាប់ប្រកាសអថេរថេរ (Constant) ដែលមិនអាចកែប្រែតម្លៃឡើងវិញបានទេបន្ទាប់ពីកំណត់រួច។\r\n•\tvar៖ ជាវិធីប្រកាសអថេរជំនាន់ចាស់ (មិនត្រូវបានណែនាំឱ្យប្រើទៀតទេ ដោយសារបញ្ហា Scope)។",
+      "code": "",
+      "image": null
+    }
+  },
+  {
+    "model": "language.topic",
+    "pk": 159,
+    "fields": {
+      "lesson": 70,
+      "number": 1,
+      "title": "លក្ខណៈពិសេសរបស់ List",
+      "content": "List គឺជារចនាសម្ព័ន្ធទិន្នន័យដែលពេញនិយមបំផុតក្នុង Python។ វាផ្ទុកទិន្នន័យតាមលំដាប់លំដោយ (Ordered) អាចកែប្រែបាន (Mutable) អាចផ្ទុកទិន្នន័យស្ទួនគ្នាបាន និងអាចផ្ទុកប្រភេទទិន្នន័យចម្រុះគ្នានៅក្នុងសញ្ញាគ្នាប [...]។",
+      "code": "",
+      "image": null
+    }
+  },
+  {
+    "model": "language.topic",
+    "pk": 173,
+    "fields": {
+      "lesson": 79,
+      "number": 1,
+      "title": "ចំណងជើង (Headings: h1 ដល់ h6)",
+      "content": "HTML ផ្តល់ស្លាកចំណងជើង ៦ កម្រិត គឺ <h1> (ធំបំផុត និងសំខាន់បំផុតសម្រាប់ចំណងជើងធំនៃទំព័រ) រហូតដល់ <h6> (តូចបំផុត)។ គួរប្រើ <h1> តែមួយដងប៉ុណ្ណោះក្នុងមួយទំព័រ ដើម្បីឱ្យល្អសម្រាប់ SEO និងការអាន។",
+      "code": "",
+      "image": null
+    }
+  },
+  {
+    "model": "language.topic",
+    "pk": 6,
+    "fields": {
+      "lesson": 4,
+      "number": 2,
+      "title": "Group Selector",
+      "content": "Group Selectors : យើងអាច group selectors ជាមួយគ្នាបានដោយប្រើប្រាស់ comma ( , ) ។",
+      "code": "h1, h2, h3, h4, h5, h6\r\n{\r\n         color: green;\r\n}",
+      "image": null
+    }
+  },
+  {
+    "model": "language.topic",
+    "pk": 33,
+    "fields": {
+      "lesson": 12,
+      "number": 2,
+      "title": "ការប្រកាសអថេរ",
+      "content": "គឺការបង្កើត Variable ដោយកំណត់ Data Type និងឈ្មោះរបស់វា។​ ប៉ុន្តែមិនទាន់មានតម្លៃអ្វីទាំងអស់។",
+      "code": "int age;\r\nfloat score;\r\nchar grade;",
+      "image": null
+    }
+  },
+  {
+    "model": "language.topic",
+    "pk": 65,
+    "fields": {
+      "lesson": 29,
+      "number": 2,
+      "title": "គោលបំណងមេរៀន",
+      "content": "•\tបង្កើត Class ដោយប្រើពាក្យ class។\r\n•\tបង្កើត Object ពី Class។\r\n•\tស្គាល់ pass និងការប្រើ Dot Operator។\r\n\r\n+ Class\r\nប្រើពាក្យ class បន្ទាប់មកដាក់ឈ្មោះ Class។ តាមអនុសាសន៍ Python ឈ្មោះ Class គួរប្រើ PascalCase ដូចជា Student ឬ BankAccount។\r\n+ Object\r\nបង្កើត Object ដោយហៅឈ្មោះ Class ដូចជាការហៅ Function៖ student = Student()។\r\n+ pass\r\npass ជាពាក្យបញ្ជាដែលមិនធ្វើអ្វីទេ។ វាអាចប្រើបណ្តោះអាសន្ននៅពេល Class ឬ Function មិនទាន់មានកូដ។",
+      "code": "class Student:\r\n    pass\r\n\r\nstudent1 = Student()\r\nstudent2 = Student()\r\n\r\nprint(student1)\r\nprint(student2)",
+      "image": null
+    }
+  },
+  {
+    "model": "language.topic",
+    "pk": 124,
+    "fields": {
+      "lesson": 51,
+      "number": 2,
+      "title": "ប្រភេទទិន្នន័យមូលដ្ឋាន (Basic Data Types)",
+      "content": "•\tint (Integer)៖ ចំនួនគត់ ដូចជា 10, -5, 2026។\r\n•\tfloat (Floating Point)៖ ចំនួនទសភាគ ដូចជា 3.14, 99.95។\r\n•\tstr (String)៖ អក្សរ ឬឃ្លា ដែលស្ថិតនៅក្នុងសញ្ញា \"...\" ឬ '...'។\r\n•\tbool (Boolean)៖ តម្លៃតក្ក ដែលមានតែ True (ពិត) ឬ False (មិនពិត)។",
+      "code": "# ការប្រកាសអថេរប្រភេទផ្សេងៗគ្នា\r\ncourse_name = \"Python សម្រាប់អ្នកចាប់ផ្តើម\"  # str\r\nstudent_count = 120                        # int\r\naverage_score = 88.5                       # float\r\nis_free = True                             # bool\r\n\r\n# ពិនិត្យប្រភេទទិន្នន័យដោយប្រើ type()\r\nprint(type(course_name))   # <class 'str'>\r\nprint(type(average_score)) # <class 'float'>\r\n\r\n# ការបំប្លែងប្រភេទទិន្នន័យ (Type Casting)\r\nage_text = \"25\"\r\nage_number = int(age_text) + 5\r\nprint(\"អាយុ ៥ ឆ្នាំខាងមុខ៖\", age_number) # 30",
+      "image": null
+    }
+  },
+  {
+    "model": "language.topic",
+    "pk": 139,
+    "fields": {
+      "lesson": 59,
+      "number": 2,
+      "title": "Primitive Data Types",
+      "content": "•\tString (អក្សរ)៖ ទិន្នន័យជាតួអក្សរ ឬឃ្លា ដែលស្ថិតនៅក្នុងសញ្ញាធ្មេញកណ្តុរ \"...\" ឬ '...'។\r\n•\tNumber (លេខ)៖ ទិន្នន័យជាលេខគត់ ឬលេខទសភាគ (ឧ. 25, 99.5)។\r\n•\tBoolean (តក្ក)៖ មានតម្លៃតែពីរប៉ុណ្ណោះ គឺ true (ពិត) ឬ false (មិនពិត)។\r\n•\tUndefined៖ អថេរដែលបានប្រកាសរួច ប៉ុន្តែមិនទាន់បានផ្តល់តម្លៃឱ្យ។\r\n•\tNull៖ តំណាងឱ្យភាពទទេស្អាត ឬគ្មានតម្លៃដោយចេតនា។",
+      "code": "// ការប្រកាសអថេរដោយប្រើ const និង let\r\nconst siteName = \"Khmer Code Academy\"; // String (មិនអាចប្តូរបាន)\r\nlet studentCount = 150;                // Number (អាចប្តូរបាន)\r\nlet isPublished = true;                // Boolean\r\nlet futureCourse;                      // Undefined\r\nlet discount = null;                   // Null\r\n\r\n// កែប្រែតម្លៃរបស់ let\r\nstudentCount = 175;\r\n\r\nconsole.log(\"ឈ្មោះគេហទំព័រ:\", siteName);\r\nconsole.log(\"ចំនួនសិស្សបច្ចុប្បន្ន:\", studentCount);\r\nconsole.log(\"ប្រភេទទិន្នន័យ:\", typeof isPublished); // បង្ហាញ \"boolean\"",
+      "image": null
+    }
+  },
+  {
+    "model": "language.topic",
+    "pk": 160,
+    "fields": {
+      "lesson": 70,
+      "number": 2,
+      "title": "Methods សំខាន់ៗ និង List Comprehension",
+      "content": "•\tappend() & insert()៖ append() បន្ថែមធាតុនៅខាងចុង ចំណែក insert(index, value) បញ្ចូលធាតុតាមទីតាំងកំណត់។\r\n•\tremove() & pop()៖ remove(value) លុបតាមតម្លៃ ចំណែក pop(index) លុបតាមលេខរៀង ហើយបញ្ជូនតម្លៃនោះត្រឡប់មកវិញ។\r\n•\tList Comprehension៖ ជាវិធីសាស្ត្រសរសេរកូដខ្លីមួយបន្ទាត់ ដើម្បីបង្កើត List ថ្មីចេញពី List ដែលមានស្រាប់។",
+      "code": "# ១. ការបង្កើត និងកែប្រែ List\r\nfruits = [\"ស្វាយ\", \"ចេក\", \"ទុរេន\", \"មង្ឃុត\"]\r\nprint(\"ធាតុទី ១៖\", fruits[0])          # ស្វាយ\r\nprint(\"Slicing [1:3]៖\", fruits[1:3])  # ['ចេក', 'ទុរេន']\r\n\r\nfruits.append(\"សាវម៉ាវ\")              # បន្ថែមខាងចុង\r\nfruits.insert(1, \"ក្រូច\")             # បញ្ចូលត្រង់ទីតាំងទី 1\r\nfruits.remove(\"ចេក\")                 # លុបពាក្យ \"ចេក\"\r\n\r\n# ២. List Comprehension (រកការេនៃលេខគូពី 1 ដល់ 10)\r\neven_squares = [x**2 for x in range(1, 11) if x % 2 == 0]\r\nprint(\"ការេនៃលេខគូ៖\", even_squares)  # [4, 16, 36, 64, 100]",
+      "image": null
+    }
+  },
+  {
+    "model": "language.topic",
+    "pk": 174,
+    "fields": {
+      "lesson": 79,
+      "number": 2,
+      "title": "កថាខណ្ឌ និងការធ្វើទ្រង់ទ្រាយអត្ថបទ",
+      "content": "•\t<p> និង <br>៖ <p> បង្កើតកថាខណ្ឌថ្មី ចំណែក <br> បង្ខំឱ្យចុះបន្ទាត់ថ្មីភ្លាមៗ (ជា Empty Tag ដែលមិនត្រូវការ Closing Tag)។\r\n•\t<strong> និង <em>៖ <strong> បង្ហាញអក្សរដិតដែលមានអត្ថន័យសំខាន់ ចំណែក <em> បង្ហាញអក្សរទ្រេត (Italic) ដើម្បីសង្កត់សំឡេង។\r\n•\t<mark>, <del>, <ins> និង <!-- ... -->៖ <mark> បន្លិចពណ៌លឿង, <del> គូសបន្ទាត់កាត់អក្សរចាស់, <ins> គូសបន្ទាត់ពីក្រោមអក្សរថ្មី និង <!-- ... --> គឺជា Comment។",
+      "code": "<!-- នេះជា Comment ដែលមិនបង្ហាញលើអេក្រង់ Browser ទេ -->\r\n<h1>មេរៀនរៀនបង្កើតគេហទំព័រ</h1>\r\n<h2>ជំពូកទី ២៖ ការគ្រប់គ្រងអត្ថបទ</h2>\r\n\r\n<p>\r\n    ការសិក្សា <strong>HTML5</strong> គឺជាជំហានដំបូងដ៏សំខាន់បំផុត។<br>\r\n    អ្នកគួរតែអនុវត្តសរសេរកូដ <em>ជាប្រចាំ</em> ដើម្បីឆាប់ចេះ។\r\n</p>\r\n\r\n<hr> <!-- បន្ទាត់ខណ្ឌផ្ដេក -->\r\n<p>តម្លៃដើម៖ <del>$50</del> — តម្លៃពិសេស៖ <mark><ins>$29</ins></mark></p>",
+      "image": null
+    }
+  },
+  {
+    "model": "language.topic",
+    "pk": 7,
+    "fields": {
+      "lesson": 4,
+      "number": 3,
+      "title": "Class Selector",
+      "content": "ជាមួយនឹង class selectors គឺយើងអាចធ្វើកំណត់ style ខុសៗគ្នាឲ HTML element ប្រភេទតែមួយ។\r\nឫ class selectors ប្រើប្រាស់ដើម្បីកំណត់ធាតុឲទៅ (element)​​ ជាក់លាក់ណាមួយ។",
+      "code": ".class1 { \r\n\tbackground-color: gray; \r\n\tborder : 1px solid black; \r\n   }",
+      "image": null
+    }
+  },
+  {
+    "model": "language.topic",
+    "pk": 34,
+    "fields": {
+      "lesson": 12,
+      "number": 3,
+      "title": "ការកំណត់តម្លៃដំបូង",
+      "content": "គឺការផ្ដល់តម្លៃឱ្យ Variable នៅពេលបង្កើតវា។",
+      "code": "int age = 18;\r\nfloat score = 90.5;\r\nchar grade = 'A';",
+      "image": null
+    }
+  },
+  {
+    "model": "language.topic",
+    "pk": 8,
+    "fields": {
+      "lesson": 4,
+      "number": 4,
+      "title": "ID selector",
+      "content": "Id Selectors គឺជាការប្រើប្រាស់ដើម្បីកំនត់ធាតុ (element)​ ជាក់លាក់ណាមួយរបស់ HTML.",
+      "code": "Example: \r\n   #text1 { \r\n\tbackground-color:gray; \r\n\tborder :1px solid black;\r\n\tcolor:red;\r\n\tmargin:center; \t\r\n\tborder:1px solid black; \r\n   }",
+      "image": null
+    }
+  },
+  {
+    "model": "language.topic",
+    "pk": 35,
+    "fields": {
+      "lesson": 12,
+      "number": 4,
+      "title": "Rules for Naming Variables",
+      "content": "+ ការដាក់ឈ្មោះ Variable ត្រូវគោរពតាមលក្ខខណ្ឌមួយចំនួន៖\r\n1. ឈ្មោះអាចប្រើអក្សរ (A–Z, a–z)។\r\n2. អាចប្រើលេខ (0–9) ប៉ុន្តែមិនអាចចាប់ផ្ដើមដោយលេខបានទេ។\r\n3. អាចប្រើ Underscore (_)។\r\n4. មិនអាចប្រើ Space បានទេ។\r\n5. មិនអាចប្រើ Keyword របស់ C ជាឈ្មោះបានទេ។\r\n6. C ប្រកាន់អក្សរតូច និងធំខុសគ្នា (Case-sensitive)។",
+      "code": "",
+      "image": null
+    }
+  },
+  {
+    "model": "language.topic",
+    "pk": 9,
+    "fields": {
+      "lesson": 4,
+      "number": 5,
+      "title": "Website Layout",
+      "content": "Website Layout គឺជាវិធីរៀបចំទីតាំង និងទំហំរបស់ Elements នៅលើ Web Page។",
+      "code": "",
+      "image": "topics/Picture1.png"
+    }
+  },
+  {
+    "model": "language.topic",
+    "pk": 10,
+    "fields": {
+      "lesson": 4,
+      "number": 6,
+      "title": "Header",
+      "content": "Header គឺជាផ្នែកខាងលើរបស់ Website។ ជាទូទៅគេច្រើនតែកំណត់ដូចជា៖\r\n- Logo \r\n- Website name\r\n- Title\r\n- Introduction\r\n- Navigation",
+      "code": "#============HTML==============\r\n<nav calss=\"nav\">\r\n                <a href=\"#\">Home</a>\r\n                <a href=\"#\">About </a>\r\n                <a href=\"#\">Courses</a>\r\n                <a href=\"#\">Contact</a>\r\n</nav>\r\n\r\n#============CSS==============\r\nnav{\r\n    display: flex;\r\n    gap: 32px;\r\n    color: var(--muted);\r\n    transition: color 0.2s;\r\n}\r\nnav a:hover{\r\n    color: var(--gold);\r\n    transform: scale(1.3);\r\n    text-shadow: 0 0 5px gold;\r\n}",
+      "image": "topics/Picture2_YALfbN5.png"
+    }
+  },
+  {
+    "model": "language.topic",
+    "pk": 11,
+    "fields": {
+      "lesson": 4,
+      "number": 7,
+      "title": "Main",
+      "content": "- Main គឺជាតំបន់ដែលផ្ទុក Content សំខាន់បំផុតរបស់ web site។\r\n- ជាទូទៅ Page មួយគួរមានតែ main សម្រាប់ main content របស់ page។\r\n- Section : ប្រើសម្រាប់បែងចែក main content ទៅជាផ្នែកៗនីមួយៗ។\r\n- Aside : គឺជា content ដែលទាក់ទងនឹង main content ប៉ុន្ដែមិនមែន ជាចំណុចសំខាន់បំផុតឡើយ។\r\n+ Aside ច្រើនគេប្រើសម្រាប់ ៖\r\n- Latest New\r\n- Event\r\n- Categories…",
+      "code": "<main>\r\n        <section>\r\n                    <p>Login</p>\r\n        </section>\r\n\r\n        <section>\r\n                    <p>SignUp</p>\r\n        </section>\r\n</main>",
+      "image": "topics/Picture3_QCyRw97.png"
+    }
+  },
+  {
+    "model": "language.topic",
+    "pk": 12,
+    "fields": {
+      "lesson": 4,
+      "number": 8,
+      "title": "Div ( container)",
+      "content": "- Div គឺជាកំណត់ ឬ បែងចែក element ទៅតាមផ្នែកនីមួយៗ\r\n- Container  សំដៅទៅលើការផ្ទុក និងការរៀបចំ​ element ផ្សេងៗនៅក្នុង​ website។\r\n- វាមិនមែនជា HTML Tag ឈ្មោះ <container> ទេ។ ជាទូទៅយើងប្រើ <div> ហើយដាក់ class=\"container\"។",
+      "code": "#============HTML==============\r\n<div class=\"container\">\r\n         <h1> Welcome to MY Website </h1>\r\n         <button> Learn more </button>\r\n<div>\r\n\r\n#============CSS==============\r\n\r\n.container{\r\n      width: 1200px;\r\n      margin: auto;\r\n      padding: 20px;\r\n}",
+      "image": "topics/Picture4_c1jSUBU.png"
+    }
+  },
+  {
+    "model": "language.topic",
+    "pk": 13,
+    "fields": {
+      "lesson": 4,
+      "number": 9,
+      "title": "Footer",
+      "content": "- Footer គឺជាផ្នែកខាងក្រោមនៃ website។\r\n+ ជាទូទៅ Footer គេច្រើនប្រើសម្រាប់៖\r\n- Copyright\r\n- Contact\r\n- Social Media\r\n- Address\r\n- Link…",
+      "code": "#===================HTML===============\r\n<footer>\r\n      <p> 2026 My School. All Right Reserved. </p>\r\n</footer>\r\n\r\n#===================CSS===============\r\n\r\nfooter {\r\nbackground-color: #111827;\r\n    border-top: 1px solid rgba(201, 167, 92, 0.2);\r\n    padding: 20px 0;\r\n    padding-bottom: 0.1rem;\r\n}",
+      "image": "topics/Picture5_FmDQwZg.png"
+    }
+  },
+  {
+    "model": "language.topic",
+    "pk": 14,
+    "fields": {
+      "lesson": 5,
+      "number": 0,
+      "title": "Background",
+      "content": "-  CSS background គឺប្រើសម្រាប់កំណត់លក្ខណៈ​ background effects ទៅឲ​ element ណាមួយ។\r\n+ CSS background Properties ​ដែលត្រូវបានប្រើប្រាស់សម្រាប់មានដូចជា៖\r\n-  background-color \r\n - background-image \r\n - background-repeat \r\n - background-attachment \r\n-  background-position ។",
+      "code": "",
+      "image": null
+    }
+  },
+  {
+    "model": "language.topic",
+    "pk": 15,
+    "fields": {
+      "lesson": 5,
+      "number": 1,
+      "title": "Background Color",
+      "content": "- Background color គឺប្រើសម្រាប់កំណត់លក្ខណៈ​ background color ទៅឲ​ element ណាមួយ។",
+      "code": "body { background-color: #b0c4de}",
+      "image": null
+    }
+  },
+  {
+    "model": "language.topic",
+    "pk": 36,
+    "fields": {
+      "lesson": 13,
+      "number": 1,
+      "title": "What is Data Type?",
+      "content": "Data Type (ប្រភេទទិន្នន័យ) គឺជាការកំណត់ប្រភេទទិន្នន័យដែល Variable អាចផ្ទុកបាន។\r\n\r\nឧទាហរណ៍៖ ប្រសិនបើយើងចង់ផ្ទុកលេខគត់ យើងប្រើ int។ ប្រសិនបើយើងចង់ផ្ទុកលេខទសភាគ យើងប្រើ float។",
+      "code": "",
+      "image": null
+    }
+  },
+  {
+    "model": "language.topic",
+    "pk": 66,
+    "fields": {
+      "lesson": 30,
+      "number": 1,
+      "title": "Attributes",
+      "content": "Attributes គឺជាទិន្នន័យ ឬលក្ខណៈរបស់ Object។\r\nAttributes អាចបន្ថែម Attribute ទៅ Object តាមរយៈ Dot Operator ដូចជា student.name = \"Dara\"។ ប៉ុន្តែជាទូទៅគេកំណត់ Attributes ក្នុង Constructor ដើម្បីឱ្យ Object មានរចនាសម្ព័ន្ធច្បាស់។",
+      "code": "",
+      "image": null
+    }
+  },
+  {
+    "model": "language.topic",
+    "pk": 89,
+    "fields": {
+      "lesson": 41,
+      "number": 1,
+      "title": "Variables",
+      "content": "Variable គឺជាឈ្មោះសម្រាប់ផ្ទុកទិន្នន័យក្នុង Memory។\r\nសរសេរ Data Type បន្ទាប់មកឈ្មោះ Variable ហើយអាចផ្តល់តម្លៃដំបូងបាន។ ឈ្មោះ Variable មិនអាចចាប់ផ្តើមដោយលេខ និងមិនគួរមានចន្លោះទេ។",
+      "code": "",
+      "image": null
+    }
+  },
+  {
+    "model": "language.topic",
+    "pk": 125,
+    "fields": {
+      "lesson": 52,
+      "number": 1,
+      "title": "Arithmetic Operators",
+      "content": "•\t+, -, *, /៖ បូក ដក គុណ និងចែក (លទ្ធផលនៃ / ជា float ជានិច្ច)។\r\n•\t// (Floor Division)៖ ចែកយកតែផ្នែកគត់ (ឧទាហរណ៍ 10 // 3 = 3)។\r\n•\t% (Modulus)៖ ចែកយកសំណល់ (ឧទាហរណ៍ 10 % 3 = 1)។\r\n•\t** (Exponentiation)៖ ស្វ័យគុណ (ឧទាហរណ៍ 2 ** 3 = 8)។",
+      "code": "",
+      "image": null
+    }
+  },
+  {
+    "model": "language.topic",
+    "pk": 140,
+    "fields": {
+      "lesson": 60,
+      "number": 1,
+      "title": "Arithmetic Operators",
+      "content": "ប្រើសម្រាប់ធ្វើការគណនាលេខដូចជា បូក (+) ដក (-) គុណ (*) ចែក (/) រកសំណល់ចែក (%) និងស្វ័យគុណ (**)។",
+      "code": "",
+      "image": null
+    }
+  },
+  {
+    "model": "language.topic",
+    "pk": 161,
+    "fields": {
+      "lesson": 71,
+      "number": 1,
+      "title": "លក្ខណៈពិសេសរបស់ Tuple",
+      "content": "Tuple ប្រើសញ្ញាវង់ក្រចក (...) ដើម្បីផ្ទុកទិន្នន័យតាមលំដាប់លំដោយដូច List ដែរ ប៉ុន្តែវាមានលក្ខណៈ Immutable (មិនអាចកែប្រែ បន្ថែម ឬលុបធាតុខាងក្នុងបានទេបន្ទាប់ពីបង្កើតរួច)។ ដោយសារវាមិនអាចកែប្រែបាន Tuple ដំណើរការលឿនជាង List និងមានសុវត្ថិភាពសម្រាប់ទិន្នន័យថេរ (ដូចជា កូអរដោនេ GPS ឬថ្ងៃខែឆ្នាំកំណើត)។",
+      "code": "# ១. ការបង្កើត Tuple និង Tuple Unpacking\r\nlocation = (11.5564, 104.9282, \"ភ្នំពេញ\")\r\nlat, lng, city = location  # Unpacking ទាញតម្លៃចូលអថេរនីមួយៗ\r\nprint(f\"ទីក្រុង៖ {city} | រយៈទទឹង៖ {lat}, រយៈបណ្តោយ៖ {lng}\")\r\n\r\n# ២. Tuple ដែលមានធាតុតែ ១ (ត្រូវមានសញ្ញាក្បៀស , ជានិច្ច)\r\nsingle_tuple = (\"Python\",)\r\nprint(\"ប្រភេទទិន្នន័យ៖\", type(single_tuple)) # <class 'tuple'>\r\n\r\n# location[0] = 12.0  <-- នឹងបង្កឱ្យមាន TypeError ព្រោះ Tuple មិនអាចកែបាន",
+      "image": null
+    }
+  },
+  {
+    "model": "language.topic",
+    "pk": 175,
+    "fields": {
+      "lesson": 80,
+      "number": 1,
+      "title": "តំណភ្ជាប់ (Hyperlinks: <a>",
+      "content": "•\t<img>៖ ប្រើ src=\"path/to/image.jpg\" ដើម្បីបង្ហាញរូបភាព និង alt=\"...\" ដើម្បីពណ៌នារូបភាពពេលរូបមិនទាន់ Load ឬសម្រាប់ Screen Reader។",
+      "code": "",
+      "image": null
+    }
+  },
+  {
+    "model": "language.topic",
+    "pk": 16,
+    "fields": {
+      "lesson": 5,
+      "number": 2,
+      "title": "Background Images",
+      "content": "- Background image គឺប្រើប្រាស់ដើម្បីធ្វើការដាក់រូបភាពធ្វើជា​ background ទៅអោយ element​ ណាមួយ។\r\n- ជាធម្មតារូបភាពដែលត្រូវបានដាក់ វានឹង​ repeat(ធ្វើឡើងវិញ) ដើម្បីឲពេញក្នុងតំបន់​ element ដែលមាននោះ។",
+      "code": "",
+      "image": "topics/Picture6.png"
+    }
+  },
+  {
+    "model": "language.topic",
+    "pk": 37,
+    "fields": {
+      "lesson": 13,
+      "number": 2,
+      "title": "Data Type in C",
+      "content": "1. int\r\n\r\nប្រើសម្រាប់ផ្ទុកលេខគត់។\r\n\r\nExample: 10, 25, -100\r\n2. float\r\n\r\nប្រើសម្រាប់ផ្ទុកលេខទសភាគ។\r\n\r\nExample: 3.14, 10.5, 85.75\r\n3. char\r\n\r\nប្រើសម្រាប់ផ្ទុកតួអក្សរមួយ។\r\n\r\nExample: 'A', 'B', 'X'\r\n4. double\r\n\r\nប្រើសម្រាប់ផ្ទុកលេខទសភាគដែលមានភាពជាក់លាក់ខ្ពស់ជាង float។",
+      "code": "",
+      "image": null
+    }
+  },
+  {
+    "model": "language.topic",
+    "pk": 67,
+    "fields": {
+      "lesson": 30,
+      "number": 2,
+      "title": "Methods",
+      "content": "Methods គឺជា Functions ដែលកំណត់នៅក្នុង Class ហើយប្រើសម្រាប់បង្ហាញ ឬដំណើរការទិន្នន័យរបស់ Object។\r\nMethod គឺជា Function ដែលស្ថិតក្នុង Class។ Method ធម្មតារបស់ Instance ទទួល self ជា Parameter ដំបូង។",
+      "code": "",
+      "image": null
+    }
+  },
+  {
+    "model": "language.topic",
+    "pk": 90,
+    "fields": {
+      "lesson": 41,
+      "number": 2,
+      "title": "Data Types",
+      "content": "Data Type កំណត់ប្រភេទតម្លៃដែល Variable អាចផ្ទុកបាន។\r\n•\tint៖ ចំនួនគត់ ឧទាហរណ៍ 10, -5។\r\n•\tfloat៖ ចំនួនទសភាគដែលមានភាពត្រឹមត្រូវធម្មតា ឧទាហរណ៍ 3.14f។\r\n•\tdouble៖ ចំនួនទសភាគដែលមានភាពត្រឹមត្រូវខ្ពស់ជាង float ជាទូទៅ។\r\n•\tchar៖ តួអក្សរមួយ ឧទាហរណ៍ 'A'។\r\n•\tstring៖ អត្ថបទ ឧទាហរណ៍ \"NovaCode\"។ ត្រូវប្រើ #include <string>។\r\n•\tbool៖ តម្លៃពិត ឬមិនពិត (true/false)។",
+      "code": "#include <iostream>\r\n#include <string>\r\nusing namespace std;\r\n\r\nint main() {\r\n    int age = 18;\r\n    double price = 2.50;\r\n    char grade = 'A';\r\n    string name = \"Dara\";\r\n    bool isStudent = true;\r\n\r\n    cout << name << endl;\r\n    cout << age << endl;\r\n    cout << price << endl;\r\n    cout << grade << endl;\r\n    cout << isStudent << endl;\r\n    return 0;\r\n}",
+      "image": null
+    }
+  },
+  {
+    "model": "language.topic",
+    "pk": 126,
+    "fields": {
+      "lesson": 52,
+      "number": 2,
+      "title": "Comparison & Logical Operators",
+      "content": "ប្រមាណវិធីប្រៀបធៀបរួមមាន == (ស្មើ), != (មិនស្មើ), >, <, >=, <=។ ចំណែកប្រមាណវិធីតក្កវិទ្យានៅក្នុង Python ប្រើពាក្យអង់គ្លេសត្រង់ៗតែម្តង គឺ and, or, និង not។",
+      "code": "# ប្រមាណវិធីនព្វន្ត\r\nprint(\"ចែកយកផ្នែកគត់ (17 // 5):\", 17 // 5)  # 3\r\nprint(\"សំណល់ចែក (17 % 5):\", 17 % 5)        # 2\r\nprint(\"ស្វ័យគុណ (3 ** 4):\", 3 ** 4)          # 81\r\n\r\n# ប្រមាណវិធីតក្កវិទ្យា\r\nhas_account = True\r\nis_verified = False\r\n\r\nprint(has_account and is_verified) # False (ត្រូវតែពិតទាំងពីរ)\r\nprint(has_account or is_verified)  # True (ពិតតែមួយក៏បាន)\r\nprint(not is_verified)             # True (ត្រឡប់តម្លៃ)",
+      "image": null
+    }
+  },
+  {
+    "model": "language.topic",
+    "pk": 141,
+    "fields": {
+      "lesson": 60,
+      "number": 2,
+      "title": "Comparison & Logical Operators",
+      "content": "•\t=== (Strict Equal)៖ ប្រៀបធៀបទាំងតម្លៃ និងប្រភេទទិន្នន័យថាដូចគ្នាទាំងស្រុងឬអត់ (ណែនាំឱ្យប្រើ)។\r\n•\t!== (Strict Not Equal)៖ ពិនិត្យថាតើតម្លៃ ឬប្រភេទទិន្នន័យខុសគ្នាឬអត់។\r\n•\t>, <, >=, <=៖ ធំជាង តូចជាង ធំជាងឬស្មើ តូចជាងឬស្មើ។\r\n•\t&& (AND)៖ ពិត លុះត្រាតែលក្ខខណ្ឌទាំងសងខាងពិតដូចគ្នា។\r\n•\t|| (OR)៖ ពិត ប្រសិនបើមានលក្ខខណ្ឌណាមួយពិត។\r\n•\t! (NOT)៖ ត្រឡប់តម្លៃពីពិតទៅមិនពិត ឬពីមិនពិតទៅពិត។",
+      "code": "let price = 20;\r\nlet quantity = 3;\r\nlet total = price * quantity; // 60\r\nlet remainder = 10 % 3;       // 1 (សំណល់នៃ 10 ចែកនឹង 3)\r\n\r\n// ការប្រៀបធៀប\r\nconsole.log(10 === \"10\"); // false (លេខ 10 ខុសពីអក្សរ \"10\")\r\nconsole.log(10 == \"10\");  // true (ប្រៀបធៀបតែតម្លៃ មិនគិតប្រភេទ)\r\n\r\n// តក្កវិទ្យា\r\nlet hasTicket = true;\r\nlet age = 20;\r\nlet canEnter = hasTicket && (age >= 18); // true",
+      "image": null
+    }
+  },
+  {
+    "model": "language.topic",
+    "pk": 176,
+    "fields": {
+      "lesson": 80,
+      "number": 2,
+      "title": "<img>, <video>, <audio>",
+      "content": "•\t<video> និង <audio>៖ ប្រើសម្រាប់បញ្ចូលវីដេអូ និងសំឡេងដោយផ្ទាល់លើទំព័រ ដោយបន្ថែម Attribute controls ដើម្បីបង្ហាញប៊ូតុង Play/Pause/Volume។",
+      "code": "<!-- តំណភ្ជាប់ទៅគេហទំព័រផ្សេង -->\r\n<a href=\"https://developer.mozilla.org\" target=\"_blank\" rel=\"noopener noreferrer\">\r\n    ចូលទៅកាន់ MDN Web Docs\r\n</a>\r\n\r\n<!-- ការបង្ហាញរូបភាព -->\r\n<img src=\"images/khmer-architecture.jpg\" alt=\"ស្ថាបត្យកម្មខ្មែរ\" width=\"400\" height=\"250\">\r\n\r\n<!-- ការបញ្ចូលវីដេអូ -->\r\n<video width=\"480\" controls>\r\n    <source src=\"videos/intro-html.mp4\" type=\"video/mp4\">\r\n    Browser របស់អ្នកមិនគាំទ្រការលេងវីដេអូនេះទេ។\r\n</video>",
+      "image": null
+    }
+  },
+  {
+    "model": "language.topic",
+    "pk": 17,
+    "fields": {
+      "lesson": 5,
+      "number": 3,
+      "title": "Background Repeat",
+      "content": "- Background Repeat គឺប្រើសម្រាប់កំណត់លក្ខណៈ​ background ឡើងវីញដដែលៗ ដើម្បីឲពេញក្នុងតំបន់​ element ដែលមាននោះ។\r\n- លក្ខណៈរបស់​​ background repeat​ មាន៤ប្រភេទដូចជា៖",
+      "code": "body{\r\n         Background-image: url(\"img_tree.png\")\r\n         Background-repeat: no-repeat;\r\n}",
+      "image": "topics/Picture7_DATFW4Q.png"
+    }
+  },
+  {
+    "model": "language.topic",
+    "pk": 68,
+    "fields": {
+      "lesson": 30,
+      "number": 3,
+      "title": "self",
+      "content": "self សំដៅទៅ Object បច្ចុប្បន្នដែលកំពុងហៅ Method។ វាអនុញ្ញាតឱ្យ Method ចូលប្រើ Attributes និង Methods របស់ Object នោះ។",
+      "code": "",
+      "image": null
+    }
+  },
+  {
+    "model": "language.topic",
+    "pk": 18,
+    "fields": {
+      "lesson": 5,
+      "number": 4,
+      "title": "Background​ Positions",
+      "content": "- Background positions គឺប្រើសម្រាប់កំណត់ទីតាំង background។\r\n- លក្ខណៈរបស់​​ background positions​ មានច្រើនប្រភេទដូចជា៖",
+      "code": "",
+      "image": "topics/Picture8_HRTIG5y.png"
+    }
+  },
+  {
+    "model": "language.topic",
+    "pk": 19,
+    "fields": {
+      "lesson": 5,
+      "number": 5,
+      "title": "Background attachment",
+      "content": "- យើងអាចធ្វើការគ្រប់គ្រងទៅលើ background images របស់យើងបាន ដោយអាចកំណត់ឲវារំកិលតាមការ scroll ជាមួយ​ page​ \r\n- ឬក៏អាចកំណត់អោយវាមាន fixed ជាប់​ page ដោយប្រើប្រាស់​ background attachment",
+      "code": "",
+      "image": "topics/Picture9_a654gQU.png"
+    }
+  },
+  {
+    "model": "language.topic",
+    "pk": 20,
+    "fields": {
+      "lesson": 6,
+      "number": 1,
+      "title": "Text",
+      "content": "- Text-align = ការតម្រឹមអក្សរ\r\n- Text-align : left, right, center, justify\r\n================================\r\n- Text-decoration = ការតុបតែងលម្អ អក្សរ..\r\n- Text-decoration : none, underline, overline, line-through\r\n================================\r\n- Text-transform = ការផ្លាស់ case អក្សរ\r\n- Text-transform :  none, lowercase, uppercase, capitalize (អក្សរខាងដើម ធំ)\r\n================================\r\n- Text-indent = ការចូលបន្ទាត់\r\n- Text-indent : ខ្នាតប្រវែង (px ,em ,% ,….)\r\n- Letter-spacing = គម្លាតអក្សរមួយតួៗ\r\n- Line-height = គម្លាតជួរអក្សរ",
+      "code": "",
+      "image": null
+    }
+  },
+  {
+    "model": "language.topic",
+    "pk": 38,
+    "fields": {
+      "lesson": 14,
+      "number": 1,
+      "title": "Introduction to Input and Output",
+      "content": "នៅក្នុងភាសា C ការប្រើប្រាស់ Input និង Output គឺជាមូលដ្ឋានសំខាន់ក្នុងការសរសេរកម្មវិធី។\r\n- Input (ទិន្នន័យបញ្ចូល): គឺជាការទទួលទិន្នន័យពីអ្នកប្រើប្រាស់។\r\n- Output (ទិន្នន័យបង្ហាញ): គឺជាការបង្ហាញលទ្ធផលទៅកាន់អ្នកប្រើប្រាស់។\r\nឧទាហរណ៍៖ អ្នកប្រើប្រាស់បញ្ចូលឈ្មោះ និងអាយុ រួចកម្មវិធីបង្ហាញព័ត៌មានទាំងនោះមកវិញ។",
+      "code": "",
+      "image": null
+    }
+  },
+  {
+    "model": "language.topic",
+    "pk": 69,
+    "fields": {
+      "lesson": 31,
+      "number": 1,
+      "title": "What is __init__?",
+      "content": "__init__() គឺជា Initializer Method ដែល Python ហៅដោយស្វ័យប្រវត្តិបន្ទាប់ពីបង្កើត Object។ វាត្រូវបានប្រើជាទូទៅដើម្បីកំណត់តម្លៃដំបូងឱ្យ Attributes របស់ Object។\r\n\r\nnote: __init__() មិនមែនជា Constructor ពិតប្រាកដក្នុងន័យបច្ចេកទេសរបស់ Python ទេ; វាជា Initializer ដែលកំណត់ស្ថានភាពរបស់ Object បន្ទាប់ពី Object ត្រូវបានបង្កើត។",
+      "code": "class Student:\r\n    def __init__(self, name, age):\r\n        self.name = name\r\n        self.age = age\r\n\r\n    def show_info(self):\r\n        print(\"Name:\", self.name)\r\n        print(\"Age:\", self.age)\r\n\r\nstudent1 = Student(\"Dara\", 20)\r\nstudent2 = Student(\"Sokha\", 19)\r\n\r\nstudent1.show_info()\r\nstudent2.show_info()",
+      "image": null
+    }
+  },
+  {
+    "model": "language.topic",
+    "pk": 91,
+    "fields": {
+      "lesson": 42,
+      "number": 1,
+      "title": "Operators",
+      "content": "Operator គឺជានិមិត្តសញ្ញាដែលប្រើសម្រាប់ធ្វើប្រតិបត្តិការលើតម្លៃ ឬ Variable។",
+      "code": "",
+      "image": null
+    }
+  },
+  {
+    "model": "language.topic",
+    "pk": 127,
+    "fields": {
+      "lesson": 53,
+      "number": 1,
+      "title": "លក្ខខណ្ឌ if...elif...else",
+      "content": "ប្រើសម្រាប់ពិនិត្យលក្ខខណ្ឌដើម្បីសម្រេចចិត្ត។ នៅក្នុង Python ពាក្យ 'else if' ត្រូវបានសរសេរកាត់ថា 'elif' ហើយត្រូវបញ្ចប់ដោយសញ្ញាចុចពីរ (:)។",
+      "code": "",
+      "image": null
+    }
+  },
+  {
+    "model": "language.topic",
+    "pk": 142,
+    "fields": {
+      "lesson": 61,
+      "number": 1,
+      "title": "if...else if...else",
+      "content": "ប្រើសម្រាប់ឱ្យកម្មវិធីធ្វើការសម្រេចចិត្ត ថាតើត្រូវដំណើរការកូដមួយណា ដោយផ្អែកលើលក្ខខណ្ឌជាក់លាក់។",
+      "code": "",
+      "image": null
+    }
+  },
+  {
+    "model": "language.topic",
+    "pk": 162,
+    "fields": {
+      "lesson": 72,
+      "number": 1,
+      "title": "លក្ខណៈពិសេស និងប្រមាណវិធីសំណុំ",
+      "content": "Set ប្រើសញ្ញាដង្កៀប {...} ដើម្បីផ្ទុកទិន្នន័យដែលគ្មានលំដាប់ (Unordered) និងមិនអនុញ្ញាតឱ្យមានតម្លៃស្ទួនគ្នាឡើយ (No Duplicates)។ Set មានប្រយោជន៍ខ្លាំងសម្រាប់ការលុបទិន្នន័យស្ទួនចេញពី List និងការគណនាប្រមាណវិធីសំណុំគណិតវិទ្យា។\r\n•\tUnion (|)៖ បង្រួមធាតុទាំងអស់ពី Set ទាំងពីរចូលគ្នា (មិនយកស្ទួន)។\r\n•\tIntersection (&)៖ យកតែធាតុណាដែលដូចគ្នា (ប្រសព្វគ្នា) រវាង Set ទាំងពីរ។\r\n•\tDifference (-)៖ យកធាតុដែលមានក្នុង Set ទី ១ ប៉ុន្តែគ្មានក្នុង Set ទី ២។",
+      "code": "# ១. លុបទិន្នន័យស្ទួនដោយប្រើ Set\r\nraw_ids = [101, 102, 102, 103, 101, 104]\r\nunique_ids = set(raw_ids)\r\nprint(\"លេខសម្គាល់មិនស្ទួន៖\", unique_ids) # {101, 102, 103, 104}\r\n\r\n# ២. ប្រមាណវិធីសំណុំ (Set Operations)\r\nweb_students = {\"សុខា\", \"ដារ៉ា\", \"ពិសិដ្ឋ\", \"បុប្ផា\"}\r\nmobile_students = {\"ដារ៉ា\", \"បុប្ផា\", \"ចាន់ណា\"}\r\n\r\nprint(\"រៀនទាំងពីរជំនាញ (Intersection)៖\", web_students & mobile_students)\r\nprint(\"សិស្សសរុបទាំងអស់ (Union)៖\", web_students | mobile_students)\r\nprint(\"រៀនតែ Web ម្យ៉ាង (Difference)៖\", web_students - mobile_students)",
+      "image": null
+    }
+  },
+  {
+    "model": "language.topic",
+    "pk": 177,
+    "fields": {
+      "lesson": 81,
+      "number": 1,
+      "title": "Unordered List <ul> និង Ordered List <ol>",
+      "content": "<ul> បង្កើតបញ្ជីដែលមានចំណុច (Bullet points) ចំណែក <ol> បង្កើតបញ្ជីដែលមានលេខរៀង (1, 2, 3...)។ ធាតុនីមួយៗនៃបញ្ជីត្រូវដាក់នៅក្នុងស្លាក <li>។",
+      "code": "",
+      "image": null
+    }
+  },
+  {
+    "model": "language.topic",
+    "pk": 21,
+    "fields": {
+      "lesson": 6,
+      "number": 2,
+      "title": "Font",
+      "content": "- Font-size = ការកំណត់ទំហំអក្សរ\r\n- Font-size : ខ្នាតប្រវែង (px ,em ,% ,….)\r\n================================\r\n- Font-style = ការរចនាពុម្ភអក្សរ\r\n- Font-style : normal, italic, oblique\r\n================================\r\n-  Font-weight : អក្សរដិត\r\n- Font-weight : normal, bold, lighter (ស្រាលៗ), លេខក្រិត (100-900)\r\n================================\r\n- Font-family = ប្ដូរទម្រង់អក្សរ\r\n-Font-family : ‘khmer os battambang’",
+      "code": "",
+      "image": null
+    }
+  },
+  {
+    "model": "language.topic",
+    "pk": 39,
+    "fields": {
+      "lesson": 14,
+      "number": 2,
+      "title": "Output",
+      "content": "ដើម្បី output in C គេប្រើប្រាស់ printf()\r\nprintf() គឺជា Function នៅក្នុង C ដែលប្រើសម្រាប់បង្ហាញទិន្នន័យទៅលើ Screen។\r\n\r\nprintf មានន័យថា Print Formatted។\r\n\r\nពន្យល់ Code ខាងក្រោម:\r\n- #include <stdio.h> – បញ្ចូល Standard Input/Output Library។\r\n- printf() – បង្ហាញអត្ថបទ ឬទិន្នន័យ។\r\n- \"Hello, World!\" – អត្ថបទដែលត្រូវបង្ហាញ។\r\n- return 0; – បញ្ចប់កម្មវិធីដោយជោគជ័យ។",
+      "code": "#include <stdio.h>\r\n\r\nint main() {\r\n    printf(\"Hello, World!\");\r\n\r\n    return 0;\r\n}",
+      "image": null
+    }
+  },
+  {
+    "model": "language.topic",
+    "pk": 92,
+    "fields": {
+      "lesson": 42,
+      "number": 2,
+      "title": "Arithmetic Operators",
+      "content": "+ Arithmetic Operator in C++\r\n•\t+ បូក\r\n•\t- ដក\r\n•\t* គុណ\r\n•\t/ ចែក\r\n•\t% រកសំណល់នៃការចែកចំនួនគត់",
+      "code": "",
+      "image": null
+    }
+  },
+  {
+    "model": "language.topic",
+    "pk": 128,
+    "fields": {
+      "lesson": 53,
+      "number": 2,
+      "title": "for និង while",
+      "content": "រង្វិលជុំ for ប្រើសម្រាប់ដើរកាត់ធាតុម្តងមួយៗក្នុងបញ្ជី ឬជួរលេខ (range) ចំណែក while ប្រើសម្រាប់ដំណើរការដដែលៗដរាបណាលក្ខខណ្ឌនៅតែពិត។",
+      "code": "# ១. ឧទាហរណ៍ if...elif...else\r\nscore = 82\r\n\r\nif score >= 90:\r\n    print(\"និទ្ទេស A\")\r\nelif score >= 80:\r\n    print(\"និទ្ទេស B\")\r\nelif score >= 50:\r\n    print(\"និទ្ទេស C\")\r\nelse:\r\n    print(\"ធ្លាក់\")\r\n\r\n# ២. ឧទាហរណ៍ for loop ជាមួយ range()\r\nfor i in range(1, 6):\r\n    print(f\"ជុំទី {i}\")\r\n\r\n# ៣. ឧទាហរណ៍ while loop\r\ncount = 3\r\nwhile count > 0:\r\n    print(\"រាប់ថយក្រោយ៖\", count)\r\n    count -= 1",
+      "image": null
+    }
+  },
+  {
+    "model": "language.topic",
+    "pk": 143,
+    "fields": {
+      "lesson": 61,
+      "number": 2,
+      "title": "for និង while Loops",
+      "content": "រង្វិលជុំ (Loop) ជួយឱ្យយើងអាចដំណើរការកូដដដែលៗច្រើនដងដោយស្វ័យប្រវត្តិ ដោយមិនចាំបាច់សរសេរកូដច្រំដែល។",
+      "code": "// ១. ឧទាហរណ៍ if...else\r\nlet score = 85;\r\n\r\nif (score >= 90) {\r\n    console.log(\"និទ្ទេស A - ល្អប្រសើរ\");\r\n} else if (score >= 75) {\r\n    console.log(\"និទ្ទេស B - ល្អ\");\r\n} else if (score >= 50) {\r\n    console.log(\"និទ្ទេស C - មធ្យម\");\r\n} else {\r\n    console.log(\"ធ្លាក់ - សូមព្យាយាមម្តងទៀត\");\r\n}\r\n\r\n// ២. ឧទាហរណ៍ for loop (រាប់លេខពី 1 ដល់ 5)\r\nfor (let i = 1; i <= 5; i++) {\r\n    console.log(\"ជុំទី៖ \" + i);\r\n}\r\n\r\n// ៣. ឧទាហរណ៍ while loop\r\nlet count = 3;\r\nwhile (count > 0) {\r\n    console.log(\"រាប់ថយក្រោយ៖ \" + count);\r\n    count--;\r\n}",
+      "image": null
+    }
+  },
+  {
+    "model": "language.topic",
+    "pk": 178,
+    "fields": {
+      "lesson": 81,
+      "number": 2,
+      "title": "Tables",
+      "content": "តារាងក្នុង HTML ចាប់ផ្តើមដោយ <table> បែងចែកជា <thead> (ក្បាលតារាង) និង <tbody> (តួតារាង)។ ជួរដេកប្រើ <tr> ក្បាលជួរឈរប្រើ <th> និងក្រឡាទិន្នន័យប្រើ <td>។ យើងអាចបញ្ចូលក្រឡាតាមទទឹងដោយប្រើ colspan=\"2\" ឬបញ្ចូលតាមបណ្តោយដោយប្រើ rowspan=\"2\"។",
+      "code": "<!-- ឧទាហរណ៍បញ្ជី -->\r\n<h3>មុខវិជ្ជាសិក្សាផ្នែក Web</h3>\r\n<ul>\r\n    <li>HTML5</li>\r\n    <li>CSS3</li>\r\n    <li>JavaScript</li>\r\n</ul>\r\n\r\n<!-- ឧទាហរណ៍តារាង -->\r\n<table border=\"1\" cellpadding=\"8\" cellspacing=\"0\">\r\n    <thead>\r\n        <tr>\r\n            <th>ល.រ</th>\r\n            <th>ឈ្មោះវគ្គសិក្សា</th>\r\n            <th>រយៈពេល</th>\r\n        </tr>\r\n    </thead>\r\n    <tbody>\r\n        <tr>\r\n            <td>១</td>\r\n            <td>HTML &amp; CSS Fundamentals</td>\r\n            <td>៤ សប្តាហ៍</td>\r\n        </tr>\r\n        <tr>\r\n            <td>២</td>\r\n            <td>Modern JavaScript</td>\r\n            <td>៦ សប្តាហ៍</td>\r\n        </tr>\r\n    </tbody>\r\n</table>",
+      "image": null
+    }
+  },
+  {
+    "model": "language.topic",
+    "pk": 22,
+    "fields": {
+      "lesson": 6,
+      "number": 3,
+      "title": "List",
+      "content": "+ នៅក្នុង CSS យើងប្ដូរ ordered list ទៅជា unorder list បានដោយប្រើ property​ ៖\r\n+  List-style-type:\r\n\t        none (មានន័យថាទទេ)\r\n\t\tdecimal : តម្លៃ list​ ជាទសភាគ (1,2,3,…)\r\n\t\tdecimal-leading-zero : តម្លៃ list មានលេខសូន្យពីមុខ​ (01,02,…)\r\n\t\tlower-alpha : ផ្លាស់ប្ដូរ list​ជាលេខ ទៅជា list អក្សរតាង “a” វិញ (a,b,c,….)\r\n\t\tupper-alpha : ផ្លាស់ប្ដូរ list​ជាលេខ ទៅជា list អក្សរតាង “A” វិញ (A,B,C,….)\r\n\t\tlower-roman : ផ្លាស់ប្ដូរ list​ជាលេខ ទៅជា list អក្សរតាង “i”វិញ (i,ii,iii,….)\r\n\t\tupper-roman : ផ្លាស់ប្ដូរ list​ជាលេខ ទៅជា list អក្សរតាង “I”វិញ (I,II,III,….)",
+      "code": "",
+      "image": null
+    }
+  },
+  {
+    "model": "language.topic",
+    "pk": 40,
+    "fields": {
+      "lesson": 14,
+      "number": 3,
+      "title": "Output with Variable",
+      "content": "យើងអាចប្រើ printf() ដើម្បីបង្ហាញតម្លៃរបស់ Variable បាន។",
+      "code": "#include <stdio.h>\r\n\r\nint main() {\r\n    int age = 18;\r\n    float score = 85.5;\r\n    char grade = 'A';\r\n\r\n    printf(\"Age: %d\\n\", age);\r\n    printf(\"Score: %.1f\\n\", score);\r\n    printf(\"Grade: %c\\n\", grade);\r\n\r\n    return 0;\r\n}",
+      "image": null
+    }
+  },
+  {
+    "model": "language.topic",
+    "pk": 93,
+    "fields": {
+      "lesson": 42,
+      "number": 3,
+      "title": "Assignment Operators",
+      "content": "+ Assignment Operator in C++\r\n•\t= កំណត់តម្លៃ\r\n•\t+= បូកហើយរក្សាទុក\r\n•\t-= ដកហើយរក្សាទុក\r\n•\t*= គុណហើយរក្សាទុក\r\n•\t/= ចែកហើយរក្សាទុក",
+      "code": "",
+      "image": null
+    }
+  },
+  {
+    "model": "language.topic",
+    "pk": 41,
+    "fields": {
+      "lesson": 14,
+      "number": 4,
+      "title": "Input",
+      "content": "scanf() គឺជា Function នៅក្នុង C ដែលប្រើសម្រាប់ទទួលទិន្នន័យពីអ្នកប្រើប្រាស់ (User Input)។\r\n\r\nscanf មានន័យថា Scan Formatted។\r\n\r\nពន្យល់ Code ខាងក្រោម:\r\n- int age; – បង្កើត Variable ឈ្មោះ age។\r\n- printf() – ស្នើឱ្យអ្នកប្រើប្រាស់បញ្ចូលអាយុ។\r\n- scanf(\"%d\", &age); – ទទួលលេខគត់ពីអ្នកប្រើប្រាស់ ហើយរក្សាទុកក្នុង age។\r\n- &age – ប្រើ Address Operator ដើម្បីផ្ដល់អាសយដ្ឋាន Memory របស់ Variable ឱ្យ scanf()។",
+      "code": "#include <stdio.h>\r\n\r\nint main() {\r\n    int age;\r\n\r\n    printf(\"Enter your age: \");\r\n    scanf(\"%d\", &age);\r\n\r\n    printf(\"Your age is %d\", age);\r\n\r\n    return 0;\r\n}",
+      "image": null
+    }
+  },
+  {
+    "model": "language.topic",
+    "pk": 94,
+    "fields": {
+      "lesson": 42,
+      "number": 4,
+      "title": "Comparison Operators",
+      "content": "+ Comparison Operators in C++\r\n•\t== ស្មើ\r\n•\t!= មិនស្មើ\r\n•\t> ធំជាង\r\n•\t< តូចជាង\r\n•\t>= ធំជាង ឬស្មើ\r\n•\t<= តូចជាង ឬស្មើ",
+      "code": "",
+      "image": null
+    }
+  },
+  {
+    "model": "language.topic",
+    "pk": 42,
+    "fields": {
+      "lesson": 14,
+      "number": 5,
+      "title": "Format Specifiers",
+      "content": "តារាងខាងក្រោមបង្ហាញពី Format Specifiers ដែលប្រើជាញឹកញាប់ក្នុង C។",
+      "code": "",
+      "image": "topics/Gemini_Generated_Image_7m9kbq7m9kbq7m9k.jpg"
+    }
+  },
+  {
+    "model": "language.topic",
+    "pk": 95,
+    "fields": {
+      "lesson": 42,
+      "number": 5,
+      "title": "Logical Operators",
+      "content": "Logical Operators\r\n•\t&& AND៖ ពិត នៅពេលលក្ខខណ្ឌទាំងពីរពិត។\r\n•\t|| OR៖ ពិត នៅពេលមានលក្ខខណ្ឌណាមួយពិត។\r\n•\t! NOT៖ បម្លែង true ទៅ false ឬ false ទៅ true។",
+      "code": "#include <iostream>\r\nusing namespace std;\r\n\r\nint main() {\r\n    int a = 10, b = 3;\r\n\r\n    cout << a + b << endl; // 13\r\n    cout << a / b << endl; // 3 (integer division)\r\n    cout << a % b << endl; // 1\r\n    cout << (a > b) << endl; // 1 means true\r\n\r\n    return 0;\r\n}",
+      "image": null
+    }
+  },
+  {
+    "model": "language.topic",
+    "pk": 23,
+    "fields": {
+      "lesson": 7,
+      "number": 1,
+      "title": "Border",
+      "content": "- border-style = ការកំនត់ style ទៅអោយ border\r\n- border-style : none, solid(ស៊ុមជុំវិញ១ជាន់), double (ស៊ុមជុំវិញ២ជាន់ស៊ីគ្នា), ….\r\n- Border-top-style : គឺការកំណត់ស៊ុមអោយមានតែខាងលើ ក្រៅពីនឹងគឺទទេ។ \r\n- Border-right-style : គឺការកំណត់ស៊ុមអោយមានតែខាងស្ដាំ ក្រៅពីនឹងគឺទទេ។ \r\n- Border-bottom-style : គឺការកំណត់ស៊ុមអោយមានតែខាងក្រោម ក្រៅពីនឹងគឺទទេ។ \r\n- ​ Border-left-style : គឺការកំណត់ស៊ុមអោយមានតែខាងឆ្វេង ក្រៅពីនឹងគឺទទេ។ \r\n- Border-color = ការពណ៌ border\r\n- Border-width = ការកំណត់កម្រាស់ឲអោយទៅ border\r\nBorder : width style color\r\n____ex: border : 2px(កម្រាស) solid(ប្រភេទ) red(ពណ៌);",
+      "code": "",
+      "image": null
+    }
+  },
+  {
+    "model": "language.topic",
+    "pk": 43,
+    "fields": {
+      "lesson": 15,
+      "number": 1,
+      "title": "តើ Operators ជាអ្វី?",
+      "content": "Operators គឺជានិមិត្តសញ្ញា (Symbols) ដែលប្រើសម្រាប់ធ្វើប្រតិបត្តិការផ្សេងៗលើទិន្នន័យ ឬ Variables ក្នុងភាសា C ដូចជា ការគណនាលេខ ការប្រៀបធៀប និងការផ្ដល់តម្លៃ។",
+      "code": "int a = 10;\r\nint b = 5;\r\n\r\nint result = a + b;\r\n\r\nprintf(\"%d\", result);",
+      "image": null
+    }
+  },
+  {
+    "model": "language.topic",
+    "pk": 70,
+    "fields": {
+      "lesson": 32,
+      "number": 1,
+      "title": "Instance, Class and Static Methods",
+      "content": "Python មាន Method សំខាន់ៗបីប្រភេទក្នុង Class គឺ Instance Method, Class Method និង Static Method។ Method នីមួយៗមានគោលបំណង និងរបៀបចូលប្រើទិន្នន័យខុសគ្នា។\r\n+ Instance Method\r\nទទួល self ហើយអាចចូលប្រើ Instance Attributes និង Class Attributes។\r\n+ Class Method\r\nប្រើ Decorator @classmethod ហើយទទួល cls ជា Parameter ដំបូង។ វាអាចចូលប្រើ ឬកែប្រែ Class Attributes។\r\n+ Static Method\r\nប្រើ Decorator @staticmethod។ វាមិនទទួល self ឬ cls ដោយស្វ័យប្រវត្តិទេ ហើយសាកសមសម្រាប់មុខងារដែលទាក់ទងនឹង Class ប៉ុន្តែមិនត្រូវការទិន្នន័យរបស់ Object ឬ Class។",
+      "code": "class Student:\r\n    school = \"NovaCode Academy\"\r\n\r\n    def __init__(self, name):\r\n        self.name = name\r\n\r\n    def show_name(self):\r\n        print(self.name)\r\n\r\n    @classmethod\r\n    def show_school(cls):\r\n        print(cls.school)\r\n\r\n    @staticmethod\r\n    def is_adult(age):\r\n        return age >= 18\r\n\r\ns1 = Student(\"Dara\")\r\ns1.show_name()\r\nStudent.show_school()\r\nprint(Student.is_adult(20))",
+      "image": null
+    }
+  },
+  {
+    "model": "language.topic",
+    "pk": 96,
+    "fields": {
+      "lesson": 43,
+      "number": 1,
+      "title": "What is Conditional?",
+      "content": "Conditional Statements អនុញ្ញាតឱ្យកម្មវិធីសម្រេចចិត្ត ដោយពិនិត្យលក្ខខណ្ឌ ហើយជ្រើសរើសកូដដែលត្រូវដំណើរការ។",
+      "code": "",
+      "image": null
+    }
+  },
+  {
+    "model": "language.topic",
+    "pk": 129,
+    "fields": {
+      "lesson": 54,
+      "number": 1,
+      "title": "List",
+      "content": "List ប្រើសម្រាប់ផ្ទុកទិន្នន័យច្រើនតាមលំដាប់លំដោយ ដោយប្រើសញ្ញាគ្នាប [...] ហើយអាចកែប្រែ បន្ថែម ឬលុបធាតុខាងក្នុងបាន។",
+      "code": "",
+      "image": null
+    }
+  },
+  {
+    "model": "language.topic",
+    "pk": 144,
+    "fields": {
+      "lesson": 62,
+      "number": 1,
+      "title": "អ្វីទៅជា Function?",
+      "content": "Function គឺជាបណ្តុំនៃកូដដែលត្រូវបានរៀបចំឡើងដើម្បីបំពេញការងារជាក់លាក់ណាមួយ ហើយយើងអាចហៅវាមកប្រើប្រាស់ឡើងវិញបានគ្រប់ពេល។ នៅក្នុង JavaScript ទំនើប គេនិយមប្រើ Arrow Function (=>) ព្រោះវាមានទម្រង់ខ្លី និងស្អាត។",
+      "code": "// ១. Function Declaration (របៀបស្តង់ដារ)\r\nfunction greetUser(name) {\r\n    return \"សួស្តីអ្នកប្រើប្រាស់ \" + name + \"!\";\r\n}\r\n\r\nconsole.log(greetUser(\"សុខា\")); // សួស្តីអ្នកប្រើប្រាស់ សុខា!\r\n\r\n// ២. Arrow Function (ទម្រង់ទំនើប ES6)\r\nconst calculateDiscount = (price, percent) => {\r\n    const discountAmount = (price * percent) / 100;\r\n    return price - discountAmount;\r\n};\r\n\r\nlet finalPrice = calculateDiscount(100, 15);\r\nconsole.log(\"តម្លៃបន្ទាប់ពីបញ្ចុះតម្លៃ៖ $\" + finalPrice); // $85",
+      "image": null
+    }
+  },
+  {
+    "model": "language.topic",
+    "pk": 163,
+    "fields": {
+      "lesson": 73,
+      "number": 1,
+      "title": "រចនាសម្ព័ន្ធ Key-Value",
+      "content": "Dictionary ផ្ទុកទិន្នន័យជាគូ Key: Value នៅក្នុងសញ្ញាដង្កៀប {...}។ Key នីមួយៗត្រូវតែមានតែមួយគត់ (Unique) ហើយអាចប្រើសម្រាប់ទាញយកតម្លៃ Value បានយ៉ាងលឿនបំផុត (O(1) Time Complexity)។",
+      "code": "# ១. ការបង្កើត និងគ្រប់គ្រង Dictionary\r\ncourse = {\r\n    \"code\": \"CS201\",\r\n    \"title\": \"Data Structures & Algorithms\",\r\n    \"credits\": 3,\r\n    \"topics\": [\"List\", \"Tree\", \"Graph\"]\r\n}\r\n\r\n# ទាញយកទិន្នន័យដោយសុវត្ថិភាពតាមរយៈ .get()\r\nprint(\"មុខវិជ្ជា៖\", course.get(\"title\"))\r\nprint(\"តម្លៃសិក្សា៖\", course.get(\"price\", \"ឥតគិតថ្លៃ\")) # បង្ហាញតម្លៃដើមបើគ្មាន Key\r\n\r\n# បន្ថែម និងកែប្រែទិន្នន័យ\r\ncourse[\"instructor\"] = \"លោកគ្រូ វិបុល\"\r\ncourse[\"credits\"] = 4\r\n\r\n# ២. ដើរកាត់គ្រប់ Key និង Value ដោយប្រើ .items()\r\nfor key, value in course.items():\r\n    print(f\"{key} => {value}\")",
+      "image": null
+    }
+  },
+  {
+    "model": "language.topic",
+    "pk": 179,
+    "fields": {
+      "lesson": 82,
+      "number": 1,
+      "title": "រចនាសម្ព័ន្ធ <form> និង <label>",
+      "content": "<form> ប្រើសម្រាប់ប្រមូលទិន្នន័យពីអ្នកប្រើប្រាស់ (ដូចជា ទម្រង់ចុះឈ្មោះ ទម្រង់ទំនាក់ទំនង ឬ Login)។ គួរភ្ជាប់ <label for=\"id_name\"> ជាមួយ <input id=\"id_name\"> ជានិច្ច ដើម្បីងាយស្រួលចុច និងជួយដល់ Accessibility។",
+      "code": "",
+      "image": null
+    }
+  },
+  {
+    "model": "language.topic",
+    "pk": 44,
+    "fields": {
+      "lesson": 15,
+      "number": 2,
+      "title": "ប្រភេទ Operators ក្នុង C",
+      "content": "ក្នុងភាសា C មាន Operators សំខាន់ៗចំនួន 6 ប្រភេទ៖\r\n1. Arithmetic Operators\r\n2. Relational Operators\r\n3. Logical Operators\r\n4. Assignment Operators\r\n5. Increment and Decrement Operators\r\n6. Conditional (Ternary) Operator",
+      "code": "",
+      "image": null
+    }
+  },
+  {
+    "model": "language.topic",
+    "pk": 97,
+    "fields": {
+      "lesson": 43,
+      "number": 2,
+      "title": "if condition",
+      "content": "if ដំណើរការកូដនៅពេលលក្ខខណ្ឌពិត។",
+      "code": "#include <iostream>\r\nusing namespace std;\r\nint main(){\r\n\r\n    pw = 123\r\n\r\n    if (pw==123){\r\n        cout<<\"correct password!!!\"<<endl;\r\n    }\r\n\r\n    return 0;\r\n}",
+      "image": null
+    }
+  },
+  {
+    "model": "language.topic",
+    "pk": 130,
+    "fields": {
+      "lesson": 54,
+      "number": 2,
+      "title": "Dictionary",
+      "content": "Dictionary ផ្ទុកទិន្នន័យជាគូ Key និង Value ដោយប្រើសញ្ញាដង្កៀប {...} ដែលធ្វើឱ្យការស្វែងរកទិន្នន័យមានល្បឿនលឿន និងច្បាស់លាស់។",
+      "code": "",
+      "image": null
+    }
+  },
+  {
+    "model": "language.topic",
+    "pk": 180,
+    "fields": {
+      "lesson": 82,
+      "number": 2,
+      "title": "Input Types, Select និង Textarea",
+      "content": "•\t<input type=\"...\">៖ មានប្រភេទជាច្រើនដូចជា text, email, password, number, date, checkbox, radio និង submit។\r\n•\t<select> និង <option>៖ បង្កើតបញ្ជីទម្លាក់ចុះ (Dropdown) ដើម្បីជ្រើសរើសជម្រើសណាមួយ។\r\n•\t<textarea>៖ ប្រើសម្រាប់វាយអត្ថបទវែងៗច្រើនបន្ទាត់ (ដូចជា មតិយោបល់ ឬអាសយដ្ឋានលម្អិត)។",
+      "code": "<form action=\"/submit-registration\" method=\"POST\">\r\n    <div>\r\n        <label for=\"fullname\">ឈ្មោះពេញ៖</label><br>\r\n        <input type=\"text\" id=\"fullname\" name=\"fullname\" placeholder=\"បញ្ចូលឈ្មោះរបស់អ្នក\" required>\r\n    </div>\r\n    <br>\r\n    <div>\r\n        <label for=\"email\">អ៊ីមែល៖</label><br>\r\n        <input type=\"email\" id=\"email\" name=\"email\" placeholder=\"example@mail.com\" required>\r\n    </div>\r\n    <br>\r\n    <div>\r\n        <label for=\"level\">កម្រិតសិក្សា៖</label><br>\r\n        <select id=\"level\" name=\"level\">\r\n            <option value=\"beginner\">អ្នកចាប់ផ្តើមដំបូង</option>\r\n            <option value=\"intermediate\">កម្រិតមធ្យម</option>\r\n            <option value=\"advanced\">កម្រិតខ្ពស់</option>\r\n        </select>\r\n    </div>\r\n    <br>\r\n    <div>\r\n        <label for=\"note\">កំណត់សម្គាល់បន្ថែម៖</label><br>\r\n        <textarea id=\"note\" name=\"note\" rows=\"4\" cols=\"35\"></textarea>\r\n    </div>\r\n    <br>\r\n    <button type=\"submit\">ផ្ញើទិន្នន័យ</button>\r\n</form>",
+      "image": null
+    }
+  },
+  {
+    "model": "language.topic",
+    "pk": 45,
+    "fields": {
+      "lesson": 15,
+      "number": 3,
+      "title": "Arithmetic Operators",
+      "content": "ប្រើសម្រាប់ធ្វើប្រតិបត្តិការគណនាលេខ ដូចជា បូក ដក គុណ ចែក និងរកសំណល់។",
+      "code": "#include <stdio.h>\r\n\r\nint main() {\r\n    int a = 10;\r\n    int b = 3;\r\n\r\n    printf(\"Addition: %d\\n\", a + b);\r\n    printf(\"Subtraction: %d\\n\", a - b);\r\n    printf(\"Multiplication: %d\\n\", a * b);\r\n    printf(\"Division: %d\\n\", a / b);\r\n    printf(\"Modulus: %d\\n\", a % b);\r\n\r\n    return 0;\r\n}",
+      "image": null
+    }
+  },
+  {
+    "model": "language.topic",
+    "pk": 98,
+    "fields": {
+      "lesson": 43,
+      "number": 3,
+      "title": "if / else conditional",
+      "content": "if ដំណើរការកូដនៅពេលលក្ខខណ្ឌពិត។ else ដំណើរការនៅពេលលក្ខខណ្ឌ if មិនពិត។",
+      "code": "#include <iostream>\r\nusing namespace std;\r\nint main(){\r\n\r\n    pw = 123\r\n\r\n    if (pw==123){\r\n        cout<<\"correct password!!!\"<<endl;\r\n    }else{\r\n        cout<<\"Incorrect password!!!\"<<endl;\r\n    }\r\n\r\n    return 0;\r\n}",
+      "image": null
+    }
+  },
+  {
+    "model": "language.topic",
+    "pk": 131,
+    "fields": {
+      "lesson": 54,
+      "number": 3,
+      "title": "Tuple",
+      "content": "•\tTuple (...)៖ ស្រដៀងនឹង List ដែរ ប៉ុន្តែមិនអាចកែប្រែតម្លៃខាងក្នុងបានទេបន្ទាប់ពីបង្កើតរួច (Immutable)។\r\n•\tSet {...}៖ ផ្ទុកទិន្នន័យដែលមិនមានលំដាប់ និងមិនអនុញ្ញាតឱ្យមានតម្លៃស្ទួនគ្នាឡើយ។",
+      "code": "# ១. ការប្រើប្រាស់ List\r\nlanguages = [\"Python\", \"JavaScript\", \"HTML\"]\r\nlanguages.append(\"CSS\")        # បន្ថែមធាតុថ្មី\r\nprint(\"ភាសាទី ១៖\", languages[0]) # Python\r\n\r\n# ២. ការប្រើប្រាស់ Dictionary\r\nstudent = {\r\n    \"name\": \"សុខ ពិសិដ្ឋ\",\r\n    \"age\": 21,\r\n    \"skills\": [\"Python\", \"SQL\"]\r\n}\r\nprint(\"ឈ្មោះសិស្ស៖\", student[\"name\"])\r\nstudent[\"grade\"] = \"A\" # បន្ថែម Key ថ្មី\r\n\r\n# ៣. ការប្រើប្រាស់ Tuple និង Set\r\ncoordinates = (11.5564, 104.9282) # Tuple\r\nunique_numbers = {1, 2, 2, 3, 4}    # Set -> លទ្ធផល {1, 2, 3, 4}\r\nprint(\"លេខមិនស្ទួន៖\", unique_numbers)",
+      "image": null
+    }
+  },
+  {
+    "model": "language.topic",
+    "pk": 46,
+    "fields": {
+      "lesson": 15,
+      "number": 4,
+      "title": "Relational Operators",
+      "content": "ប្រើសម្រាប់ប្រៀបធៀបតម្លៃរវាង Variables ឬទិន្នន័យពីរ\r\nលទ្ធផលដែលទទួលបានគឺ៖\r\n- 1 = True (ពិត)\r\n- 0 = False (មិនពិត)",
+      "code": "",
+      "image": null
+    }
+  },
+  {
+    "model": "language.topic",
+    "pk": 99,
+    "fields": {
+      "lesson": 43,
+      "number": 4,
+      "title": "else if",
+      "content": "ប្រើនៅពេលមានលក្ខខណ្ឌច្រើនដែលត្រូវពិនិត្យតាមលំដាប់។",
+      "code": "#include <iostream>\r\nusing namespace std;\r\n\r\nint main() {\r\n    int score;\r\n    cout << \"Enter score: \";\r\n    cin >> score;\r\n\r\n    if (score >= 90) {\r\n        cout << \"Grade A\";\r\n    } else if (score >= 80) {\r\n        cout << \"Grade B\";\r\n    } else if (score >= 50) {\r\n        cout << \"Passed\";\r\n    } else {\r\n        cout << \"Failed\";\r\n    }\r\n    return 0;\r\n}",
+      "image": null
+    }
+  },
+  {
+    "model": "language.topic",
+    "pk": 71,
+    "fields": {
+      "lesson": 33,
+      "number": 1,
+      "title": "Encapsulation",
+      "content": "Encapsulation គឺជាគោលការណ៍ OOP ដែលរួមបញ្ចូលទិន្នន័យ និង Methods នៅក្នុង Class ហើយគ្រប់គ្រងរបៀបចូលប្រើ។ Python ប្រើ Naming Conventions ដើម្បីបង្ហាញថា Attribute មួយគួរប្រើជាសាធារណៈ ឬគួរប្រើតែខាងក្នុង។",
+      "code": "",
+      "image": null
+    }
+  },
+  {
+    "model": "language.topic",
+    "pk": 100,
+    "fields": {
+      "lesson": 44,
+      "number": 1,
+      "title": "for Loop",
+      "content": "Loop គឺជារចនាសម្ព័ន្ធដែលអនុញ្ញាតឱ្យដំណើរការកូដដដែលៗ ដោយមិនចាំបាច់សរសេរកូដដដែលច្រើនដង នៅក្នុងភាសា C++ មាន loop (for loop, while loop, do-while)។\r\nfor loop\r\nសាកសមនៅពេលដឹងចំនួនជុំដែលត្រូវធ្វើជាមុន។",
+      "code": "#include<iostream>\r\nusing namespace std;\r\nint main(){\r\n\r\n    for(int i=0; i<=100; i++){\r\n        cout<<i<<\"Hello world!!!\"<<endl;\r\n    }\r\n\r\n    return 0;\r\n}",
+      "image": null
+    }
+  },
+  {
+    "model": "language.topic",
+    "pk": 132,
+    "fields": {
+      "lesson": 55,
+      "number": 1,
+      "title": "ការបង្កើត Function ដោយប្រើ def",
+      "content": "Function ជួយបំបែកកូដធំៗឱ្យទៅជាផ្នែកតូចៗដែលមានមុខងារច្បាស់លាស់ និងអាចហៅប្រើឡើងវិញបាន។ យើងប្រើពាក្យគន្លឹះ def ដើម្បីបង្កើត Function និង return ដើម្បីបញ្ជូនលទ្ធផលត្រឡប់មកវិញ។",
+      "code": "# ១. Function ដែលមាន Parameter និងតម្លៃដើម (Default Parameter)\r\ndef calculate_total(price, quantity=1, tax_rate=0.1):\r\n    subtotal = price * quantity\r\n    total = subtotal + (subtotal * tax_rate)\r\n    return total\r\n\r\nprint(\"តម្លៃសរុប (១ មុខ)៖ $\", calculate_total(50))\r\nprint(\"តម្លៃសរុប (៣ មុខ)៖ $\", calculate_total(50, 3))\r\n\r\n# ២. Lambda Function (Function ខ្លីមួយបន្ទាត់)\r\nsquare = lambda x: x * x\r\nprint(\"ការេនៃ 6 គឺ៖\", square(6)) # 36",
+      "image": null
+    }
+  },
+  {
+    "model": "language.topic",
+    "pk": 145,
+    "fields": {
+      "lesson": 63,
+      "number": 1,
+      "title": "Array",
+      "content": "Array គឺជាអថេរពិសេសដែលអាចផ្ទុកតម្លៃច្រើនក្នុងពេលតែមួយ ដោយតម្រៀបតាមលេខរៀង (Index) ចាប់ផ្តើមពីលេខ 0។ Array មាន Methods សំខាន់ៗដូចជា push(), pop(), map(), និង filter()។",
+      "code": "",
+      "image": null
+    }
+  },
+  {
+    "model": "language.topic",
+    "pk": 151,
+    "fields": {
+      "lesson": 66,
+      "number": 1,
+      "title": "if...else if...else និង switch...case",
+      "content": "ប្រើសម្រាប់ពិនិត្យលក្ខខណ្ឌដើម្បីសម្រេចចិត្ត។ ប្រសិនបើមានជម្រើសច្រើនដែលផ្អែកលើតម្លៃជាក់លាក់ យើងអាចប្រើ switch...case ជំនួសឱ្យ if...else ច្រើនជាន់បាន។",
+      "code": "",
+      "image": null
+    }
+  },
+  {
+    "model": "language.topic",
+    "pk": 164,
+    "fields": {
+      "lesson": 74,
+      "number": 1,
+      "title": "Searching Algorithms",
+      "content": "- Linear Search (ការស្វែងរកតាមលំដាប់): ដើរពិនិត្យធាតុម្តងមួយៗពីដើមដល់ចប់ រហូតដល់រកឃើញតម្លៃដែលចង់បាន។ វិធីនេះប្រើបានទោះបីទិន្នន័យមិនទាន់តម្រៀបក៏ដោយ ប៉ុន្តែយឺតបើទិន្នន័យច្រើន (Time Complexity:)។\r\n- Binary Search (ការស្វែងរកបែបពុះជាពីរ): ប្រៀបធៀបតម្លៃស្វែងរកជាមួយធាតុកណ្តាល (Middle) នៃបញ្ជី រួចកាត់ចោលពាក់កណ្តាលដែលមិនពាក់ព័ន្ធក្នុងជំហាននីមួយៗ។ លក្ខខណ្ឌចាំបាច់៖ បញ្ជីត្រូវតែតម្រៀបរួចជាស្រេច (លឿនជាង Linear Search ខ្លាំង ដោយមាន Time Complexity។",
+      "code": "# ១. ឧទាហរណ៍ Linear Search\r\ndef linear_search(arr, target):\r\n    for index, value in enumerate(arr):\r\n        if value == target:\r\n            return index  # ប្រគល់ទីតាំង (Index) ដែលរកឃើញ\r\n    return -1             # រកមិនឃើញ\r\n\r\nnumbers = [45, 12, 89, 33, 70]\r\nprint(\"Linear Search រកលេខ 89 ឃើញនៅ Index៖\", linear_search(numbers, 89)) # 2\r\n\r\n# ២. ឧទាហរណ៍ Binary Search (ទិន្នន័យត្រូវតែតម្រៀបរួច)\r\ndef binary_search(sorted_arr, target):\r\n    left = 0\r\n    right = len(sorted_arr) - 1\r\n\r\n    while left <= right:\r\n        mid = (left + right) // 2\r\n        if sorted_arr[mid] == target:\r\n            return mid\r\n        elif sorted_arr[mid] < target:\r\n            left = mid + 1\r\n        else:\r\n            right = mid - 1\r\n    return -1\r\n\r\nsorted_nums = [10, 20, 30, 40, 50, 60, 70]\r\nprint(\"Binary Search រកលេខ 50 ឃើញនៅ Index៖\", binary_search(sorted_nums, 50)) # 4",
+      "image": null
+    }
+  },
+  {
+    "model": "language.topic",
+    "pk": 181,
+    "fields": {
+      "lesson": 83,
+      "number": 1,
+      "title": "តើ Semantic HTML ជាអ្វី?",
+      "content": "Semantic Tags គឺជាស្លាក HTML5 ដែលបង្ហាញអត្ថន័យច្បាស់លាស់នៃខ្លឹមសារនៅខាងក្នុងទាំងចំពោះអ្នកអភិវឌ្ឍកូដ Search Engines (Google) និងឧបករណ៍ជំនួយការអាន (Screen Readers) ជំនួសឱ្យការប្រើ <div> តែមួយមុខ។\r\n•\t<header>, <nav>, <main>, <footer>៖ <header> ក្បាលទំព័រ, <nav> ម៉ឺនុយរុករក, <main> ខ្លឹមសារចម្បងនៃទំព័រ និង <footer> បាតទំព័រ។\r\n•\t<section>, <article> និង <aside>៖ <section> ផ្នែកនៃទំព័រ, <article> អត្ថបទ ឬព័ត៌មានឯករាជ្យដែលអាចចែករំលែកបាន និង <aside> ខ្លឹមសារបន្ថែម/Sidebar។\r\n•\t<div> និង <span>៖ <div> ជា Block container សម្រាប់រៀបចំប្លុកធំៗ ចំណែក <span> ជា Inline container សម្រាប់កំណត់រចនាប័ទ្មអត្ថបទតូចៗ។",
+      "code": "<!DOCTYPE html>\r\n<html lang=\"km\">\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <title>ប្លង់គេហទំព័រ Semantic HTML5</title>\r\n</head>\r\n<body>\r\n    <header>\r\n        <h1>គេហទំព័របច្ចេកវិទ្យាខ្មែរ</h1>\r\n        <nav>\r\n            <a href=\"#home\">ទំព័រដើម</a> |\r\n            <a href=\"#articles\">អត្ថបទ</a> |\r\n            <a href=\"#contact\">ទំនាក់ទំនង</a>\r\n        </nav>\r\n    </header>\r\n\r\n    <main>\r\n        <section id=\"articles\">\r\n            <article>\r\n                <h2>អត្ថបទ៖ របៀបរៀបចំរចនាសម្ព័ន្ធ Website</h2>\r\n                <p>ការប្រើ Semantic Tags ជួយឱ្យកូដងាយយល់ និងមានប្រសិទ្ធភាពខ្ពស់។</p>\r\n            </article>\r\n        </section>\r\n\r\n        <aside>\r\n            <h3>ព័ត៌មានគួរឱ្យចាប់អារម្មណ៍</h3>\r\n            <p>ចុះឈ្មោះទទួលមេរៀនថ្មីៗជារៀងរាល់សប្តាហ៍។</p>\r\n        </aside>\r\n    </main>\r\n\r\n    <footer>\r\n        <p>&copy; 2026 គេហទំព័របច្ចេកវិទ្យាខ្មែរ។ រក្សាសិទ្ធិគ្រប់យ៉ាង។</p>\r\n    </footer>\r\n</body>\r\n</html>",
+      "image": null
+    }
+  },
+  {
+    "model": "language.topic",
+    "pk": 72,
+    "fields": {
+      "lesson": 33,
+      "number": 2,
+      "title": "Public & Protected Convention",
+      "content": "+ Public\r\nឈ្មោះធម្មតា ដូចជា name អាចចូលប្រើពីខាងក្រៅ Class បាន។\r\n+ Protected Convention\r\nឈ្មោះចាប់ផ្តើមដោយ _ ដូចជា _balance បង្ហាញថាគួរប្រើខាងក្នុង Class ឬ Subclass។ វាជា Convention មិនមែនការហាមឃាត់ដោយភាសាទេ។",
+      "code": "",
+      "image": null
+    }
+  },
+  {
+    "model": "language.topic",
+    "pk": 101,
+    "fields": {
+      "lesson": 44,
+      "number": 2,
+      "title": "while loop",
+      "content": "while loop ពិនិត្យលក្ខខណ្ឌមុនរាល់ជុំ។ ប្រសិនបើលក្ខខណ្ឌមិនពិតពីដំបូង កូដក្នុង Loop មិនដំណើរការទេ។",
+      "code": "#include<iostream>\r\nusing namespace std;\r\nint main(){\r\n    int i=1;\r\n    while(i < 10){\r\n        cout<<\"hello, world\"<<endl;\r\n        i++;\r\n    }\r\n\r\n    return 0;\r\n}",
+      "image": null
+    }
+  },
+  {
+    "model": "language.topic",
+    "pk": 146,
+    "fields": {
+      "lesson": 63,
+      "number": 2,
+      "title": "Object",
+      "content": "Object ប្រើសម្រាប់ផ្ទុកទិន្នន័យដែលមានលក្ខណៈជាគូ Key និង Value (ឧទាហរណ៍៖ ព័ត៌មានលម្អិតរបស់សិស្សម្នាក់ ឬផលិតផលមួយ)។",
+      "code": "// ១. ការប្រើប្រាស់ Array\r\nconst fruits = [\"ស្វាយ\", \"ចេក\", \"ទុរេន\"];\r\nfruits.push(\"មង្ឃុត\"); // បន្ថែមធាតុថ្មីនៅខាងចុង\r\nconsole.log(fruits[0]); // \"ស្វាយ\"\r\n\r\n// ប្រើ map() ដើម្បីបង្កើត Array ថ្មី\r\nconst prices = [10, 20, 30];\r\nconst doubledPrices = prices.map(p => p * 2); // [20, 40, 60]\r\n\r\n// ២. ការប្រើប្រាស់ Object\r\nconst student = {\r\n    id: 101,\r\n    fullName: \"ចាន់ តារា\",\r\n    major: \"Web Development\",\r\n    isActive: true,\r\n    introduce: function() {\r\n        return `ខ្ញុំឈ្មោះ ${this.fullName} រៀនជំនាញ ${this.major}`;\r\n    }\r\n};\r\n\r\nconsole.log(student.fullName);    // ចាន់ តារា\r\nconsole.log(student.introduce()); // ខ្ញុំឈ្មោះ ចាន់ តារា រៀនជំនាញ Web Development",
+      "image": null
+    }
+  },
+  {
+    "model": "language.topic",
+    "pk": 152,
+    "fields": {
+      "lesson": 66,
+      "number": 2,
+      "title": "for, while និង do...while",
+      "content": "រង្វិលជុំប្រើសម្រាប់ដំណើរការកូដដដែលៗ។ ខុសពី while ធម្មតា រង្វិលជុំ do...while នឹងដំណើរការកូដយ៉ាងហោចណាស់ ១ ដងមុននឹងពិនិត្យលក្ខខណ្ឌ។",
+      "code": "#include <stdio.h>\r\n\r\nint main() {\r\n    // ១. ឧទាហរណ៍ if...else\r\n    int score = 85;\r\n    if (score >= 90) {\r\n        printf(\"និទ្ទេស A\\n\");\r\n    } else if (score >= 75) {\r\n        printf(\"និទ្ទេស B\\n\");\r\n    } else {\r\n        printf(\"និទ្ទេស C ឬធ្លាក់\\n\");\r\n    }\r\n\r\n    // ២. ឧទាហរណ៍ for loop (រាប់ពី 1 ដល់ 5)\r\n    for (int i = 1; i <= 5; i++) {\r\n        printf(\"ជុំទី %d\\n\", i);\r\n    }\r\n\r\n    // ៣. ឧទាហរណ៍ while loop\r\n    int count = 3;\r\n    while (count > 0) {\r\n        printf(\"រាប់ថយក្រោយ៖ %d\\n\", count);\r\n        count--;\r\n    }\r\n\r\n    return 0;\r\n}",
+      "image": null
+    }
+  },
+  {
+    "model": "language.topic",
+    "pk": 165,
+    "fields": {
+      "lesson": 74,
+      "number": 2,
+      "title": "Sorting Algorithms",
+      "content": "- Bubble Sort: ប្រៀបធៀបធាតុពីរដែលនៅជាប់គ្នា ម្តងមួយគូៗ ហើយប្តូរទីតាំងគ្នាប្រសិនបើលំដាប់មិនត្រឹមត្រូវ។ ងាយយល់សម្រាប់អ្នកចាប់ផ្តើម ប៉ុន្តែយឺតលើទិន្នន័យធំ។\r\n- Selection Sort: ជ្រើសរើសយកតម្លៃតូចបំផុតពីផ្នែកដែលមិនទាន់តម្រៀប មកដាក់នៅផ្នែកខាងមុខបន្តបន្ទាប់។\r\n- Insertion Sort: ទាញធាតុនីមួយៗមកបញ្ចូលក្នុងទីតាំងត្រឹមត្រូវនៅផ្នែកខាងឆ្វេងដែលបានតម្រៀបរួច (ស្រដៀងនឹងការតម្រៀបសន្លឹកបៀក្នុងដៃ) ។\r\n- Built-in Sort (sort() និង sorted()): នៅក្នុងការសរសេរកម្មវិធីជាក់ស្តែង Python មានមុខងារស្រាប់ដែលប្រើក្បួន Timsort មានល្បឿនលឿន និងប្រសិទ្ធភាពខ្ពស់ ($O(n \\log n)$)។",
+      "code": "# ១. ឧទាហរណ៍ Bubble Sort\r\ndef bubble_sort(arr):\r\n    n = len(arr)\r\n    data = arr.copy()\r\n    for i in range(n):\r\n        for j in range(0, n - i - 1):\r\n            if data[j] > data[j + 1]:\r\n                # ប្តូរទីតាំង (Swap)\r\n                data[j], data[j + 1] = data[j + 1], data[j]\r\n    return data\r\n\r\nunsorted = [64, 34, 25, 12, 22, 11, 90]\r\nprint(\"Bubble Sort៖\", bubble_sort(unsorted))\r\n\r\n# ២. ការប្រើប្រាស់ Built-in Sort ក្នុង Python (ណែនាំសម្រាប់ការងារជាក់ស្តែង)\r\nscores = [78, 95, 62, 88, 91]\r\n\r\nasc_scores = sorted(scores)                 # តម្រៀបពីតូចទៅធំ (បង្កើត List ថ្មី)\r\ndesc_scores = sorted(scores, reverse=True) # តម្រៀបពីធំទៅតូច\r\n\r\nprint(\"ពីតូចទៅធំ៖\", asc_scores)\r\nprint(\"ពីធំទៅតូច៖\", desc_scores)\r\n\r\n# ៣. ការតម្រៀបបញ្ជី Object / Dictionary ដោយប្រើ key និង lambda\r\nstudents = [\r\n    {\"name\": \"តារា\", \"score\": 85},\r\n    {\"name\": \"សុខា\", \"score\": 95},\r\n    {\"name\": \"ដារ៉ា\", \"score\": 78}\r\n]\r\nstudents.sort(key=lambda s: s[\"score\"], reverse=True)\r\nprint(\"តម្រៀបតាមពិន្ទុពីខ្ពស់ទៅទាប៖\", students)",
+      "image": null
+    }
+  },
+  {
+    "model": "language.topic",
+    "pk": 73,
+    "fields": {
+      "lesson": 33,
+      "number": 3,
+      "title": "Private Name Mangling",
+      "content": "ឈ្មោះចាប់ផ្តើមដោយ __ ដូចជា __pin ត្រូវបាន Python បម្លែងឈ្មោះខាងក្នុង ដើម្បីកាត់បន្ថយការប៉ះទង្គិចឈ្មោះ។ វាមិនមែនជាការការពារសុវត្ថិភាពពេញលេញទេ។",
+      "code": "class BankAccount:\r\n    def __init__(self, owner, balance):\r\n        self.owner = owner       # public\r\n        self._type = \"Savings\"   # protected convention\r\n        self.__balance = balance  # name mangling\r\n\r\n    def show_balance(self):\r\n        print(\"Balance:\", self.__balance)\r\n\r\naccount = BankAccount(\"Dara\", 500)\r\nprint(account.owner)\r\naccount.show_balance()",
+      "image": null
+    }
+  },
+  {
+    "model": "language.topic",
+    "pk": 102,
+    "fields": {
+      "lesson": 44,
+      "number": 3,
+      "title": "do-while loop",
+      "content": "ដំណើរការកូដយ៉ាងហោចណាស់មួយដង មុនពិនិត្យលក្ខខណ្ឌ។",
+      "code": "#include<iostream>\r\nusing namespace std;\r\nint main(){\r\n    int i=1;\r\n    do{\r\n        cout<<\"hello, world\"<<endl;\r\n        i++;\r\n        } while (i <= 100);\r\n\r\n    return 0;\r\n}",
+      "image": null
+    }
+  },
+  {
+    "model": "language.topic",
+    "pk": 24,
+    "fields": {
+      "lesson": 8,
+      "number": 1,
+      "title": "Margin",
+      "content": "- Margin​ គឺជាគម្លាតអក្សរ (content) ជាមួយនឹងចំនុចដើមរបស់វា។ ក្នុងការដាក់ margin ត្រូវបានគេ២ ប្រភេទ៖\r\nMargin-left \t\t: គម្លាតខិតទៅឆ្វេងបំផុត\r\nMargin-right\t\t : គម្លាតខិតទៅស្ដាំបំផុត\r\nMargin-top\t\t : គម្លាតខិតទៅលើបំផុត\r\nMargin-bottom\t\t : គម្លាតខិតទៅក្រោមបំផុត\r\n+ Margin : top right bottom left (ទិសដៅទៅតាមទ្រនិចនាឡិកា)\r\n_____Ex: margin : 10px (top = 20px) 20px (right=20px) 10px (bottom=10px) 20px (left=20px);",
+      "code": "",
+      "image": null
+    }
+  },
+  {
+    "model": "language.topic",
+    "pk": 74,
+    "fields": {
+      "lesson": 34,
+      "number": 1,
+      "title": "Getter & Setter",
+      "content": "Getter និង Setter ជួយគ្រប់គ្រងការអាន និងកំណត់តម្លៃ Attributes។ Python មាន @property ដែលអនុញ្ញាតឱ្យប្រើ Method ដូចជាការចូលប្រើ Attribute ធម្មតា។\r\nGetter អនុញ្ញាតឱ្យអានតម្លៃដែលគ្រប់គ្រងដោយ Class។\r\nSetter អនុញ្ញាតឱ្យកំណត់តម្លៃថ្មី ហើយអាចដាក់ Validation មុនពេលកំណត់។",
+      "code": "",
+      "image": null
+    }
+  },
+  {
+    "model": "language.topic",
+    "pk": 133,
+    "fields": {
+      "lesson": 56,
+      "number": 1,
+      "title": "Class និង Object",
+      "content": "OOP គឺជារបៀបរៀបចំកូដដោយផ្អែកលើ 'វត្ថុ' (Object)។ Class ប្រៀបបាននឹងប្លង់មេ (Blueprint) ចំណែក Object គឺជាវត្ថុពិតប្រាកដដែលបង្កើតចេញពីប្លង់មេនោះ។ អនុគមន៍ __init__() គឺជា Constructor ដែលដំណើរការដោយស្វ័យប្រវត្តិនៅពេលបង្កើត Object ថ្មី។",
+      "code": "# បង្កើត Class ឈ្មោះ Product\r\nclass Product:\r\n    def __init__(self, name, price, stock):\r\n        self.name = name\r\n        self.price = price\r\n        self.stock = stock\r\n\r\n    def display_info(self):\r\n        return f\"ផលិតផល៖ {self.name} | តម្លៃ៖ ${self.price} | ស្តុក៖ {self.stock}\"\r\n\r\n    def sell(self, quantity):\r\n        if quantity <= self.stock:\r\n            self.stock -= quantity\r\n            print(f\"បានលក់ {self.name} ចំនួន {quantity} ដោយជោគជ័យ!\")\r\n        else:\r\n            print(\"ស្តុកមិនគ្រប់គ្រាន់ទេ!\")\r\n\r\n# បង្កើត Object ចេញពី Class Product\r\nlaptop = Product(\"MacBook Air\", 999, 10)\r\nprint(laptop.display_info())\r\nlaptop.sell(2)\r\nprint(laptop.display_info())",
+      "image": null
+    }
+  },
+  {
+    "model": "language.topic",
+    "pk": 147,
+    "fields": {
+      "lesson": 64,
+      "number": 1,
+      "title": "តើ DOM ជាអ្វី?",
+      "content": "DOM (Document Object Model) គឺជារចនាសម្ព័ន្ធដើមឈើនៃទំព័រ HTML ដែលអនុញ្ញាតឱ្យ JavaScript អាចចូលទៅចាប់យក Element ណាមួយ ដើម្បីកែប្រែអត្ថបទ ប្តូរពណ៌ CSS លាក់ ឬបង្ហាញធាតុផ្សេងៗនៅលើគេហទំព័របានភ្លាមៗដោយមិនចាំបាច់ Reload ទំព័រ។",
+      "code": "",
+      "image": null
+    }
+  },
+  {
+    "model": "language.topic",
+    "pk": 153,
+    "fields": {
+      "lesson": 67,
+      "number": 1,
+      "title": "ការបង្កើត និងការហៅ Function មកប្រើ",
+      "content": "Function ជួយបំបែកកម្មវិធីធំៗឱ្យទៅជាផ្នែកតូចៗដែលងាយស្រួលគ្រប់គ្រង និងអាចហៅប្រើឡើងវិញបាន។ ប្រសិនបើ Function មិនបញ្ជូនតម្លៃត្រឡប់មកវិញទេ យើងត្រូវប្រើពាក្យគន្លឹះ void នៅពីមុខឈ្មោះ Function។",
+      "code": "#include <stdio.h>\r\n\r\n// ប្រកាស Function Prototype\r\nint addNumbers(int x, int y);\r\nvoid printBanner();\r\n\r\nint main() {\r\n    printBanner();\r\n    \r\n    int result = addNumbers(25, 35);\r\n    printf(\"ផលបូកនៃ 25 + 35 គឺ៖ %d\\n\", result);\r\n\r\n    return 0;\r\n}\r\n\r\n// និយមន័យនៃ Function\r\nvoid printBanner() {\r\n    printf(\"=== កម្មវិធីគណនាលេខដោយប្រើ Function ===\\n\");\r\n}\r\n\r\nint addNumbers(int x, int y) {\r\n    return x + y;\r\n}",
+      "image": null
+    }
+  },
+  {
+    "model": "language.topic",
+    "pk": 166,
+    "fields": {
+      "lesson": 75,
+      "number": 1,
+      "title": "Stack (គោលការណ៍ LIFO)",
+      "content": "Stack ដំណើរការតាមគោលការណ៍ LIFO (Last-In, First-Out) មានន័យថា 'ចូលក្រោយ ចេញមុន' (ឧទាហរណ៍៖ ការតម្រៀបចានជាជង់ ឬប៊ូតុង Undo ក្នុងកម្មវិធី)។",
+      "code": "class Stack:\r\n    #attribute\r\n    def __init__(self):\r\n        self.item=['lida','viva','bopha']\r\n    def push(self, Value):\r\n        self.item.append(Value)\r\n    def empty(self):\r\n        if len(self.item)==0:\r\n            return True\r\n        else:\r\n            return False\r\n    def pop(self):\r\n        if self.empty()==True:\r\n            return \"Stack is empty, no pop!\"\r\n        else:\r\n            return self.item.pop()\r\n    def peek(self):\r\n        if self.empty():\r\n            return \"Stack is empty, no pop!\"\r\n        else:\r\n            return self.item[-1]\r\n    def display(self):\r\n        i=len(self.item)-1\r\n        while i>=0:\r\n            print(self.item[i],end=' ')\r\n            i-=1",
+      "image": null
+    }
+  },
+  {
+    "model": "language.topic",
+    "pk": 182,
+    "fields": {
+      "lesson": 84,
+      "number": 1,
+      "title": "Meta Tags សំខាន់ៗក្នុង <head>",
+      "content": "•\t<meta charset=\"UTF-8\">៖ កំណត់ការគាំទ្រអក្សរជាសកល រួមទាំងអក្សរខ្មែរ ដោយគ្មានបញ្ហាជ្រុះតួ ឬខូចអក្សរ។\r\n•\t<meta name=\"viewport\" ...>៖ ចាំបាច់បំផុតសម្រាប់ Responsive Design ឱ្យគេហទំព័របង្ហាញស្អាតទាំងលើទូរស័ព្ទ និងកុំព្យូទ័រ។\r\n•\t<meta name=\"description\" ...>៖ ផ្តល់សេចក្តីសង្ខេបនៃទំព័រសម្រាប់បង្ហាញនៅលើលទ្ធផលស្វែងរករបស់ Google។",
+      "code": "",
+      "image": null
+    }
+  },
+  {
+    "model": "language.topic",
+    "pk": 25,
+    "fields": {
+      "lesson": 8,
+      "number": 2,
+      "title": "Padding",
+      "content": "- Padding : គឺជាគម្លាតអក្សរ (content) មិនប៉ះផ្ទាល់ជាមួយនឹង border​\r\npadding-left \t\t: គម្លាតខិតទៅឆ្វេងបំផុត\r\npadding-right\t\t : គម្លាតខិតទៅស្ដាំបំផុត\r\npadding-top\t\t : គម្លាតខិតទៅលើបំផុត\r\npadding-bottom\t : គម្លាតខិតទៅក្រោមបំផុត\r\n+padding : top right bottom left (ទិសដៅទៅតាមទ្រនិចនាឡិកា)\r\n____Ex: margin : 10px (top = 20px) 20px (right=20px) 10px (bottom=10px) 20px (left=20px);",
+      "code": "",
+      "image": null
+    }
+  },
+  {
+    "model": "language.topic",
+    "pk": 75,
+    "fields": {
+      "lesson": 34,
+      "number": 2,
+      "title": "@property",
+      "content": "@property ធ្វើឱ្យ Method មួយអាចហៅដូច Attribute។ ប្រើ @attribute_name.setter ដើម្បីកំណត់ Setter។",
+      "code": "class Person:\r\n    def __init__(self, age):\r\n        self.age = age\r\n\r\n    @property\r\n    def age(self):\r\n        return self._age\r\n\r\n    @age.setter\r\n    def age(self, value):\r\n        if value < 0:\r\n            raise ValueError(\"Age cannot be negative\")\r\n        self._age = value\r\n\r\nperson = Person(20)\r\nprint(person.age)\r\nperson.age = 21\r\nprint(person.age)",
+      "image": null
+    }
+  },
+  {
+    "model": "language.topic",
+    "pk": 148,
+    "fields": {
+      "lesson": 64,
+      "number": 2,
+      "title": "ការចាប់យក Element និងការប្រើ Event Listener",
+      "content": "•\tdocument.querySelector()៖ ប្រើសម្រាប់ចាប់យក Element ពី HTML តាមរយៈ ID (#id), Class (.class) ឬ Tag។\r\n•\telement.textContent៖ ប្រើសម្រាប់ផ្លាស់ប្តូរអត្ថបទនៅក្នុង Element។\r\n•\taddEventListener()៖ ប្រើសម្រាប់រង់ចាំចាប់សកម្មភាពរបស់អ្នកប្រើប្រាស់ ដូចជា ការចុចប៊ូតុង (click) ឬការវាយអក្សរ (input)។",
+      "code": "<!-- កូដ HTML -->\r\n<h2 id=\"title\">សូមចុចប៊ូតុងខាងក្រោម</h2>\r\n<button id=\"changeBtn\">ប្តូរអត្ថបទ និងពណ៌</button>\r\n\r\n<script>\r\n    // ១. ចាប់យក Element ពី HTML\r\n    const titleEl = document.querySelector(\"#title\");\r\n    const btnEl = document.querySelector(\"#changeBtn\");\r\n\r\n    // ២. បន្ថែមព្រឹត្តិការណ៍ពេលចុចប៊ូតុង (Click Event)\r\n    btnEl.addEventListener(\"click\", () => {\r\n        titleEl.textContent = \"អបអរសាទរ! អ្នកបានចុចប៊ូតុងដោយជោគជ័យ។\";\r\n        titleEl.style.color = \"#16a34a\";\r\n        titleEl.style.backgroundColor = \"#dcfce7\";\r\n        titleEl.style.padding = \"10px\";\r\n    });\r\n</script>",
+      "image": null
+    }
+  },
+  {
+    "model": "language.topic",
+    "pk": 167,
+    "fields": {
+      "lesson": 75,
+      "number": 2,
+      "title": "Queue (គោលការណ៍ FIFO)",
+      "content": "Queue ដំណើរការតាមគោលការណ៍ FIFO (First-In, First-Out) មានន័យថា 'ចូលមុន ចេញមុន' (ឧទាហរណ៍៖ ការតម្រង់ជួរទិញសំបុត្រ)។ នៅក្នុង Python គេណែនាំឱ្យប្រើ collections.deque សម្រាប់បង្កើត Queue ព្រោះវាមានល្បឿនលឿន (O(1)) ក្នុងការដកធាតុចេញពីខាងមុខ។",
+      "code": "class Queue:\r\n    def __init__(self):\r\n        self.item=['lida','viva','bopha']\r\n    def enqueue(self,items):\r\n        self.item.append(items)\r\n    def empty(self):\r\n        if len(self.item)==0:\r\n            return True\r\n        else:\r\n            return False\r\n    def dequeue(self):\r\n        if self.empty()==True:\r\n            return \"Stack is empty, no pop!\"\r\n        else:\r\n            return self.item.pop(0)\r\n    def front(self):\r\n        if self.empty():\r\n            return \"Stack is empty, no pop!\"\r\n        else:\r\n            return self.item[0]\r\n    def display(self):\r\n        print('in -->| ',end='')\r\n        i=len(self.item)-1\r\n        while i>=0:\r\n            print(self.item[i],end=' ')\r\n            i-=1   \r\n        print(' |out--->')",
+      "image": null
+    }
+  },
+  {
+    "model": "language.topic",
+    "pk": 183,
+    "fields": {
+      "lesson": 84,
+      "number": 2,
+      "title": "គន្លឹះសំខាន់ៗសម្រាប់អ្នកដាក់មេរៀនលើ Website",
+      "content": "នៅពេលអ្នកយកកូដ HTML ទៅដាក់បង្ហាញជាមេរៀននៅលើគេហទំព័រ (ដូចជា Blog ឬ Tutorial Site) ត្រូវប្តូរសញ្ញា < និង > នៅក្នុងឧទាហរណ៍កូដ ទៅជា &lt; និង &gt; ប្រសិនបើអ្នកសរសេរផ្ទាល់ក្នុង HTML (ឬប្រើប្រាស់ <pre><code>...</code></pre> ជាមួយ Syntax Highlighter ដូចជា Prism.js ឬ Highlight.js) ដើម្បីកុំឱ្យ Browser យល់ច្រឡំថាកូដឧទាហរណ៍នោះជាធាតុពិតនៃទំព័ររបស់អ្នក។",
+      "code": "<!-- ឧទាហរណ៍ការបង្ហាញកូដ HTML ឱ្យមើលឃើញជាអក្សរកូដនៅលើ Website -->\r\n<pre><code>&lt;h1 class=\"heading\"&gt;សួស្តីអ្នកសិក្សា&lt;/h1&gt;\r\n&lt;p&gt;នេះជាឧទាហរណ៍កូដ HTML&lt;/p&gt;</code></pre>",
+      "image": null
+    }
+  },
+  {
+    "model": "language.topic",
+    "pk": 26,
+    "fields": {
+      "lesson": 9,
+      "number": 1,
+      "title": "Visibility",
+      "content": "- Visibility គឺជាការកំណត់ ឬបង្ហាញ (Display) Element នៅលើ Web page ។\r\n\tទម្រង់របស់ Visibility មាន៣ប្រភេទ៖ Visible, Hidden, Collapse.\r\n\r\n- Visibility : visible (ទម្រង់ធម្មតា ដូចនឹងអត់បានកំណត់ដែរ)​\r\n- Visibility : hidden (ការលាក់ ទោះបីយើងធ្វើការ Hide Content ក៏ដោយ ក៏វានៅតែទុក space សម្រាប់ទីតាំងនៃ content ដែលមាន hide ដដែល)\r\n- Visibility : collapse(ទម្រង់ដូចទៅនឹង hidden​ ដែលប៉ុន្ដែគេប្រើប្រាស់សម្រាប់ Hide Table)",
+      "code": "",
+      "image": "topics/Picture10_Rue4pHg.png"
+    }
+  },
+  {
+    "model": "language.topic",
+    "pk": 76,
+    "fields": {
+      "lesson": 35,
+      "number": 1,
+      "title": "Inheritance",
+      "content": "Inheritance អនុញ្ញាតឱ្យ Class កូន (Child Class) ទទួលបាន Attributes និង Methods ពី Class មេ (Parent Class)។ វាជួយប្រើកូដឡើងវិញ និងបង្កើតទំនាក់ទំនងរវាងប្រភេទ Objects។",
+      "code": "",
+      "image": null
+    }
+  },
+  {
+    "model": "language.topic",
+    "pk": 103,
+    "fields": {
+      "lesson": 45,
+      "number": 1,
+      "title": "Functions",
+      "content": "Function គឺជាក្រុមកូដដែលមានឈ្មោះ និងអាចហៅប្រើបាននៅពេលត្រូវការ។ Function ជួយបំបែកកម្មវិធីធំទៅជាផ្នែកតូចៗ ងាយអាន ងាយកែប្រែ និងអាចប្រើឡើងវិញ។ function​ មាន ២ គឺ​ none return and with return។",
+      "code": "",
+      "image": null
+    }
+  },
+  {
+    "model": "language.topic",
+    "pk": 134,
+    "fields": {
+      "lesson": 57,
+      "number": 1,
+      "title": "File Handling",
+      "content": "Python អនុញ្ញាតឱ្យយើងបង្កើត អាន និងកែប្រែឯកសារ (ដូចជា .txt ឬ .csv) បានយ៉ាងងាយស្រួលតាមរយៈឃ្លា with open(...)។ ការប្រើ with ជួយបិទឯកសារដោយស្វ័យប្រវត្តិបន្ទាប់ពីប្រើរួច។",
+      "code": "",
+      "image": null
+    }
+  },
+  {
+    "model": "language.topic",
+    "pk": 149,
+    "fields": {
+      "lesson": 65,
+      "number": 1,
+      "title": "Template Literals និង Destructuring",
+      "content": "ES6 បានបន្ថែមលក្ខណៈពិសេសជាច្រើនដែលធ្វើឱ្យការសរសេរកូដកាន់តែរហ័ស ដូចជាការប្រើសញ្ញា Backtick (` `) ដើម្បីបញ្ចូលអថេរក្នុងអក្សរ និង Destructuring ដើម្បីទាញយកទិន្នន័យចេញពី Object ឬ Array យ៉ាងងាយស្រួល។",
+      "code": "",
+      "image": null
+    }
+  },
+  {
+    "model": "language.topic",
+    "pk": 154,
+    "fields": {
+      "lesson": 68,
+      "number": 1,
+      "title": "Array",
+      "content": "Array គឺជាបណ្តុំនៃទិន្នន័យដែលមានប្រភេទដូចគ្នា ហើយត្រូវបានរក្សាទុកជាប់ៗគ្នាក្នុងអង្គចងចាំ ដោយមានលេខរៀង (Index) ចាប់ផ្តើមពីលេខ 0។",
+      "code": "",
+      "image": null
+    }
+  },
+  {
+    "model": "language.topic",
+    "pk": 168,
+    "fields": {
+      "lesson": 76,
+      "number": 1,
+      "title": "រចនាសម្ព័ន្ធ Node និង Singly Linked List",
+      "content": "ខុសពី List ធម្មតាដែលផ្ទុកទិន្នន័យជាប់គ្នាក្នុងអង្គចងចាំ Linked List ផ្ទុកទិន្នន័យជា 'ថ្នាំង' (Node) ដាច់ៗពីគ្នា។ Node នីមួយៗមាន ២ ផ្នែកគឺ៖ ទិន្នន័យ (Data) និងតំណភ្ជាប់ (Next Pointer) ដែលចង្អុលទៅកាន់ Node បន្ទាប់។",
+      "code": "# បង្កើត Class Node\r\nclass Node:\r\n    def __init__(self, data):\r\n        self.data = data\r\n        self.next = None\r\n\r\n# បង្កើត Class SinglyLinkedList\r\nclass LinkedList:\r\n    def __init__(self):\r\n        self.head = None\r\n\r\n    def append(self, data):\r\n        new_node = Node(data)\r\n        if not self.head:\r\n            self.head = new_node\r\n            return\r\n        current = self.head\r\n        while current.next:\r\n            current = current.next\r\n        current.next = new_node\r\n\r\n    def display(self):\r\n        current = self.head\r\n        elements = []\r\n        while current:\r\n            elements.append(str(current.data))\r\n            current = current.next\r\n        print(\" -> \".join(elements) + \" -> None\")\r\n\r\n# សាកល្បងប្រើប្រាស់ Linked List\r\nll = LinkedList()\r\nll.append(10)\r\nll.append(20)\r\nll.append(30)\r\nll.display()  # 10 -> 20 -> 30 -> None",
+      "image": null
+    }
+  },
+  {
+    "model": "language.topic",
+    "pk": 27,
+    "fields": {
+      "lesson": 9,
+      "number": 2,
+      "title": "Display",
+      "content": "- None Display គឺជាការលាក់ ដូចទៅនឹង visibility hidden ដែល ប៉ុន្ដែវានឹងមិនរក្សារ space សម្រាប់ទីតាំងនៃ element នោះទេ។\r\n- ជាទូទៅយើងក៏អាចធ្វើការផ្លាស់ប្ដូរ Inline Element ទៅ Block Element ឬ  Block Element ទៅ Inline Element វិញបាន។\r\n- តាមឧទារហណ៏ខាងស្ដាំ គឺជាផ្លាស់ប្ដូរប្រភេទរបស់​ Block element ទៅជា Inline element\r\n- តាមឧទារហណ៏ខាងស្ដាំ គឺជាផ្លាស់ប្ដូរប្រភេទរបស់​ Inline Element ទៅ Block Element វិញ។",
+      "code": "",
+      "image": "topics/Picture11_prPuMKz.png"
+    }
+  },
+  {
+    "model": "language.topic",
+    "pk": 77,
+    "fields": {
+      "lesson": 35,
+      "number": 2,
+      "title": "Parent and child",
+      "content": "+ Parent Class\r\nClass មេដែលមាន Attributes ឬ Methods ដែល Class កូនអាចទទួលមរតក។\r\n+ Child Class\r\nClass កូនសរសេរឈ្មោះ Parent Class ក្នុងវង់ក្រចក៖ class Dog(Animal):។",
+      "code": "",
+      "image": null
+    }
+  },
+  {
+    "model": "language.topic",
+    "pk": 104,
+    "fields": {
+      "lesson": 45,
+      "number": 2,
+      "title": "Function Declaration និង Definition",
+      "content": "Declaration ប្រាប់កម្មវិធីអំពីឈ្មោះ ប្រភេទតម្លៃត្រឡប់ និង Parameters។ Definition មានកូដពិតប្រាកដរបស់ Function។",
+      "code": "",
+      "image": null
+    }
+  },
+  {
+    "model": "language.topic",
+    "pk": 135,
+    "fields": {
+      "lesson": 57,
+      "number": 2,
+      "title": "Try...Except",
+      "content": "ដើម្បីកុំឱ្យកម្មវិធីគាំង (Crash) នៅពេលមានបញ្ហាកើតឡើង (ដូចជា អ្នកប្រើប្រាស់បញ្ចូលអក្សរជំនួសលេខ ឬរកឯកសារមិនឃើញ) យើងត្រូវប្រើប្លុក try...except។",
+      "code": "# ១. ការសរសេរ និងអានឯកសារ (File Handling)\r\nwith open(\"notes.txt\", \"w\", encoding=\"utf-8\") as file:\r\n    file.write(\"សួស្តី! នេះជាទិន្នន័យដែលរក្សាទុកដោយ Python។\r\n\")\r\n    file.write(\"ការរៀន Python គឺពិតជាងាយស្រួល!\")\r\n\r\nwith open(\"notes.txt\", \"r\", encoding=\"utf-8\") as file:\r\n    content = file.read()\r\n    print(\"ខ្លឹមសារក្នុងឯកសារ៖\r\n\" + content)\r\n\r\n# ២. ការគ្រប់គ្រងកំហុស (Error Handling)\r\ntry:\r\n    number = int(\"abc\") # បង្កឱ្យមានកំហុស ValueError\r\n    print(100 / number)\r\nexcept ValueError:\r\n    print(\"កំហុស៖ មិនអាចបំប្លែងអក្សរទៅជាលេខបានទេ!\")\r\nexcept ZeroDivisionError:\r\n    print(\"កំហុស៖ មិនអាចចែកនឹងលេខសូន្យបានទេ!\")",
+      "image": null
+    }
+  },
+  {
+    "model": "language.topic",
+    "pk": 150,
+    "fields": {
+      "lesson": 65,
+      "number": 2,
+      "title": "ការទាញទិន្នន័យពី Server ដោយប្រើ Fetch API និង Async/Await",
+      "content": "នៅក្នុងគេហទំព័រទំនើប យើងតែងតែទាញទិន្នន័យ (ដូចជា បញ្ជីផលិតផល ឬអត្ថបទព័ត៌មាន) ពី Server មកបង្ហាញលើទំព័រ Web តាមរយៈ Fetch API។",
+      "code": "// ១. Template Literals & Object Destructuring\r\nconst product = { title: \"កុំព្យូទ័រយួរដៃ\", price: 850 };\r\nconst { title, price } = product;\r\nconsole.log(`ផលិតផល៖ ${title} មានតម្លៃ $${price}`);\r\n\r\n// ២. Async/Await ជាមួយ Fetch API ដើម្បីទាញទិន្នន័យពី Server\r\nasync function fetchUsers() {\r\n    try {\r\n        const response = await fetch(\"https://jsonplaceholder.typicode.com/users\");\r\n        const users = await response.json();\r\n        \r\n        // បង្ហាញឈ្មោះអ្នកប្រើប្រាស់ ៣ នាក់ដំបូង\r\n        users.slice(0, 3).forEach(user => {\r\n            console.log(`ឈ្មោះ៖ ${user.name} | អ៊ីមែល៖ ${user.email}`);\r\n        });\r\n    } catch (error) {\r\n        console.error(\"មានបញ្ហាក្នុងការទាញទិន្នន័យ៖\", error);\r\n    }\r\n}\r\n\r\nfetchUsers();",
+      "image": null
+    }
+  },
+  {
+    "model": "language.topic",
+    "pk": 155,
+    "fields": {
+      "lesson": 68,
+      "number": 2,
+      "title": "Strings",
+      "content": "នៅក្នុងភាសា C មិនមានប្រភេទទិន្នន័យ String ដាច់ដោយឡែកទេ ប៉ុន្តែវាប្រើអារេនៃតួអក្សរ (char array) ដែលបញ្ចប់ដោយតួអក្សរពិសេស '\\0' (Null character)។",
+      "code": "#include <stdio.h>\r\n#include <string.h>\r\n\r\nint main() {\r\n    // ១. អារេនៃលេខគត់\r\n    int scores[4] = {80, 92, 75, 88};\r\n    printf(\"ពិន្ទុទី ១៖ %d\\n\", scores[0]);\r\n\r\n    for (int i = 0; i < 4; i++) {\r\n        printf(\"scores[%d] = %d\\n\", i, scores[i]);\r\n    }\r\n\r\n    // ២. ខ្សែអក្សរ (String)\r\n    char studentName[50] = \"សុខ ដារ៉ា\";\r\n    printf(\"ឈ្មោះសិស្ស៖ %s (ប្រវែង %zu bytes)\\n\", studentName, strlen(studentName));\r\n\r\n    return 0;\r\n}",
+      "image": null
+    }
+  },
+  {
+    "model": "language.topic",
+    "pk": 28,
+    "fields": {
+      "lesson": 9,
+      "number": 3,
+      "title": "Block Elements",
+      "content": "- Block Elements : គឺជាប្រភេទ element ដែលចាប់យកទីតាំងជាជួរៗ នៅក្នុង​ web page ដោយវាបង្កើត​ line ​ទំនេរចោលនៅលើ និងខាងក្រោមវា។\r\n+ ប្រភេទរបស់ Block elements មានដូចជា៖\r\n<h1>?</h1>\r\n<p>?</p>\r\n<div>?</div>\r\n.....",
+      "code": "",
+      "image": null
+    }
+  },
+  {
+    "model": "language.topic",
+    "pk": 78,
+    "fields": {
+      "lesson": 35,
+      "number": 3,
+      "title": "ប្រភេទ Inheritance",
+      "content": "Python គាំទ្រ Single, Multiple, Multilevel និង Hierarchical Inheritance។ សម្រាប់អ្នកចាប់ផ្តើម គួរយល់ពី Single Inheritance ជាមុន។",
+      "code": "class Animal:\r\n    def eat(self):\r\n        print(\"This animal eats food.\")\r\n\r\nclass Dog(Animal):\r\n    def bark(self):\r\n        print(\"The dog barks.\")\r\n\r\nmy_dog = Dog()\r\nmy_dog.eat()\r\nmy_dog.bark()",
+      "image": null
+    }
+  },
+  {
+    "model": "language.topic",
+    "pk": 105,
+    "fields": {
+      "lesson": 45,
+      "number": 3,
+      "title": "Parameters និង Arguments",
+      "content": "Parameter គឺជាអថេរដែលកំណត់ក្នុង Function។ Argument គឺជាតម្លៃដែលផ្ញើចូលពេលហៅ Function។",
+      "code": "",
+      "image": null
+    }
+  },
+  {
+    "model": "language.topic",
+    "pk": 106,
+    "fields": {
+      "lesson": 45,
+      "number": 4,
+      "title": "return",
+      "content": "return ប្រើសម្រាប់ត្រឡប់តម្លៃទៅកន្លែងហៅ Function។",
+      "code": "#include<iostream>\r\nusing namespace std;\r\nint option1(){\r\n    int o=2;\r\n\r\n    return o+2;\r\n}\r\n\r\nint main(){\r\n    \r\n    cout<<option1();\r\n\r\nreturn 0;\r\n}",
+      "image": null
+    }
+  },
+  {
+    "model": "language.topic",
+    "pk": 107,
+    "fields": {
+      "lesson": 45,
+      "number": 5,
+      "title": "void",
+      "content": "void មានន័យថា Function មិនត្រឡប់តម្លៃទេ។",
+      "code": "#include<iostream>\r\nusing namespace std;\r\n\r\nvoid option1(string name){\r\n    cout<<\"hello  :\"<<name;\r\n\r\n}\r\n\r\nint main(){\r\n    string name;\r\n\r\n    cin>>name;\r\n    option1();\r\n    return 0;\r\n}",
+      "image": null
+    }
+  },
+  {
+    "model": "language.topic",
+    "pk": 29,
+    "fields": {
+      "lesson": 10,
+      "number": 1,
+      "title": "Positions",
+      "content": "- CSS Positions Properties  គឺអាចឲយើងធ្វើការកំណត់ទីតាំងរបស់ element ណាមួយទៅតាមតម្រូវការ។\r\n- យើងអាចកំណត់ឲ elements មួយស្ថិតនៅខាងលើ ឬខាងក្រោម element ផ្សេងទៀតបាន។\r\n- Element អាចត្រូវបានកំណត់ position ដោយប្រើប្រាស់ top, bottom, left, right។ ហើយពួកវាអាចធ្វើការខុសគ្នាទៅលើអាស្រ័យទៅតាម position method ដែលបានកំណត់។\r\n+ position method ត្រូវគេបែងចែកជា ៤ ប្រភេទ៖\r\n- Static Positioning (កំណត់ទីតាំងធម្មតា ដូចទៅនឹងមិនបានកណត់ដែរ)\r\n- Fixed Positioning (គឺជាការកំនត់ទីតាំង មិនប្រែប្រួល(ជាប់ជាមួយ View Port) \r\n\tទៅតាមការ scroll)\r\n- Relative Positioning (គឺប្រើសម្រាប់ប្ដូរទីតាំង element មួយទៅកាន់ទីតាំងផ្សេងដោយផ្អែកទៅលើទីតាំងដើមរបស់វា។\r\n- Absolute Positioning (គឺប្រើសម្រាប់ប្ដូរទីតាំង element មួយទៅកាន់ទីតាំងផ្អែកផ្សេងដោយមិនផ្អែកទៅលើទីតាំងដើមរបស់វា)។",
+      "code": "",
+      "image": null
+    }
+  },
+  {
+    "model": "language.topic",
+    "pk": 79,
+    "fields": {
+      "lesson": 36,
+      "number": 1,
+      "title": "Method Overriding",
+      "content": "Method Overriding កើតឡើងនៅពេល Child Class សរសេរ Method ឈ្មោះដូច Method ក្នុង Parent Class ដើម្បីផ្តល់ឥរិយាបថថ្មី។ super() អាចប្រើដើម្បីហៅ Method ឬ Initializer ពី Parent Class។",
+      "code": "",
+      "image": null
+    }
+  },
+  {
+    "model": "language.topic",
+    "pk": 108,
+    "fields": {
+      "lesson": 46,
+      "number": 1,
+      "title": "Arrays",
+      "content": "Array គឺជារចនាសម្ព័ន្ធទិន្នន័យដែលផ្ទុកតម្លៃច្រើនប្រភេទដូចគ្នា ក្រោមឈ្មោះតែមួយ។ ធាតុនីមួយៗត្រូវបានចូលប្រើតាម Index ដែលចាប់ផ្តើមពី 0។",
+      "code": "",
+      "image": null
+    }
+  },
+  {
+    "model": "language.topic",
+    "pk": 169,
+    "fields": {
+      "lesson": 77,
+      "number": 1,
+      "title": "Binary Tree (ដើមឈើទ្វេភាគ) និង Graph (ក្រាហ្វ)",
+      "content": "•\tBinary Tree៖ ជារចនាសម្ព័ន្ធទិន្នន័យតាមឋានានុក្រម (Hierarchical) ដែលចាប់ផ្តើមពីឫស (Root) ហើយ Node នីមួយៗអាចមានកូនយ៉ាងច្រើន ២ គឺកូនខាងឆ្វេង (Left) និងកូនខាងស្តាំ (Right)។\r\n•\tGraph៖ ជាបណ្តុំនៃចំណុច (Vertices/Nodes) ដែលភ្ជាប់គ្នាដោយខ្សែ (Edges) ប្រើសម្រាប់តំណាងឱ្យបណ្តាញសង្គម ឬផែនទីស្វែងរកផ្លូវខ្លីបំផុត (GPS)។",
+      "code": "# ១. ឧទាហរណ៍ Binary Tree និង In-order Traversal\r\nclass TreeNode:\r\n    def __init__(self, value):\r\n        self.value = value\r\n        self.left = None\r\n        self.right = None\r\n\r\ndef inorder_traversal(root):\r\n    if root:\r\n        inorder_traversal(root.left)\r\n        print(root.value, end=\" \")\r\n        inorder_traversal(root.right)\r\n\r\nroot = TreeNode(50)\r\nroot.left = TreeNode(30)\r\nroot.right = TreeNode(70)\r\nprint(\"លទ្ធផលដើរកាត់ Tree (In-order)៖\", end=\" \")\r\ninorder_traversal(root)  # 30 50 70\r\nprint()\r\n\r\n# ២. ឧទាហរណ៍ Graph ដោយប្រើ Adjacency List (Dictionary)\r\ngraph = {\r\n    \"ភ្នំពេញ\": [\"កណ្តាល\", \"កំពង់ស្ពឺ\", \"តាកែវ\"],\r\n    \"កណ្តាល\": [\"ភ្នំពេញ\", \"ព្រៃវែង\"],\r\n    \"កំពង់ស្ពឺ\": [\"ភ្នំពេញ\", \"ព្រះសីហនុ\"]\r\n}\r\nprint(\"ខេត្តជាប់ភ្នំពេញ៖\", graph[\"ភ្នំពេញ\"])",
+      "image": null
+    }
+  },
+  {
+    "model": "language.topic",
+    "pk": 80,
+    "fields": {
+      "lesson": 36,
+      "number": 2,
+      "title": "Method Overriding & super()",
+      "content": "Child Class អាចកំណត់ Method ឈ្មោះដូច Parent Class ប៉ុន្តែមានការអនុវត្តខុសគ្នា។\r\nsuper() ផ្តល់វិធីចូលទៅកាន់ Method របស់ Parent Class តាម Method Resolution Order (MRO)។ វាមានប្រយោជន៍ជាពិសេសក្នុង Inheritance ច្រើនជាន់ ឬ Multiple Inheritance។",
+      "code": "class Animal:\r\n    def __init__(self, name):\r\n        self.name = name\r\n\r\n    def sound(self):\r\n        print(\"Animal makes a sound\")\r\n\r\nclass Cat(Animal):\r\n    def __init__(self, name, color):\r\n        super().__init__(name)\r\n        self.color = color\r\n\r\n    def sound(self):\r\n        print(self.name, \"says Meow\")\r\n\r\ncat = Cat(\"Mimi\", \"White\")\r\ncat.sound()\r\nprint(cat.color)",
+      "image": null
+    }
+  },
+  {
+    "model": "language.topic",
+    "pk": 109,
+    "fields": {
+      "lesson": 46,
+      "number": 2,
+      "title": "ការប្រកាស Array",
+      "content": "ឧទាហរណ៍ int scores[5]; មានន័យថាបង្កើត Array ដែលអាចផ្ទុក int ចំនួន 5 ធាតុ។ Index របស់វាគឺ 0 ដល់ 4។\r\nចំណាំសំខាន់\r\nកុំចូលប្រើ Index ដែលនៅក្រៅទំហំ Array ព្រោះអាចបង្កឱ្យមានលទ្ធផលមិនត្រឹមត្រូវ ឬបញ្ហាកម្មវិធី។",
+      "code": "#include <iostream>\r\nusing namespace std;\r\n\r\nint main() {\r\n    int scores[5] = {80, 75, 90, 65, 88};\r\n\r\n    for (int i = 0; i < 5; i++) {\r\n        cout << \"Score \" << i << \": \" << scores[i] << endl;\r\n    }\r\n    return 0;\r\n}",
+      "image": null
+    }
+  },
+  {
+    "model": "language.topic",
+    "pk": 170,
+    "fields": {
+      "lesson": 77,
+      "number": 2,
+      "title": "តារាងប្រៀបធៀប Built-in Data Structures ទាំង ៤",
+      "content": "",
+      "code": "",
+      "image": "topics/Screenshot_2026-11-21_234433.png"
+    }
+  },
+  {
+    "model": "language.topic",
+    "pk": 81,
+    "fields": {
+      "lesson": 37,
+      "number": 1,
+      "title": "Polymorphism",
+      "content": "Polymorphism មានន័យថា Objects ផ្សេងៗអាចប្រើ Method ឈ្មោះដូចគ្នា ប៉ុន្តែអនុវត្តសកម្មភាពខុសគ្នា។ ក្នុង Python វាអាចកើតឡើងតាម Method Overriding និង Duck Typing។",
+      "code": "",
+      "image": null
+    }
+  },
+  {
+    "model": "language.topic",
+    "pk": 110,
+    "fields": {
+      "lesson": 47,
+      "number": 1,
+      "title": "what is oop?",
+      "content": "Object-Oriented Programming (OOP) គឺជាវិធីសរសេរកម្មវិធីដែលរៀបចំកម្មវិធីជុំវិញ Objects។ Object មានទិន្នន័យ (Data) និងសកម្មភាព (Methods) ដែលអាចធ្វើបាន។ C++ គាំទ្រ OOP តាមរយៈ Classes និង Objects។",
+      "code": "",
+      "image": null
+    }
+  },
+  {
+    "model": "language.topic",
+    "pk": 82,
+    "fields": {
+      "lesson": 37,
+      "number": 2,
+      "title": "Method Overriding & Duck Typing",
+      "content": "+ Method Overriding\r\nChild Classes អាចផ្តល់ការអនុវត្តផ្ទាល់ខ្លួនសម្រាប់ Method ដែលមានក្នុង Parent Class។\r\n+ Duck Typing\r\nPython ផ្តោតលើសកម្មភាពដែល Object អាចធ្វើបាន ជាជាងពិនិត្យប្រភេទ Class របស់វាតែប៉ុណ្ណោះ។ ប្រសិនបើ Object មាន Method ដែលត្រូវការ វាអាចប្រើក្នុង Context នោះបាន។",
+      "code": "class Dog:\r\n    def speak(self):\r\n        print(\"Woof!\")\r\n\r\nclass Cat:\r\n    def speak(self):\r\n        print(\"Meow!\")\r\n\r\ndef make_sound(animal):\r\n    animal.speak()\r\n\r\nanimals = [Dog(), Cat()]\r\nfor animal in animals:\r\n    make_sound(animal)",
+      "image": null
+    }
+  },
+  {
+    "model": "language.topic",
+    "pk": 111,
+    "fields": {
+      "lesson": 47,
+      "number": 2,
+      "title": "Class និង Object",
+      "content": "Class គឺជា Blueprint ឬគំរូសម្រាប់បង្កើត Object។ Object គឺជាធាតុជាក់ស្តែងដែលបង្កើតចេញពី Class។",
+      "code": "",
+      "image": null
+    }
+  },
+  {
+    "model": "language.topic",
+    "pk": 112,
+    "fields": {
+      "lesson": 47,
+      "number": 3,
+      "title": "Attributes និង Methods",
+      "content": "Attributes គឺជាទិន្នន័យ ឬលក្ខណៈរបស់ Object។ Methods គឺជា Function ដែលស្ថិតនៅក្នុង Class។",
+      "code": "",
+      "image": null
+    }
+  },
+  {
+    "model": "language.topic",
+    "pk": 113,
+    "fields": {
+      "lesson": 47,
+      "number": 4,
+      "title": "គោលការរបស់ OOP",
+      "content": "គោលការណ៍ ៤ របស់ OOP\r\n•\tEncapsulation៖ រួមបញ្ចូលទិន្នន័យ និង Methods ក្នុង Class ហើយគ្រប់គ្រងការចូលប្រើ។\r\n•\tInheritance៖ បង្កើត Class ថ្មីដោយទទួលលក្ខណៈពី Class មេ។\r\n•\tPolymorphism៖ អនុញ្ញាតឱ្យ Interface ដូចគ្នាមានឥរិយាបថខុសគ្នា។\r\n•\tAbstraction៖ បង្ហាញតែអ្វីដែលចាំបាច់ និងលាក់ភាពស្មុគស្មាញខាងក្នុង។",
+      "code": "class Car {\r\npublic:\r\n    string brand;\r\n    void start() {\r\n        cout << \"Car is starting\";\r\n    }\r\n};",
+      "image": null
+    }
+  },
+  {
+    "model": "language.topic",
+    "pk": 114,
+    "fields": {
+      "lesson": 47,
+      "number": 5,
+      "title": "Inheritance",
+      "content": "Inheritance គឺជាគោលការណ៍ OOP ដែលអនុញ្ញាតឱ្យ Class ថ្មី (Derived Class) ទទួលបាន Member ពី Class មេ (Base Class)។ វាជួយកាត់បន្ថយការសរសេរកូដដដែលៗ និងរៀបចំទំនាក់ទំនងរវាង Class។\r\n+ Base និង Derived Class\r\nBase Class ជា Class មេដែលផ្តល់ Member។ Derived Class ជា Class កូនដែលទទួល Member ពី Base Class។\r\n+ ចំណាំ\r\nPrivate Members របស់ Base Class មិនអាចចូលប្រើដោយផ្ទាល់ពី Derived Class បានទេ។ Protected Members អាចចូលប្រើក្នុង Derived Class បាន។",
+      "code": "#include <iostream>\r\n#include <string>\r\nusing namespace std;\r\n\r\nclass Animal {\r\npublic:\r\n    void eat() {\r\n        cout << \"This animal eats food.\" << endl;\r\n    }\r\n};\r\n\r\nclass Dog : public Animal {\r\npublic:\r\n    void bark() {\r\n        cout << \"The dog barks.\" << endl;\r\n    }\r\n};\r\n\r\nint main() {\r\n    Dog myDog;\r\n    myDog.eat();\r\n    myDog.bark();\r\n    return 0;\r\n}",
+      "image": null
+    }
+  },
+  {
+    "model": "language.topic",
+    "pk": 83,
+    "fields": {
+      "lesson": 38,
+      "number": 1,
+      "title": "Abstraction",
+      "content": "Abstraction គឺជាការបង្ហាញតែផ្នែកសំខាន់ដែលអ្នកប្រើត្រូវការ ហើយលាក់ព័ត៌មានលម្អិតនៃការអនុវត្តខាងក្នុង។ Python មាន Module abc សម្រាប់បង្កើត Abstract Base Classes។",
+      "code": "",
+      "image": null
+    }
+  },
+  {
+    "model": "language.topic",
+    "pk": 84,
+    "fields": {
+      "lesson": 38,
+      "number": 2,
+      "title": "Abstract Base Class & @abstractmethod",
+      "content": "+ Abstract Base Class\r\nClass ដែលទទួលមរតកពី ABC អាចកំណត់ Abstract Methods ដែល Child Classes ត្រូវអនុវត្ត។\r\n+ @abstractmethod\r\nDecorator នេះសម្គាល់ Method ដែលត្រូវមាន Implementation នៅក្នុង Concrete Subclass។\r\nAbstraction មានប្រយោជន៍ពេលចង់កំណត់ Interface រួមសម្រាប់ Classes ច្រើន ដូចជា Shape ដែលមាន Circle និង Rectangle។",
+      "code": "from abc import ABC, abstractmethod\r\n\r\nclass Shape(ABC):\r\n    @abstractmethod\r\n    def area(self):\r\n        pass\r\n\r\nclass Rectangle(Shape):\r\n    def __init__(self, width, height):\r\n        self.width = width\r\n        self.height = height\r\n\r\n    def area(self):\r\n        return self.width * self.height\r\n\r\nrectangle = Rectangle(5, 4)\r\nprint(\"Area:\", rectangle.area())",
+      "image": null
+    }
+  }
+]

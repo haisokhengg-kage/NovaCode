@@ -5,7 +5,7 @@ My First Web Development Project.
 NovaCode is a beginner-friendly coding education website designed to help learners explore programming languages and practice coding.
 
 ## 🌐 Live Demo
-https://novacode-080e.onrender.com/
+https://novacode-080e.onrender.com/index
 
 ## 🛠️ Technologies Used
 - Python

@@ -197,8 +197,10 @@ a {
 .nav-btn:hover { transform: scale(1.1); }
 .nav-btn.off { opacity: 0.4; }
 
-@media (max-width: 768px) {
-    .mascot {
+@media only screen and (max-width: 768px) {
+    body #mascot {
         display: none !important;
+        visibility: hidden !important;
+        pointer-events: none !important;
     }
 }

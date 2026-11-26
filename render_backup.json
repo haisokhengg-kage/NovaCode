@@ -1,0 +1,236 @@
+[
+{
+  "model": "language.lesson",
+  "pk": 2,
+  "fields": {
+    "language": "css",
+    "number": 1,
+    "title": "Introduction to CSS"
+  }
+},
+{
+  "model": "language.lesson",
+  "pk": 4,
+  "fields": {
+    "language": "css",
+    "number": 2,
+    "title": "Selectors"
+  }
+},
+{
+  "model": "language.lesson",
+  "pk": 5,
+  "fields": {
+    "language": "css",
+    "number": 3,
+    "title": "Background"
+  }
+},
+{
+  "model": "language.lesson",
+  "pk": 6,
+  "fields": {
+    "language": "css",
+    "number": 4,
+    "title": "Text"
+  }
+},
+{
+  "model": "language.lesson",
+  "pk": 7,
+  "fields": {
+    "language": "css",
+    "number": 5,
+    "title": "Boder"
+  }
+},
+{
+  "model": "language.lesson",
+  "pk": 8,
+  "fields": {
+    "language": "css",
+    "number": 7,
+    "title": "Margin & Padding"
+  }
+},
+{
+  "model": "language.lesson",
+  "pk": 9,
+  "fields": {
+    "language": "css",
+    "number": 8,
+    "title": "Visibility & Display"
+  }
+},
+{
+  "model": "language.lesson",
+  "pk": 10,
+  "fields": {
+    "language": "css",
+    "number": 9,
+    "title": "Positions"
+  }
+},
+{
+  "model": "language.lesson",
+  "pk": 11,
+  "fields": {
+    "language": "c",
+    "number": 1,
+    "title": "introduction to C"
+  }
+},
+{
+  "model": "language.lesson",
+  "pk": 12,
+  "fields": {
+    "language": "c",
+    "number": 2,
+    "title": "variable"
+  }
+},
+{
+  "model": "language.lesson",
+  "pk": 13,
+  "fields": {
+    "language": "c",
+    "number": 3,
+    "title": "Data Type"
+  }
+},
+{
+  "model": "language.lesson",
+  "pk": 14,
+  "fields": {
+    "language": "c",
+    "number": 4,
+    "title": "Input & Output"
+  }
+},
+{
+  "model": "language.lesson",
+  "pk": 15,
+  "fields": {
+    "language": "c",
+    "number": 5,
+    "title": "Operators"
+  }
+},
+{
+  "model": "language.lesson",
+  "pk": 28,
+  "fields": {
+    "language": "oop",
+    "number": 1,
+    "title": "Introduction to OOP in Python"
+  }
+},
+{
+  "model": "language.lesson",
+  "pk": 29,
+  "fields": {
+    "language": "oop",
+    "number": 2,
+    "title": "Classes and Objects"
+  }
+},
+{
+  "model": "language.lesson",
+  "pk": 30,
+  "fields": {
+    "language": "oop",
+    "number": 3,
+    "title": "Attributes and Methods"
+  }
+},
+{
+  "model": "language.lesson",
+  "pk": 31,
+  "fields": {
+    "language": "oop",
+    "number": 4,
+    "title": "The __init__() Constructor"
+  }
+},
+{
+  "model": "language.lesson",
+  "pk": 32,
+  "fields": {
+    "language": "oop",
+    "number": 5,
+    "title": "Instance, Class and Static Methods"
+  }
+},
+{
+  "model": "language.lesson",
+  "pk": 33,
+  "fields": {
+    "language": "oop",
+    "number": 6,
+    "title": "Encapsulation and Access Conventions"
+  }
+},
+{
+  "model": "language.lesson",
+  "pk": 34,
+  "fields": {
+    "language": "oop",
+    "number": 7,
+    "title": "Getters, Setters and Properties"
+  }
+},
+{
+  "model": "language.lesson",
+  "pk": 35,
+  "fields": {
+    "language": "oop",
+    "number": 8,
+    "title": "Inheritance"
+  }
+},
+{
+  "model": "language.lesson",
+  "pk": 36,
+  "fields": {
+    "language": "oop",
+    "number": 9,
+    "title": "Method Overriding and super()"
+  }
+},
+{
+  "model": "language.lesson",
+  "pk": 37,
+  "fields": {
+    "language": "oop",
+    "number": 10,
+    "title": "Polymorphism"
+  }
+},
+{
+  "model": "language.lesson",
+  "pk": 38,
+  "fields": {
+    "language": "oop",
+    "number": 11,
+    "title": "Abstraction and Abstract Classes"
+  }
+},
+{
+  "model": "language.lesson",
+  "pk": 39,
+  "fields": {
+    "language": "cpp",
+    "number": 1,
+    "title": "Introduction to C++"
+  }
+},
+{
+  "model": "language.lesson",
+  "pk": 40,
+  "fields": {
+    "language": "cpp",
+    "number": 2,
+    "title": "C++ Lesson 2"
+  }
+}
+]

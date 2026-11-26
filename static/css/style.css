@@ -196,3 +196,9 @@ a {
 
 .nav-btn:hover { transform: scale(1.1); }
 .nav-btn.off { opacity: 0.4; }
+
+@media (max-width: 768px) {
+    .mascot {
+        display: none !important;
+    }
+}

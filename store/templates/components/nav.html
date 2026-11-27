@@ -57,56 +57,17 @@
 
         </div>
 
-                
-                <!-- Settings Toggle -->
         <button
-            id="settingsToggle"
+            id="mascotToggle"
             type="button"
             class="hidden md:flex items-center gap-2 rounded-lg
-                px-3 py-2 text-white hover:text-blue-600 transition">
+                px-3 py-2 text-white
+                hover:text-blue-600 transition">
 
-            <i data-lucide="settings"></i>
-            <span>Settings</span>
-            <i data-lucide="chevron-down"></i>
+            <i data-lucide="eye-off" id="mascotToggleIcon"></i>
+
+            <span id="mascotToggleText">Hide</span>
         </button>
-
-        <!-- Settings Dropdown -->
-        <div id="settingsMenu" class="hidden">
-
-            <!-- Mascot -->
-            <button
-                id="mascotToggle"
-                type="button"
-                class="flex items-center gap-2 rounded-lg px-3 py-2
-                    text-white hover:text-blue-600 transition">
-
-                <i data-lucide="eye-off" id="mascotToggleIcon"></i>
-                <span id="mascotToggleText">Hide</span>
-            </button>
-
-            <!-- Theme -->
-            <button
-                id="themeToggle"
-                type="button"
-                class="flex items-center gap-2 rounded-lg px-3 py-2
-                    text-white hover:text-blue-600 transition">
-
-                <i data-lucide="sun" id="themeIcon"></i>
-                <span id="themeText">Light</span>
-            </button>
-
-            <!-- Language -->
-            <button
-                id="languageToggle"
-                type="button"
-                class="flex items-center gap-2 rounded-lg px-3 py-2
-                    text-white hover:text-blue-600 transition">
-
-                <i data-lucide="languages" id="languageIcon"></i>
-                <span id="languageText">English</span>
-            </button>
-
-        </div>
 
         <!-- Mobile Toggle -->
         <label for="mobile-toggle"
